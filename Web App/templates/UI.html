@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marco Polo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.default.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.min.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        $(document).ready(function(){
+            // document.getElementById('articles').style.maxHeight = screen.height/4*3 + 'px'
+            var options = []
+            var com_list = {{ company_list|safe }}
+            // for (i in com_list)
+            // {
+            //     options.push({
+            //         PermID: com_list[i].PermID,
+            //         Name: com_list[i].Name,
+            //     });
+            // }
+            // var select = $('#portfolio').selectize({
+            //     //inputClass: 'form-control selectize-input',
+            //     plugins: ['remove_button'],
+            //     delimiter: ',',
+            //     persist: false,
+            //     valueField: 'PermID',
+            //     labelField: 'Name',
+            //     searchField: ['Name'],
+            //     options: options,
+            // });
+            // var selectize = select[0].selectize;
+            // selectize.setValue({{ portfolio_id_list|safe }}, false)
+
+        });
+    </script>
+    <script>
+        function changeButton(button){
+            var button_content = button.childNodes[0].nodeValue
+            var id = button.id
+
+            var toggle_element = document.getElementById('content-'+id)
+            var snippet = document.getElementById('snippet-'+id)
+            if (button_content != 'Hide'){
+                toggle_element.style.maxHeight = screen.height / 3 + 'px'
+                button.childNodes[0].nodeValue = 'Hide'
+                toggle_element.style.overflowY = 'scroll'
+                snippet.classList.remove('fadeout')
+
+            }
+            else{
+                button.childNodes[0].nodeValue = 'Expand'
+                toggle_element.style.overflowY = 'hidden'
+                snippet.className = 'fadeout'
+            }
+
+        }
+    </script>
+    <style>
+          .affix {
+              top: 20px;
+              z-index: 9999 !important;
+          }
+          .fadeout {
+              background: -webkit-linear-gradient(#FFFFFF, #000000, #FFFFFF);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              margin:0;
+          }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="background-color:#FF8000;border-color:#FF8000">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color:#FFFFFF"><b>Marco Polo</b></a>
+        </div>
+          <ul class="nav navbar-nav navbar-right">
+              <li>
+                  <a href="https://www.thomsonreuters.com.sg/en.html">
+                      <img src="UI/logo.png">
+                  </a>
+              </li>
+          </ul>
+
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-3">
+            <div data-spy="affix" data-offset-top="60">
+                <div class="input-group">
+                    <input type="text" id="portfolio" name='portfolio' placeholder="Please choose your portfolio">
+                    <span class="input-group-btn" style="padding-left: 10px;">
+                        <button id="search" type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-search"></span> Search</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+             <div class="panel-group" id="articles">
+                 {% for card in cards %}
+                 <div class="panel panel-default" id="{{card.Article_ID}}">
+                    <div class="panel-heading">
+                        <div class="row">
+
+                            <div class="col-sm-3">
+                                <h4>
+                                    <a href="https://permid.org/1-{{card.PermID}}">
+                                        {{card.Name}}
+                                    </a>
+                                </h4>
+                                <div class="progress" style="height:16px; margin:0;">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{{card.Relevance}}" aria-valuemin="0" aria-valuemax="10" style="width:{{card.Relevance * 10}}%">
+                                        {{card.Relevance}}
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <div class="row" align="right">
+                                    <div class="col-sm-12">
+                                        <p class="text-warning">{{ card.Time }}</p>
+                                    </div>
+                                </div>
+                                <div class="row" align="right">
+                                    <div class="col-sm-12">
+                                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                                        <a href="file:///C:\Users\uc238618\Desktop\Web%20App\Data\Articles\articles_920_chinese_articles\20160701-000304000-nACN30906a-1-2.html">
+                                             {{ card.Title }}
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-12" id="content-{{card.Article_ID + card.PermID}}" style="overflow-y: hidden;">
+                                <p class="collapse", id="first-half-{{card.Article_ID + card.PermID}}">
+                                    {{card.First_Half|safe}}
+                                </p>
+                                    <p id="snippet-{{card.Article_ID + card.PermID}}" class="fadeout">
+                                        {{card.Middle|safe}}
+                                    </p>
+                                <p class="collapse" style="margin:0" id="second-half-{{card.Article_ID + card.PermID}}">
+                                    {{card.Second_Half|safe}}
+                                </p>
+                                <p align="center" style="margin:0">
+                                    <a id="{{card.Article_ID + card.PermID}}" data-toggle="collapse" data-target="#first-half-{{card.Article_ID + card.PermID}},#second-half-{{card.Article_ID + card.PermID}}" href="" onclick="changeButton(this);return false;" style="text-decoration: none;">Expand</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <br>
+                {% endfor %}
+            </div>
+
+        </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Thomson Reuters Lab (c) 2017</span>
+        </div>
+    </footer>
+</body>
+</html>
