@@ -7,7 +7,6 @@ import random
 import time
 from googletrans import Translator
 import chinese_nlp
-import pandas as pd
 
 directory = 'Data/Articles/'
 counter = 0
@@ -15,6 +14,7 @@ companies = chinese_tagging_api.load_company_names('Data/2000_Chinese_Companies.
                                                    'Data/exclude_alias.txt')
 filename_list = []
 import re
+
 
 def strTimeProp(start, end, format, prop):
     """Get a time at a proportion of a range of two formatted times.
@@ -34,7 +34,7 @@ def strTimeProp(start, end, format, prop):
 
 
 def randomDate(start, end, prop):
-    return strTimeProp(start, end, '%m/%d/%Y %I:%M %p', prop)
+    return strTimeProp(start, end, '%I:%M%p %d %b %Y', prop)
 
 
 randomDate("1/1/2008 1:30 PM", "1/1/2009 4:50 AM", random.random())
@@ -81,17 +81,31 @@ with open('Data/Articles_Tags.csv', 'w', encoding='utf-8-sig') as tag_file:
                     for word in matched_words:
                         for tag in word['Matched']:
                             article_en = article_en.replace(tag, " " + word["Name_EN"] + " ")
-                            score = sum(1 for _ in re.finditer(chinese_nlp.convert2simplified(tag), article_sim)) / float(len(article)) * 100
-                            writer1.writerow(
-                                [filename, word['PermID'], word['RIC'], tag, score, word['Name'],
-                                 word['Name_EN']])
+
                     try:
                         article_en = translator.translate(article_en).text
                     except:
                         article_en = ""
                         print("Error!")
-                    writer2.writerow([filename, article, article_en, title, source,
-                                      randomDate("1/1/2010 1:30 PM", "1/1/2018 1:30 PM", random.random()),
-                                      'file:///' + os.path.join(os.getcwd(), directory, folder, filename) + '.html'])
 
+                    if article_en:
+                        article_en = article_en.replace("., ", ".,")
+                        for word in matched_words:
+                            word['Name_EN'] = word['Name_EN'].replace('., ', '.,')
+                            for tag in word['Matched']:
+                                if word['Name_EN'] in article_en:
+                                    score = sum(1 for _ in
+                                                re.finditer(chinese_nlp.convert2simplified(tag), article_sim)) / float(
+                                        len(article))
+                                    writer1.writerow(
+                                        [filename, word['PermID'], word['RIC'], tag, score, word['Name'],
+                                         word['Name_EN']])
+                                else:
+                                    print("Translation Error!")
 
+                        writer2.writerow([filename, article, article_en, title, source,
+                                          randomDate("1:30 PM 1 Jan 2016", "1:30 PM 1 Jan 2018", random.random()),
+                                          'file:///' + os.path.join(os.getcwd(), directory, folder,
+                                                                    filename) + '.html'])
+                    else:
+                        print("Jump")
