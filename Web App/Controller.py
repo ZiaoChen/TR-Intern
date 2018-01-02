@@ -7,17 +7,25 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def main():
-    portfolio_id_list = []
-
+    portfolio_list = []
     if request.method == 'POST':
-        if 'portfolio' in request.form:
-            portfolio_id_list = request.form['portfolio'].split(',')
-    else:
+        if 'company' in request.form:
+            companys_selected = request.form.getlist('company')
+            companys_all = request.form.getlist('company_all')
+            companys_checked_indicator = []
+            for company in companys_all:
+                if company in companys_selected:
+                    companys_checked_indicator.append(1)
+                else:
+                    companys_checked_indicator.append(0)
 
-        display_data = combined_data
-    company_list = json.dumps([x.replace('\'', "") for x in
-                               list(set(tags_file.apply(lambda x: x["Name_EN"] + ' (' + x['RIC'] + ')', axis=1)))])
-    company_info_list = dataframe_to_dict(tags_file[["Name_EN", "RIC", "PermID"]].drop_duplicates())
+            portfolio_list = company_info_list[company_info_list["PermID"].isin(companys_all)]
+            display_data = combined_data[combined_data["PermID"].isin(companys_all)]
+    else:
+        companys_checked_indicator = ['1']
+        portfolio_list = company_info_list[company_info_list["PermID"] == '4295865078']
+        display_data = combined_data[combined_data["PermID"] == '4295865078']
+
     display_cards = pd.DataFrame([])
     for name, group in display_data.groupby(['Article_ID', 'PermID']):
         if len(group) > 1:
@@ -25,8 +33,9 @@ def main():
         display_cards = display_cards.append(group.iloc[0, :])
 
     display_cards["Relevance"] = display_cards["Relevance"].apply(int)
-    return render_template('UI.html', company_list=company_list, company_info_list=company_info_list,
-                           cards=dataframe_to_dict(display_cards))
+    return render_template('UI.html', companys_checked_indicator=companys_checked_indicator, company_list=company_list,
+                           company_info_list=company_info_list_frame, portfolio_list=dataframe_to_dict(portfolio_list),
+                           cards=dataframe_to_dict(display_cards.sort_values(by=['Relevance'], ascending=False)))
 
 
 def get_company_file(filename):
@@ -52,9 +61,7 @@ def dataframe_to_dict(dataframe):
     return list(dataframe.T.to_dict().values())
 
 
-def format_content(content, keyword):
-    content = content.replace(keyword,
-                              '<mark style="background-color:yellow !important;-webkit-text-fill-color: black !important;">' + keyword + '</mark>')
+def format_content_en(content, keyword):
     pos = content.find(keyword)
     content_width = 300
     if pos <= content_width:
@@ -74,48 +81,18 @@ def format_content(content, keyword):
             second_half = content[pos + content_width:]
             middle = content[pos - content_width:pos + content_width]
 
-    # sentences = sent_tokenize(content)
-    # index = 0
-    # found = False
-    # for sentence in sentences:
-    #     if keyword in sentence:
-    #         found = True
-    #         break
-    #     index += 1
-    #
-    # if found:
-    #     index = sentences[index].find(keyword)
-    # if not found or len(sentences[index]) > 800:
-    #     pos = content.find(keyword)
-    #     if pos > len(content) - 800:
-    #         second_half = ""
-    #     else:
-    #         second_half = content[pos+700:]
-    #     middle = content[pos:pos+700]
-    #     first_half = content[:pos]
-    # else:
-    #     sentences[index] = sentences[index].replace(keyword, '<mark style="background-color:yellow !important;-webkit-text-fill-color: black !important;">' + keyword + '</mark>')
-    #     if index > 0:
-    #         first_half = "".join(sentences[:index])
-    #     else:
-    #         first_half = ""
-    #     if index < len(sentences) - 2:
-    #         second_half = "".join(sentences[index + 2:])
-    #     else:
-    #         second_half = ""
-    #
-    #     if index == 0:
-    #         if index == len(sentences) - 1:
-    #             middle = sentences[index]
-    #         else:
-    #             middle = "".join(sentences[index:index + 2])
-    #     else:
-    #         if index == len(sentences) - 1:
-    #             middle = "".join(sentences[index - 1:index + 1])
-    #         else:
-    #             middle = "".join(sentences[index - 1: index + 2])
-
+    first_half = first_half.replace(keyword,
+                                    '<mark style="background-color:yellow !important; -webkit-text-fill-color: black !important;">' + keyword + '</mark>')
+    second_half = second_half.replace(keyword,
+                                      '<mark style="background-color:yellow !important; -webkit-text-fill-color: black !important;">' + keyword + '</mark>')
+    middle = middle.replace(keyword,
+                            '<mark style="background-color:yellow !important; -webkit-text-fill-color: black !important;">' + keyword + '</mark>')
     return first_half, middle, second_half
+
+
+def format_content_cn(content, keyword):
+    return content.replace(keyword,
+                           '<mark style="background-color:yellow !important;-webkit-text-fill-color: black !important;">' + keyword + '</mark>')
 
 
 def normalize(data):
@@ -137,9 +114,20 @@ tags_file["Relevance"] = normalize(tags_file["Relevance"]) * 100
 tags_file["Article_ID"] = tags_file["Article_ID"].apply(str)
 combined_data = tags_file.join(articles_file.set_index('Article_ID'), on='Article_ID')
 combined_data["Content_EN"] = combined_data["Content_EN"].apply(str)
-combined_data["Content_Sliced"] = combined_data.apply(lambda x: format_content(x["Content_EN"], x["Name_EN"]), axis=1)
+combined_data["Content_Sliced"] = combined_data.apply(lambda x: format_content_en(x["Content_EN"], x["Name_EN"]),
+                                                      axis=1)
+combined_data["Content_Sliced_cn"] = combined_data.apply(lambda x: format_content_en(x["Content"], x["Matched_Word"]),
+                                                         axis=1)
+# combined_data["Content"] = combined_data.apply(lambda x: format_content_en(x["Content"], x["Matched_Word"]), axis=1)
 combined_data["First_Half"] = combined_data["Content_Sliced"].apply(lambda x: x[0])
 combined_data["Middle"] = combined_data["Content_Sliced"].apply(lambda x: x[1])
 combined_data["Second_Half"] = combined_data["Content_Sliced"].apply(lambda x: x[2])
-combined_data = combined_data.drop(['Content', 'Content_Sliced'], axis=1)
+combined_data["First_Half_cn"] = combined_data["Content_Sliced_cn"].apply(lambda x: x[0])
+combined_data["Middle_cn"] = combined_data["Content_Sliced_cn"].apply(lambda x: x[1])
+combined_data["Second_Half_cn"] = combined_data["Content_Sliced_cn"].apply(lambda x: x[2])
+combined_data = combined_data.drop(['Content_Sliced', 'Content_Sliced_cn'], axis=1)
+company_list = json.dumps([x.replace('\'', "") for x in
+                           list(set(tags_file.apply(lambda x: x["Name_EN"] + ' (' + x['RIC'] + ')', axis=1)))])
+company_info_list = tags_file[["Name_EN", "RIC", "PermID"]].drop_duplicates()
+company_info_list_frame = dataframe_to_dict(company_info_list)
 app.run()

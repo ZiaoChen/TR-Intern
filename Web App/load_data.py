@@ -37,7 +37,6 @@ def randomDate(start, end, prop):
     return strTimeProp(start, end, '%I:%M%p %d %b %Y', prop)
 
 
-randomDate("1/1/2008 1:30 PM", "1/1/2009 4:50 AM", random.random())
 translator = Translator()
 with open('Data/Articles_Tags.csv', 'w', encoding='utf-8-sig') as tag_file:
     writer1 = csv.writer(tag_file)
@@ -104,7 +103,7 @@ with open('Data/Articles_Tags.csv', 'w', encoding='utf-8-sig') as tag_file:
                                     print("Translation Error!")
 
                         writer2.writerow([filename, article, article_en, title, source,
-                                          randomDate("1:30 PM 1 Jan 2016", "1:30 PM 1 Jan 2018", random.random()),
+                                          randomDate("1:30PM 1 Jan 2016", "1:30PM 1 Jan 2018", random.random()),
                                           'file:///' + os.path.join(os.getcwd(), directory, folder,
                                                                     filename) + '.html'])
                     else:
