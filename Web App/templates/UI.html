@@ -12,14 +12,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
 
 
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
         $(window).on('load',function() {
             $('.loader').fadeOut("slow");
         });
         $(document).ready(function(){
-            // $('.panel.panel-default').hide()
+
+            $('#company-input').typeahead({
+                source: {{company_list | safe}},
+                updater:function(item){
+                    $('#company-input').val(item)
+                    addRow(1)
+                }
+            });
             $('#company-input-group').hide()
+            $('#error_message').hide()
             $('#edit').click(function(){
 
                 var button = document.getElementById('edit')
@@ -32,6 +41,7 @@
                 }
                 else{
                     $(".table .toggleDisplay").toggleClass("in");
+                    $("#error_message").show();
                     button.childNodes[0].childNodes[0].nodeValue = 'save updates'
                     $('#company-input-group').show()
                 }
@@ -77,31 +87,51 @@
 
         }
         function addRow(checked){
+
             var company_name = ($('#company-input').val())
             var company_info_list = {{company_info_list|safe}}
-            document.getElementById('company-input').value = ""
-
+            find = false
+            duplicate = false
             for (var i in company_info_list){
                 if (company_name == company_info_list[i].Name_EN + " (" + company_info_list[i].RIC + ")"){
-                    var table = document.getElementById('portfolio-list')
-                    var tr = table.insertRow()
-                    var checkbox = tr.insertCell(0)
-                    var name = tr.insertCell(1)
-                    var ric = tr.insertCell(2)
-                    var remove_button = tr.insertCell(3)
-                    tr.id = company_info_list[i].PermID
-                    tr.className = 'success'
-                    checkbox.className = "toggleDisplay"
-                    remove_button.className = "toggleDisplay in"
-                    remove_button.innerHTML = "<a href='#' onclick='removeRow(this);'><span class='glyphicon glyphicon-remove'></span></a>"
-                    if (checked == 1) {
-                        checkbox.innerHTML = "<input name='company' type='checkbox' checked = 'checked' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
+                    document.getElementById('company-input').value = ""
+                    find = true
+                    if ($('#'+company_info_list[i].PermID).length){
+                        duplicate = true
                     }
                     else{
-                        checkbox.innerHTML = "<input name='company' type='checkbox' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
+                        var table = document.getElementById('portfolio-list')
+                        var tr = table.insertRow()
+                        var checkbox = tr.insertCell(0)
+                        var name = tr.insertCell(1)
+                        var ric = tr.insertCell(2)
+                        var remove_button = tr.insertCell(3)
+                        tr.id = company_info_list[i].PermID
+                        tr.className = 'success'
+                        checkbox.className = "toggleDisplay"
+                        remove_button.className = "toggleDisplay in"
+                        remove_button.innerHTML = "<a href='#' onclick='removeRow(this);'><span class='glyphicon glyphicon-remove'></span></a>"
+                        if (checked == 1) {
+                            checkbox.innerHTML = "<input id=tr.id  name='company' type='checkbox' checked = 'checked' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
+                        }
+                        else{
+                            checkbox.innerHTML = "<input id=tr.id name='company' type='checkbox' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
+                        }
+                        name.innerHTML = company_info_list[i].Name_EN
+                        ric.innerHTML = company_info_list[i].RIC
                     }
-                    name.innerHTML = company_info_list[i].Name_EN
-                    ric.innerHTML = company_info_list[i].RIC
+                    break;
+                }
+            }
+            if (!find){
+                document.getElementById("error_message").innerHTML = "The company does not exist!"
+            }
+            else{
+                if (!duplicate) {
+                    document.getElementById("error_message").innerHTML = ""
+                }
+                else{
+                    document.getElementById("error_message").innerHTML = "The company is already in your portfolio!"
                 }
             }
         }
@@ -124,13 +154,17 @@
                 toggle_element.style.overflowY = 'scroll'
                 snippet.classList.remove('fadeout')
                 snippet_cn.classList.remove('fadeout')
-
+                $('.label.label-default.button-hover').each(function(){
+                    if (this.id != id && this.innerHTML == 'collapse')
+                    this.click()
+                })
             }
             else{
                 button.childNodes[0].nodeValue = 'click to expand'
                 toggle_element.style.overflowY = 'hidden'
                 snippet.className = 'fadeout'
                 snippet_cn.className = 'fadeout'
+
             }
 
         }
@@ -253,6 +287,7 @@
                 </div>
                 <br>
             </div>
+            <p id="error_message" style="color:#A00000"> </p>
             <form id="portfolio" method="post">
             <table class="table" id="portfolio-list">
                 <tbody>
