@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def main():
-    portfolio_list = []
+
     if request.method == 'POST':
         if 'company' in request.form:
             companys_selected = request.form.getlist('company')
@@ -21,6 +21,10 @@ def main():
 
             portfolio_list = company_info_list[company_info_list["PermID"].isin(companys_all)]
             display_data = combined_data[combined_data["PermID"].isin(companys_all)]
+        else:
+            companys_checked_indicator = []
+            portfolio_list = pd.DataFrame([])
+            display_data = pd.DataFrame([], columns=['Article_ID', 'PermID', 'Relevance'])
     else:
         companys_checked_indicator = ['1']
         portfolio_list = company_info_list[company_info_list["PermID"] == '4295865078']
@@ -31,8 +35,10 @@ def main():
         if len(group) > 1:
             group["Relevance"] = group["Relevance"].mean()
         display_cards = display_cards.append(group.iloc[0, :])
-
-    display_cards["Relevance"] = display_cards["Relevance"].apply(int)
+    if not display_cards.empty:
+        display_cards["Relevance"] = display_cards["Relevance"].apply(int)
+    else:
+        display_cards = display_data
     return render_template('UI.html', companys_checked_indicator=companys_checked_indicator, company_list=company_list,
                            company_info_list=company_info_list_frame, portfolio_list=dataframe_to_dict(portfolio_list),
                            cards=dataframe_to_dict(display_cards.sort_values(by=['Relevance'], ascending=False)))

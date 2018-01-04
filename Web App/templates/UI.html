@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Marco Polo</title>
@@ -28,12 +28,12 @@
                 }
             });
             $('#company-input-group').hide()
-            $('#error_message').hide()
+
             $('#edit').click(function(){
 
                 var button = document.getElementById('edit')
-                var node_content = button.childNodes[0].childNodes[0].nodeValue
-                if (node_content != 'edit'){
+                var node_content = button.childNodes[1].nodeValue
+                if (node_content != ' edit'){
                     // button.childNodes[0].childNodes[0].nodeValue = 'edit'
                     // $('#company-input-group').hide()
                     //updateCards()
@@ -41,8 +41,9 @@
                 }
                 else{
                     $(".table .toggleDisplay").toggleClass("in");
-                    $("#error_message").show();
-                    button.childNodes[0].childNodes[0].nodeValue = 'save updates'
+                    // document.getElementById('error_message').style.display='block';
+                    button.childNodes[0].className = 'glyphicon glyphicon-ok'
+                    button.childNodes[1].nodeValue = ' save updates'
                     $('#company-input-group').show()
                 }
             });
@@ -64,16 +65,16 @@
             var button_content = button.childNodes[0].nodeValue
             // var cn_node = document.getElementById('cn-'+id)
             // var en_node = document.getElementById('content-'+id)
-            if (button_content == 'view source'){
-                button.childNodes[0].nodeValue = 'view english version'
+            if (button_content == 'view original'){
+                button.childNodes[0].nodeValue = 'Translate into english'
                 document.getElementById('switch-language-message-' + id).innerHTML = ''
                 // cn_node.style.maxHeight = screen.height / 3 + 'px'
                 // cn_node.style.overflowY = 'scroll'
                 // en_node.style.overflowY = 'hidden'
             }
             else{
-                button.childNodes[0].nodeValue = 'view source'
-                document.getElementById('switch-language-message-' + id).innerHTML = 'This page is translated from Google Translate from Chinese.'
+                button.childNodes[0].nodeValue = 'view original'
+                document.getElementById('switch-language-message-' + id).innerHTML = 'This page is translated from Chinese.'
                 // cn.style.overflowY = 'hidden'
                 // en_node.style.overflowY = 'scroll'
             }
@@ -105,11 +106,13 @@
                         var checkbox = tr.insertCell(0)
                         var name = tr.insertCell(1)
                         var ric = tr.insertCell(2)
+                        ric.style.textAlign = 'right'
                         var remove_button = tr.insertCell(3)
                         tr.id = company_info_list[i].PermID
                         tr.className = 'success'
                         checkbox.className = "toggleDisplay"
                         remove_button.className = "toggleDisplay in"
+                        remove_button.style.textAlign = 'right'
                         remove_button.innerHTML = "<a href='#' onclick='removeRow(this);'><span class='glyphicon glyphicon-remove'></span></a>"
                         if (checked == 1) {
                             checkbox.innerHTML = "<input id=tr.id  name='company' type='checkbox' checked = 'checked' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
@@ -128,7 +131,7 @@
             }
             else{
                 if (!duplicate) {
-                    document.getElementById("error_message").innerHTML = ""
+                    document.getElementById("error_message").innerHTML = "&nbsp;"
                 }
                 else{
                     document.getElementById("error_message").innerHTML = "The company is already in your portfolio!"
@@ -249,13 +252,20 @@
 <body style=" background:#f9fafa !important;">
     <nav class="navbar" style="background-color:#FF8000;border-color:#FF8000">
       <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#" style="color:#FFFFFF !important;">Marco Polo</a>
-        </div>
-          <a class="navbar-brand navbar-right">
-              <img src="{{url_for('static', filename='logo.png')}}" height="25px" width="150px"/>
-          </a>
-
+          <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-5">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="color:#FFFFFF !important;">Marco Polo</a>
+                    </div>
+              </div>
+              <div class="col-sm-5">
+                  <a class="navbar-brand navbar-right">
+                      <img src="{{url_for('static', filename='logo.svg')}}" height="23px" width="138px"/>
+                  </a>
+              </div>
+              <div class="col-sm-1"></div>
+          </div>
       </div>
     </nav>
 
@@ -265,7 +275,7 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-3">
                 <b><font size="6">Portfolio</font></b>
-                <a id ="edit" href="#" style="position: absolute;right:16px !important; bottom:8px;!important;color: #005DA2 !important;"><font size="4">edit</font></a>
+                <a id ="edit" href="#" style="position: absolute;right:16px !important; bottom:8px;!important;color: #005DA2 !important;"><span class="glyphicon glyphicon-edit"></span> edit</a>
             </div>
             <div class="col-sm-7">
                 <ul class="nav nav-pills">
@@ -281,13 +291,14 @@
         <nav class="col-sm-3">
             <br>
             <div id="company-input-group">
-                <div class="input-group">
+                <!--<div class="input-group">-->
+                    <p id="" style="color:#666666;">Enter company name or RIC to add</p>
                     <input id='company-input' class="form-control" type="text" data-provide="typeahead" data-source='{{ company_list|safe }}' onkeydown="if (event.keyCode == 13) addRow(1);" >
-                    <span class="input-group-addon"><a href="#" onclick="addRow(1);"><span class="glyphicon glyphicon-ok"></span></a></span>
-                </div>
-                <br>
+                    <!--<span class="input-group-addon"><a href="#" onclick="addRow(1);"><span class="glyphicon glyphicon-ok"></span></a></span>-->
+                <!--</div>-->
+                <p id="error_message" style="color:red">&nbsp;</p>
             </div>
-            <p id="error_message" style="color:#A00000"> </p>
+
             <form id="portfolio" method="post">
             <table class="table" id="portfolio-list">
                 <tbody>
@@ -328,9 +339,9 @@
 
                             <div class="col-sm-5">
                                 <div class="col-sm-5" align="right">
-                                    <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                     <a href="{{card.Link}}" target="_blank">
-                                        <font size="2">{{ card.Source }}</font>
+                                        <font size="2"> {{ card.Source }}</font>
                                     </a>
                                 </div>
                                 <div class="col-sm-7" align="right">
@@ -353,9 +364,9 @@
 
                             <div class="col-sm-5">
                                 <div class="col-sm-5" align="right">
-                                    <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                     <a href="{{card.Link}}" target="_blank">
-                                        <font size="2">{{ card.Source }}</font>
+                                        <font size="2"> {{ card.Source }}</font>
                                     </a>
                                 </div>
                                 <div class="col-sm-7" align="right">
@@ -378,10 +389,10 @@
                             </div>
 
                             <div class="col-sm-5">
-                                <div class="col-sm-5" align="right">
-                                    <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+                                <div class="col-sm-5">
+                                    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                     <a href="{{card.Link}}" target="_blank">
-                                        <font size="2">{{ card.Source }}</font>
+                                        <font size="2"> {{ card.Source }}</font>
                                     </a>
                                 </div>
                                 <div class="col-sm-7" align="right">
@@ -396,10 +407,10 @@
                      <div class="panel-heading collapse" style="background-color: #D0D0D0;color:#000000;" id="reminder-{{card.Article_ID + card.PermID}}">
                          <div class="row">
                              <div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}">
-                                 This page is translated from Google Translate from Chinese.
+                                 This page is translated from Chinese.
                              </div>
                              <div class="col-sm-3" align="right">
-                                 <a href="" onclick="switchContent({{card.Article_ID + card.PermID}}, this); return false;" style="color: #005DA2 !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view source</a>
+                                 <a href="" onclick="switchContent({{card.Article_ID + card.PermID}}, this); return false;" style="color: #005DA2 !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>
                              </div>
                          </div>
                      </div>
@@ -448,7 +459,7 @@
     </div>
     <footer class="footer">
         <div class="container" align="center">
-            <span class="text-muted">Thomson Reuters Lab (c) 2017</span>
+            <span class="text-muted">Thomson Reuters Labs &copy; 2017</span>
         </div>
     </footer>
     <br>
