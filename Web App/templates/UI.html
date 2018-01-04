@@ -192,7 +192,7 @@
             color: inherit !important;
             text-decoration: none;
         }
-        a:hover{
+        a:hover, a:active, a:visited, a:focus{
             text-decoration: none !important;
         }
 
@@ -324,7 +324,7 @@
              <br>
              <div class="panel-group" id="articles">
                  {% for card in cards %}
-                 <div class="panel panel-default" id="{{card.Article_ID}}" name = {{card.PermID}} style="border:none;box-shadow:none;margin-top: 0;!important;">
+                 <div class="panel panel-default" id="{{card.Article_ID}}" name = {{card.PermID}} style="border-color: #dedede;">
                      {% if card.Relevance < 30 %}
                     <div class="panel-heading" style="background-color: #AFAFAF;color:#FFFFFF;">
                         <div class="row">
