@@ -27,8 +27,8 @@ def main():
             display_data = pd.DataFrame([], columns=['Article_ID', 'PermID', 'Relevance'])
     else:
         companys_checked_indicator = ['1']
-        portfolio_list = company_info_list[company_info_list["PermID"] == '4295865078']
-        display_data = combined_data[combined_data["PermID"] == '4295865078']
+        portfolio_list = company_info_list[company_info_list["PermID"] == '4295863746']
+        display_data = combined_data[combined_data["PermID"] == '4295863746']
 
     display_cards = pd.DataFrame([])
     for name, group in display_data.groupby(['Article_ID', 'PermID']):
@@ -68,6 +68,7 @@ def dataframe_to_dict(dataframe):
 
 
 def format_content_en(content, keyword):
+    content = str(content)
     pos = content.find(keyword)
     content_width = 300
     if pos <= content_width:

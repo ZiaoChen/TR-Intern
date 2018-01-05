@@ -1,0 +1,89 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161012-093701000-nL4T1CI33E-1-2</Id>
+      <TimeStamp>2016-10-12T09:37:01.252Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161012-093701000-nL4T1CI33E-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-12T09:37:01.000Z</versionCreated>
+            <firstCreated>2016-10-12T09:37:01.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161012-093701000-nL4T1CI33E-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CI33E</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:INVD"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0081.HK"/>
+            <subject qcode="R:0688.HK"/>
+            <subject qcode="R:0267.HK"/>
+            <headline>香港個股：中國海外宏洋以逾35億元人民幣向中國海外收購三線城市住宅項目</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月12日 - 中國海外宏洋集團&lt;0081.HK&gt;周三宣布，將以初始代價35.16億元人民幣向控股股東中國海外發展&lt;0688.HK&gt;收購一批位於中國內地三線城市的住宅發展項目。
+    
+    公司的聲明稱，將以現金向中國海外支付收購代價。
+    
+    擬收購的資產主要包括位於揚州、惠州、黃山、濰坊、淄博、九江及汕頭的新興三線城市住宅物業發展項目，涉及總建築面積約951.76萬平方米。截至9月底的估值約200億元。
+    
+    此外，持有該等資產的項目公司目前欠負中國海外相關貸款人的貸款預期約為76.53億元，並將於交易完成後繼續償還。
+    
+    中國海外宏洋表示，公司的發展策略集中在中國三線城市，是次收購讓其擴展至新興三線城市及進一步拓展於現有三線城市的市場。此外，公司預期收購於未來數年推動業務增長的策略性擴張。
+    
+    中國海外為中國大型開發商，主要在內地一、二線城市發展房地產，其持有中國外宏洋37.98%已發行股本，公司上月中完成向中信股份&lt;0267.HK&gt;價值310億元人民幣的住宅物業資產收購。（完）
+    
+    欲瀏覽上市公司發布於香港聯交所的公告，請點選:(http://www.hkexnews.hk/listedco/listconews/sehk/2016/1012/LTN20161012275_C.pdf)
+
+ (記者 梁慧儀; 審校 楊淑禎)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters Messaging:
+joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

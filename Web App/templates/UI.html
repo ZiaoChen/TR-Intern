@@ -60,6 +60,14 @@
     </script>
     <script>
 
+        function sortArtcles(){
+            var articles = {{ cards | safe}}
+            for (i in articles){
+                console.log(articles[i])
+            }
+        }
+
+
         function switchContent(id,button){
             var id = id.id
             var button_content = button.childNodes[0].nodeValue
@@ -277,12 +285,16 @@
                 <b><font size="6">Portfolio</font></b>
                 <a id ="edit" href="#" style="position: absolute;right:16px !important; bottom:8px;!important;color: #005DA2 !important;"><span class="glyphicon glyphicon-edit"></span> edit</a>
             </div>
-            <div class="col-sm-7">
-                <ul class="nav nav-pills">
-                    <li class="active"><a href="#">New Updates</a></li>
-                    <li><a href="#">This Week</a></li>
-                    <li><a href="#">All</a></li>
-                </ul>
+            <div class="col-sm-7" align="right" style="padding-top: 12px;">
+                <label class="radio-inline"><b>Sort by</b></label>
+                <label class="radio-inline">
+                  <input type="radio" name="sort" onclick="sortArtcles();">Relevance
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="sort" onclick="sortArtcles();">Time
+                </label>
+
+
             </div>
             <div class="col-sm-1"></div>
         </div>
@@ -302,20 +314,6 @@
             <form id="portfolio" method="post">
             <table class="table" id="portfolio-list">
                 <tbody>
-                    <!--<tr id="4295865078" class="success">-->
-                        <!--<td class="toggleDisplay in">-->
-                            <!--<input name='company' type='checkbox' checked = 'checked' onclick='updateCards()' value="4295865078">-->
-                        <!--</td>-->
-                        <!--<td>-->
-                            <!--Tencent Holdings Limited-->
-                        <!--</td>-->
-                        <!--<td>-->
-                            <!--0700.HK-->
-                        <!--</td>-->
-                        <!--<td class="toggleDisplay">-->
-                            <!--<a href='#' onclick='removeRow(this);'><span class='glyphicon glyphicon-remove'></span></a>-->
-                        <!--</td>-->
-                    <!--</tr>-->
                 </tbody>
             </table>
                 </form>
@@ -338,7 +336,7 @@
                             </div>
 
                             <div class="col-sm-5">
-                                <div class="col-sm-5" align="right">
+                                <div class="col-sm-5" align="left">
                                     <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                     <a href="{{card.Link}}" target="_blank">
                                         <font size="2"> {{ card.Source }}</font>
@@ -363,7 +361,7 @@
                             </div>
 
                             <div class="col-sm-5">
-                                <div class="col-sm-5" align="right">
+                                <div class="col-sm-5" align="left">
                                     <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                     <a href="{{card.Link}}" target="_blank">
                                         <font size="2"> {{ card.Source }}</font>
@@ -389,7 +387,7 @@
                             </div>
 
                             <div class="col-sm-5">
-                                <div class="col-sm-5">
+                                <div class="col-sm-5" align="left">
                                     <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                     <a href="{{card.Link}}" target="_blank">
                                         <font size="2"> {{ card.Source }}</font>
@@ -448,7 +446,6 @@
                                     <a style="color:#FFFFFF !important; border-radius: 10px !important; font-weight: normal !important;" id="{{card.Article_ID + card.PermID}}" class='label label-default button-hover' data-toggle="collapse" data-target="#first-half-cn-{{card.Article_ID + card.PermID}},#second-half-cn-{{card.Article_ID + card.PermID}},#first-half-{{card.Article_ID + card.PermID}},#second-half-{{card.Article_ID + card.PermID}},#reminder-{{card.Article_ID + card.PermID}}" href="" onclick="changeButton(this);return false;">click to expand</a>
                         </p>
                     </div>
-                     <br>
                 </div>
                 {% endfor %}
             </div>

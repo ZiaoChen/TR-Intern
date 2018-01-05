@@ -1,0 +1,84 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160801-061136000-nL3T1AI282-1-2</Id>
+      <TimeStamp>2016-08-01T06:11:36.302Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160801-061136000-nL3T1AI282-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-01T06:11:36.000Z</versionCreated>
+            <firstCreated>2016-08-01T06:11:36.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160801-061136000-nL3T1AI282-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1AI282</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:REGS"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:EXCA"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0388.HK"/>
+            <headline>香港證券：上市監管結構微調令決策過程便利化，應受市場歡迎--官員</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月1日 - 就香港證監會與港交所&lt;0388.HK&gt;提出上市審批架構改革惹來業界反對聲音，財經事務及庫務局局長陳家強周一稱，改革建議主要對上市監管結構作出微調，使決策過程便利化，應會受到市場歡迎。
+    
+    上月中證監會與港交所發出聯合諮詢文件，就改善港交所的上市監管決策及管治架構提出建議，包括由證監會透過兩個新成立的委員會與交易所集中處理該等對市場質素、市場競爭力及發展而言屬重要的上市政策及決策，惟近期業界陸續出現反對聲音。
+    
+    陳家強出席公開活動時向傳媒表示，這次諮詢是有關上市決策結構和上市政策的厘定有所微調，這些改變並無更改目前的基本架構，只是將現時的程序，即令其更簡易化，以及使一些決策過程更清晰，令其更有一致性。
+    
+    “簡單來說，這次諮詢的建議是改變目前一些上市決定的結構上的問題。”他說，“現時上市政策的最後決策權是在證監會的，我們認為應該讓上市委員會和證監會有一個聯合的平台，可以早點就一些上市的政策進行討論。”
+    
+    就市場出現的反對聲音，陳家強稱，政府將聆聽市場意見。他並強調，這次證監會和港交所的聯合諮詢所要做的是決策過程的便利化，以及增加一致性和透明度，市場應該歡迎的。
+    
+    稍早本地傳媒報導，繼香港上巿公司商會，港交所獨立非執行董事李君豪日前率領香港經濟師學會、香港股票分析師協會及多家證券行，公開反對由證監會與港交所共同推出的上市審批架構改革建議。
+    
+    其中星島日報引述李君豪稱，在港交所董事會內未曾聽見贊成新架構的聲音，他並透露新建議對上市委員會構成大打擊，很多成員已打算不再連任。（完）       
+
+ (記者 雷美珍；審校 張喜良)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

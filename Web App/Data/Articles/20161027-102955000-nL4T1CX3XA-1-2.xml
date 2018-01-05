@@ -1,0 +1,92 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161027-102955000-nL4T1CX3XA-1-2</Id>
+      <TimeStamp>2016-10-27T10:29:55.650Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161027-102955000-nL4T1CX3XA-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-27T10:29:55.000Z</versionCreated>
+            <firstCreated>2016-10-27T10:29:55.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161027-102955000-nL4T1CX3XA-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CX3XA</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:FUND"/>
+            <subject qcode="N2:PVE"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:INVT"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:ENTS"/>
+            <subject qcode="N2:CAFE"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:DVST"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:CG.O"/>
+            <subject qcode="R:MCD.N"/>
+            <subject qcode="R:0267.HK"/>
+            <subject qcode="R:TPG.UL"/>
+            <headline>企業併購：凱雷和貝恩資本等將競奪麥當勞中國資產，TPG資本退出競購--知情人士</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月27日 - 知情人士周四稱，凱雷投資集團(Carlyle Group) &lt;CG.O&gt;和貝恩資本(Bain Capital)是僅剩的競購麥當勞&lt;MCD.N&gt;在中國內地及香港餐廳的主要全球收購公司，TPG資本[TPG.UL]已經退出競購。
+    
+    該知情人士稱，這兩家私募股權公司將與參與競購的中資企業競奪價值最高30億美元的資產。該消息人士拒絕透露姓名，因交易詳情尚未公布。這兩家私募股權公司已分別與中國中信集團[CITIC.UL]和酒店業者格林豪泰(GreenTree Hospitality)聯手。
+    
+    該知情人士沒有透露TPG決定退出的原因。
+    
+    凱雷投資集團、貝恩資本及TPG拒絕置評。由於未到美國正常上班時間，麥當勞尚未回復路透尋求置評的請求。(完)
+
+    ****如欲參考原文報導，請點選[nL4N1CX1ZZ]即可擷取瀏覽****
+
+ (編譯 侯雪蘋；審校 高琦)
+ ((hou.xueping@thomsonreuters.com; 8610-66271246; Reuters
+Messaging: hou.xueping.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

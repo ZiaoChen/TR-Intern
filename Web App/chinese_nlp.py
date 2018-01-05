@@ -43,7 +43,10 @@ def pseg_2gram(text):
     for i in range(len(seg_res2) - 1):
         seg_res3.append(seg_res2[i])
         seg_res3.append(seg_res2[i] + seg_res2[i + 1])
-    seg_res3.append(seg_res2[i + 1])
+    try:
+        seg_res3.append(seg_res2[i + 1])
+    except:
+        pass
     return {'words_sense': seg_res1, 'words': seg_res3}
 
 # from nltk.tokenize.stanford_segmenter import StanfordSegmenter

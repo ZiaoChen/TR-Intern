@@ -1,0 +1,92 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161017-011114000-nL4T1CN0JW-1-2</Id>
+      <TimeStamp>2016-10-17T01:11:14.317Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161017-011114000-nL4T1CN0JW-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-17T01:11:14.000Z</versionCreated>
+            <firstCreated>2016-10-17T01:11:14.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161017-011114000-nL4T1CN0JW-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CN0JW</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:601998.SS"/>
+            <subject qcode="R:0998.HK"/>
+            <subject qcode="R:0700.HK"/>
+            <subject qcode="R:1359.HK"/>
+            <subject qcode="R:600000.SS"/>
+            <headline>香港個股：騰訊控股引入投資者參與收購Supercell交易，總對價8.5億美元</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月17日 - 中國最大社交網絡暨線上娛樂公司--騰訊控股&lt;0700.HK&gt;宣布，將為旗下負責進行收購芬蘭移動遊戲開發商Supercell交易的附屬公司，引入包括中航資本、中信資本、中信銀行&lt;0998.HK&gt;等多名�國家隊�投資者認購50%股權，總對價8.5億美元。
+    
+    騰訊控股今年6月宣布已達成收購Supercell大部分股權的協議，總對價預計約為86億美元。[nL4T19D3D7]而公司將透過一家為此項收購而組成的財團公司Halti S.A.進行交易。
+    
+    公司周日晚間發出的聲明稱，Halti在上周與中航資本旗下AVICT (HK)、中信資本旗下CITIC Capital、中信銀行&lt;601998.SS&gt;旗下信銀（香港）投資、宏兆企業與CT Bright Capital旗下Zheng Hong Capital Management、私募股權公司高達投資、中國信達&lt;1359.HK&gt;旗下Sino-Rock Investment及浦東發展銀行&lt;600000.SZ&gt;等共同投資者訂立認購協議，該等投資者將認購Halti的股份，總對價8.5億美元，該等投資者將持有Halti的50%股權，而騰訊的持股比例降至50%。
+    
+    騰訊表示，該8.5億美元將用作撥付收購Supercell的部分資金，公司預期收購Supercell的交易將於10月27日前後完成，屆時Halti將持有Supercell約76.9%間接權益。
+    
+    Supercell是一家在芬蘭註冊成立的私人公司及移動遊戲開發商，自2010年成立以來，Supercell已在市場推出“部落衝突”（Clash ofClans）等四款主要遊戲。（完）
+    
+    欲瀏覽上市公司發布于香港聯交所的公告，請點選:(http://www.hkexnews.hk/listedco/listconews/sehk/2016/1016/LTN20161016026_C.pdf)
+
+ (記者 梁慧儀; 審校 林高麗)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters Messaging:
+joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

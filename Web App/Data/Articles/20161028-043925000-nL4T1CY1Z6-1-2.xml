@@ -1,0 +1,100 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161028-043925000-nL4T1CY1Z6-1-2</Id>
+      <TimeStamp>2016-10-28T04:39:25.468Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161028-043925000-nL4T1CY1Z6-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-28T04:39:25.000Z</versionCreated>
+            <firstCreated>2016-10-28T04:39:25.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161028-043925000-nL4T1CY1Z6-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CY1Z6</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:CHIP"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:WLES"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:COMS"/>
+            <subject qcode="N2:ELCO"/>
+            <subject qcode="N2:KR"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:SEMI"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:MACH"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:HWT.UL"/>
+            <subject qcode="R:0763.HK"/>
+            <subject qcode="R:000063.SZ"/>
+            <subject qcode="R:GOOGL.O"/>
+            <subject qcode="R:005930.KS"/>
+            <headline>中國企業：研發支出增幅領先全球，華為首度晉身全球十強--羅兵咸永道</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月28日 - 羅兵咸永道（普華永道、資誠）旗下管理諮詢機構思略特發表最新研究顯示，中國企業的研發支出增幅領先全球，華為[HWT.UL]首度晉身全球十強。
+    
+    思略特周四發表的“2016年全球創新1000強”研究顯示，今年共有130家中國企業入榜（2015年為123家），總研發支出達到468億美元，與去年394億美元相比增長18.6%，並高於北美地區的8%增幅，歐洲和日本則呈下降趨勢。
+    
+    該項研究特別指出，華為因為未公開上市一直未列入調研範圍，但根據華為的年報顯示，其於2015年研發支出為596億元人民幣（94.8億美元），如果列入排行榜，華為將名列中國企業的榜首，居全球研發支出排行榜第9位（2015年為第16位），排在諾華（Novartis）&lt;NOVN.S&gt;和強生&lt;JNJ.N&gt;之間，這也是華為首度進入全球研發支出十強。
+    
+    而大眾&lt;VOWG_p.DE&gt;、三星&lt;005930.KS&gt;、亞馬遜&lt;AMZN.O&gt;、Alphabet（Google）&lt;GOOGL.O&gt;和英特爾&lt;INTC.O&gt;躋身研發支出的前五位，其中亞馬遜和Google的排名分別躍升了4位和2位。 
+
+    思略特大中華區數字戰略諮詢業務主管合夥人徐晉表示，“推動創新已成為國家發展戰略，中國企業逐年加大對研發的投入，體現了中國企業正在從成本競爭型向技術創新型轉變，依靠技術優勢在全球競爭中獲得成功。”
+    
+    研究並顯示，今年的排行榜中，阿里巴巴&lt;BABA.N&gt;和中興通訊&lt;0763.HK&gt;&lt;000063.SZ&gt;首次超越中石油&lt;0857.HK&gt;&lt;601857.SS&gt;位列中國排行榜前兩位，這也是中石油自2005年以來首次失去第一位寶座。中國電建&lt;601669.SS&gt;和京東&lt;JD.O&gt;首次進入中國創新20強名單，分列第16位和第20位。
+    
+    全球創新1000強企業是指截至2016年6月底止研發支出最高的1,000家上市公司。根據包括企業和政府方面在內的各類資料來源，全球創新1000 強企業的研發支出總額佔全球研發總支出的40%。
+    
+    研究指出，到2020年時，企業將把絕大多數的研發支出從實體產品轉移到軟件和服務上，即數碼服務，以保持競爭力。從地區看來，北美企業向數碼化轉型的趨勢最為明顯，研發佔比可望從2010年的15%增加到2020年的24%。而亞洲企業仍以產品為中心，產品的研發佔比僅會從2010年的44%稍跌至2020年的40%。汽車和工業品行業在開發新軟件方面最為積極。
+    
+    思略特美國合夥人兼創新及研發專家Barry Jaruzelski表示，全球諸多具影響力的創新企業正處於轉型的過程中，轉型背後的原因是消費者的期望不斷變化且日益苛刻。
+    
+    “這種變化同時也得益於軟件用途的急速完善，包括越來越多的產品開始內置軟件和感測器，能夠通過物聯網(Internet of Things)以可靠並經濟的方式實現產品、用家和廠家間的互聯，以及雲端數據儲存的普及。”他說。（完）
+    
+
+ (記者 雷美珍；審校 楊淑禎)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

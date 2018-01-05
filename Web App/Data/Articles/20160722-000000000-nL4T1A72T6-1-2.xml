@@ -1,0 +1,116 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160722-000000000-nL4T1A72T6-1-2</Id>
+      <TimeStamp>2016-07-22T00:00:00.096Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160722-000000000-nL4T1A72T6-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-22T00:00:00.000Z</versionCreated>
+            <firstCreated>2016-07-22T00:00:00.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160722-000000000-nL4T1A72T6-1-2"/>
+            <instanceOf qcode="NI:TWMMT/CN"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1A72T6</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:MMT"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:CH"/>
+            <subject qcode="N2:REFI"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:SHOE"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:OILG"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:APPA"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:CEEU"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:6505.TW"/>
+            <subject qcode="R:9904.TW"/>
+            <headline>台灣貨幣市場：7月22日及本提存期資金預期變化一覽表</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>台灣貨幣市場周五及本提存期資金預期變化因素摘要如下：
+   
+    **寬鬆因素：
+    --央行定存單到期1,615億台幣。    
+    
+    **緊縮因素：
+    --央行料發行存單。 
+    --台塑化&lt;6505.TW&gt;發放381.0億台幣、寶成&lt;9904.TW&gt;發放381.04億台幣現金股利。 
+   --------------------------------------------------------------------------------------   
+   (本提存期) 
+    
+    寬鬆因素：
+    --央行存單到期&lt;TWNCDTB1&gt;2兆(萬億)3,187.8億台幣。
+         7/25                 2,423億台幣
+         7/26               2,723.5億台幣
+         7/27               3,931.5億台幣
+         7/28                 3,169億台幣
+         7/29               1,568.5億台幣
+          8/1               3,443.8億台幣
+          8/2                 2,108億台幣
+          8/3               3,820.5億台幣
+ 
+    --國庫券到期473.5億台幣。  
+      07/27: 財105-3期國庫券到期，天期為182天期，實際金額273.5億台幣。
+      08/03: 財105-4國庫券到期，天期為182天期，實際金額200億台幣。 
+    
+    --公債還本與付息共40.96852億台幣。
+      07/26           102甲8期3息                   8.33052億台幣
+      07/31          103甲11期2息                     6.375億台幣
+      08/02           100甲7期5息                   12.1875億台幣
+      08/02           102甲9期3息                   14.0755億台幣
+  --月底軍公教薪餉撥款。
+
+    緊縮因素： 
+    --7/27: 增額發行105/8期公債，目標金額300億台幣，天期為五年期，22日標售。
+    --菸酒稅及貨物稅等例行性稅款繳庫。(完)        
+
+ (記者 羅兩莎 ；審校 詹靜宜)
+ ((Liang-Sa.Loh@thomsonreuters.com;  886-2-25004895; Reuters Messaging:
+Liang-Sa.Loh.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,82 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161006-094320000-nL3T1CC1VO-1-2</Id>
+      <TimeStamp>2016-10-06T09:43:20.311Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161006-094320000-nL3T1CC1VO-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-06T09:43:20.000Z</versionCreated>
+            <firstCreated>2016-10-06T09:43:20.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161006-094320000-nL3T1CC1VO-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1CC1VO</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2880.TW"/>
+            <headline>台灣金融：華南銀大舉處分台、外幣債，估將獲利20億台幣--副總經理</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北10月6日 - 台灣第七大銀行--華南銀行副總經理高榮成周四指出，因應未來歐美等選舉及升息不確定因素，已陸續處分手中台幣計價債券(含公債和公司債)及外幣計價債券，至9月底止實現獲利達12億台幣。
+    
+    他並稱，10月將再處分台幣和外幣債券，初估包含前述已實現的12億台幣獲利，10月估將再實現獲利約8億台幣，合計共20億台幣。
+        
+    〞未來有幾個重大事件，包括美國選舉、FED升息等和歐洲義大利選舉，到時(債券價格)一定會回頭，既然現在賺就先實現啊。〞他說。
+    
+    華南金控&lt;2880.TW&gt;董事長吳當傑亦稱，全球關注美國聯準會(FED)今年底會不會升息，〞美國經濟數據如果更好，相信年底升息的機率將升高〞，使得全球債券殖利率會有波動；因此，華銀在債券操作上，會做一些必要的調整。
+    
+    〞我們的確有一些必要的調整，包括出售和重新布局。〞吳當傑說。
+    
+    高榮成指出，今年1-9月已處分台幣計價債券(含公債和公司債)共150億台幣，本月將再出脫250億台幣；合計共將出脫400億台幣，約占該行持有債券部位的近一半。
+    
+    另在外幣計價債券方面，他表示，前9月已處分3億美元外幣債，近期將再處分(包含到期3億美元)，合計達6億美元。
+    
+    〞10月預估再實現獲利8億台幣；所以，整個專案下來，總共將實現獲利20億台幣，而且，這20億台幣只是資本利得，不含利息收入，如果包含利息收入會更多。〞他說。(完)
+
+ (記者 羅兩莎 ；審校 董永年)
+ ((Liang-Sa.Loh@thomsonreuters.com;  886-2-25004895; Reuters Messaging:
+Liang-Sa.Loh.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

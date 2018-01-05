@@ -1,0 +1,88 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160721-050610000-nL4T1A7224-1-2</Id>
+      <TimeStamp>2016-07-21T05:06:10.507Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160721-050610000-nL4T1A7224-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-21T05:06:10.000Z</versionCreated>
+            <firstCreated>2016-07-21T05:06:10.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160721-050610000-nL4T1A7224-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1A7224</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:PVE"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FUND"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2202.HK"/>
+            <subject qcode="R:000002.SZ"/>
+            <subject qcode="R:BX.N"/>
+            <headline>中港個股：萬科擬投39億元收購黑石部分商業地產，不涉證券發行</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透上海7月21日 - 中國大型房企萬科&lt;000002.SZ&gt;&lt;2202.HK&gt;周四公告稱，將由公司及合作方共同組成的有限合夥制基金的子公司收購黑石集團&lt;BX.N&gt;及其他獨立第三方所持有的特定商業地產公司的股權。本次交易不涉及萬科的任何證券發行，也未就本次交易進行任何有關發行或收購本公司股份的談判。
+    
+    公告稱，近日，有限合夥制基金組成的聯合收購平台與相關方簽訂了上述交易的最終交易文件，交易完成後，聯合收購平台將持有目標公司96.55%股權，萬科擬投向聯合收購平台合計投資額約為38.89億元人民幣。
+    
+    萬科表示，此次交易將可以快速提升本公司在商業物業經營管理方面的能力，並已獲公司董事會審議通過。 
+        
+    萬科的控制權之爭一波三折，寶能系強勢收購併成為第一大股東、萬科管理層引入深圳地鐵自救、原第一大股東華潤和寶能系對重組方案堅決反對。寶能系還提出議案罷免萬科現有董事和監事。（完）
+    
+    欲瀏覽公告詳情， 請點擊 http://disclosure.szse.cn/finalpage/2016-07-21/1202496314.PDF 
+
+ (發稿 張曉翀；審校 楊淑禎)
+ ((xiaochong.zhang@thomsonreuters.com; 0086-10-66271042; Reuters Messaging:
+xiaochong.zhang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

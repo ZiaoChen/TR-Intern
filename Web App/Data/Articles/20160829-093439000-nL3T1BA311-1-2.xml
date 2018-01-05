@@ -1,0 +1,87 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160829-093439000-nL3T1BA311-1-2</Id>
+      <TimeStamp>2016-08-29T09:34:39.300Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160829-093439000-nL3T1BA311-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-29T09:34:39.000Z</versionCreated>
+            <firstCreated>2016-08-29T09:34:39.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160829-093439000-nL3T1BA311-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BA311</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:FOOD1"/>
+            <subject qcode="N2:FOBE"/>
+            <subject qcode="N2:NCYC"/>
+            <subject qcode="N2:FOTB"/>
+            <subject qcode="N2:SODA"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BEVS"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0322.HK"/>
+            <headline>港股業績：康師傅第二季淨利同比大跌87%，第三季趨勢見改善</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月29日 - 將被剔除藍籌股之列的康師傅&lt;0322.HK&gt;周一公布，今年第二季度淨利同比大跌逾87%，受累飲品和方便面銷售下滑，及公司加大廣告投入令分銷成本上升所致。
+    
+    不過康師傅表示，迄今第三季度的業績趨勢，已較第二季度好轉。
+    
+    截至6月底止第二季度，康師傅的淨利為1,166萬美元，去年同期為9,065萬美元；上半年淨利為6,968萬美元，比去年同期1.977億美元跌64.75%。董事會不擬派發中期股息。
+    
+    康師傅表示，方便面及飲品分別占集團上半年銷售額比例36.8%及60.5%。上半年該兩板塊的銷售額分別同比下跌13.95%及14.4%。期內主因銷售不利，上半年集團毛利率同比下降1.25個百分點至31.64%。同時集團加大廣告投入以提升品牌力，期內分銷成本占營業額的比率為22.22%，同比上升2.43個百分點。
+    
+    展望下半年，康師傅表示，內地貨幣政策企穩、房價趨穩對於物價的拉動作用減弱，將促使全年CPI保持平穩上漲態勢，但料下半年經濟發展仍存在較大的下行壓力。集團將維持現有多價格帶之產品策略，並強化渠道與終端消費者的線上與線下之品牌溝通；截至業績公告日為止，第三季度業績趨勢較第二季度持續好轉，但沒有披露具體改善情況。
+    
+    康師傅下月5日將正式被剔除恆生指數&lt;.HSI&gt;成份股之列，並由瑞聲科技&lt;2018.HK&gt;取代。該股今天收低1.25%，報7.91港元，今年以來其股價累計下跌28.5%，同期恆生指數&lt;.HSI&gt;累積上揚4.1%。（完）
+    
+    欲瀏覽上市公司發布于香港聯交所的業績聲明，請點選:(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0829/LTN20160829218_C.pdf)
+
+ (記者 梁慧儀; 審校 林高麗)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters Messaging:
+joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

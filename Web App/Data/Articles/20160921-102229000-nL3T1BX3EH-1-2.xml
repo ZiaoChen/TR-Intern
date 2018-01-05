@@ -1,0 +1,77 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160921-102229000-nL3T1BX3EH-1-2</Id>
+      <TimeStamp>2016-09-21T10:22:29.834Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160921-102229000-nL3T1BX3EH-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-21T10:22:29.000Z</versionCreated>
+            <firstCreated>2016-09-21T10:22:29.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160921-102229000-nL3T1BX3EH-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BX3EH</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:WLES"/>
+            <subject qcode="N2:MCE"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:WWW"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:SOCI"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0941.HK"/>
+            <headline>電信產業：上海計劃在2018年率先開展5G試點，光纖覆蓋900萬戶家庭--新華</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透北京9月21日 - 新華社周三報導，上海市政府與中國移動通信集團今日簽署共同推進“互聯網＋”戰略合作框架協議，計劃2018年在國內率先開展5G試點，光纖接入覆蓋900萬戶家庭和8,300幢重點商業樓宇。
+    
+    報導稱，“十三五”期間，中國移動通信集團公司計劃在上海投入260億元人民幣，構建新一代網絡與信息基礎設施，雙方還將圍繞城市管理、產業升級、文化創意、民生服務、創新創業、網絡安全六大領域，共同打造“互聯網＋”發展新優勢。
+    
+    此外，上海移動將建成全國領先的4G＋精品網絡，在上海臨港率先建成中國移動國際海光纜登陸局，建成具備5億元規模“物”連接能力的、覆蓋上海市的新型物聯專網，在臨港地區推進20萬平方米綠色雲數據中心建設。    
+
+    工信部此前發布“互聯網＋”指導意見的行動計劃（2015－2018年），目標是到2018年互聯網與製造業融合進一步深化；基本建成寬帶、融合、泛在、安全的下一代國家信息基礎設施；初步形成自主可控的新一代信息技術產業體系。[nL3T1441GD]（完）
+
+ (發稿 張曉翀；審校)
+ ((xiaochong.zhang@thomsonreuters.com; 0086-10-66271042; Reuters Messaging:
+xiaochong.zhang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

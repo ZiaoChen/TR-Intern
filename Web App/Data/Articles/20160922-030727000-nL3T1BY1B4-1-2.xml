@@ -1,0 +1,104 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160922-030727000-nL3T1BY1B4-1-2</Id>
+      <TimeStamp>2016-09-22T03:07:27.955Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160922-030727000-nL3T1BY1B4-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-22T03:07:27.000Z</versionCreated>
+            <firstCreated>2016-09-22T03:07:27.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160922-030727000-nL3T1BY1B4-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BY1B4</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:MACH"/>
+            <subject qcode="N2:HMAC"/>
+            <subject qcode="N2:TRAN"/>
+            <subject qcode="N2:RORA"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:AUTO"/>
+            <subject qcode="N2:CARM"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DVST"/>
+            <subject qcode="N2:LIST1"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:BR"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:DE"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:IN"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:EZC"/>
+            <subject qcode="N2:CEEU"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:LATAM"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:3808.HK"/>
+            <subject qcode="R:MANG.DE"/>
+            <subject qcode="R:VOWG_p.DE"/>
+            <headline>歐洲個股：大眾卡車部門主管有意擴大亞洲業務，特別提及印度</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透德國漢諾威9月21日 - 大眾汽車(福斯汽車, Volkswagen)&lt;VOWG_p.DE&gt;重型卡車業務主管表示，公司正在研究如何擴大亞洲卡車業務。該公司正尋求建立一個全球化業務，挑戰競爭對手戴姆勒&lt;DAIGn.DE&gt;和沃爾沃&lt;VOLVb.ST&gt;。
+    
+    大眾汽車在身陷柴油車“排放門”醜聞一年之後力推戰略改革。該公司本月稍早表示，將入股美國卡車製造商Navistar&lt;NAV.N&gt;，這是其與後者在技術和採購方面結盟的部分舉措。
+    
+    雖然大眾卡車部門先要將旗下MAN和Scania品牌更緊密地協調起來，以進一步節約成本，但海外擴張仍在日程之上，儘管集團的“排放門”醜聞成本不斷上升。
+    
+    “我們的首要目標當然是還處於空白狀態的北美市場，”大眾卡車部門主管chief Andreas表示，與Navistar的交易將使大眾打入利潤豐厚的美國卡車市場。“我們也在關注印度。”
+    
+    “可以想象，我們也會對亞洲有些想法。”Renschler在漢諾威卡車展上對記者表示，但並未具體說明。
+    
+    這位戴姆勒卡車部門的前主管稱，大眾卡車部門正在考慮如何進一步擴大中國業務。大眾旗下的MAN&lt;MANG.DE&gt;持有中國重汽車(香港)有限公司&lt;3808.HK&gt;的股權。(完)
+
+    ****如欲參考原文報導，請點選[nL8N1BX427]即可擷取瀏覽****
+
+ (編譯 王穎；審校 龔芳)
+ ((ying.wang1@thomsonreuters.com; 86-10-66271244; Reuters
+Messaging: ying.wang1.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

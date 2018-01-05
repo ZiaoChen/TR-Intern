@@ -1,0 +1,82 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161011-095921000-nL4T1CH32W-1-2</Id>
+      <TimeStamp>2016-10-11T09:59:21.560Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161011-095921000-nL4T1CH32W-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-11T09:59:21.000Z</versionCreated>
+            <firstCreated>2016-10-11T09:59:21.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161011-095921000-nL4T1CH32W-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CH32W</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:EXCA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0388.HK"/>
+            <headline>中港證券：港交所稱與深圳交易所及中國結算就建立深港通訂立協議</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月11日 - 香港交易及結算所（港交所）&lt;0388.HK&gt;周二稱，與深圳證券交易所及中國證券登記結算公司就建立深港通訂立協議，標誌著深港通已經進入最後準備階段。
+    
+    不過港交所重申，預計香港市場將於11月中下旬作好實施深港通的準備，深港通具體開通時間須待市場準備就緒、並取得中國證監會和香港證監會的批準方能落實。正式啟動日期一經批準，將會另行公布。
+    
+    據港交所提供的新聞稿，出席簽約儀式的深交所理事長吳利軍表示，“四方協議”的簽署，標誌著深港通的籌備工作取得新進展，這是下一步加速推進各項準備工作、早日開通深港通的重要前提和基礎。
+    
+    根據該協議，深交所與聯交所以及中國結算與香港中央結算將分別平均分享因深港通產生的交易及結算費用，一如現時滬港通下各方分享收入的安排。
+    
+    中國國務院8月中宣布已批準深港通實施方案。按照工作時間表，8月到11月各方就深港通進行制度和技術準備，包括相關交易結算規則和系統準備完成、獲得所有相關的監管批準、市場參與者充分調整其業務和技術系統、所有必需的跨境監管執法合作安排和投資者教育工作，預計深港通將於11月中下旬開通。
+    
+    港交所行政總裁李小加此前表示，預計11月初公布深港通開通日期。（完）
+    
+    欲瀏覽於香港聯交所的聲明，請點選：(http://www.hkexnews.hk/listedco/listconews/sehk/2016/1011/LTN20161011291_C.pdf)
+       
+
+ (記者 雷美珍；審校 楊淑禎)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

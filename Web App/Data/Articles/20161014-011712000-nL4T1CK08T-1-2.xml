@@ -1,0 +1,107 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161014-011712000-nL4T1CK08T-1-2</Id>
+      <TimeStamp>2016-10-14T01:17:12.593Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161014-011712000-nL4T1CK08T-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-14T01:17:12.000Z</versionCreated>
+            <firstCreated>2016-10-14T01:17:12.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161014-011712000-nL4T1CK08T-1-2"/>
+            <instanceOf qcode="NI:ISU/CN"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CK08T</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:DIARY"/>
+            <subject qcode="N2:CFACT"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:PREV"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:603160.SS"/>
+            <subject qcode="R:603816.SS"/>
+            <headline>《中國已公布新股發行上市日程表》--10月14日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>
+  新股發行
+  -------------------------------------------------------------------------------------
+  網上申購日 證交所 公司名稱 申購代碼 發行量(萬股) 發行價(元) 市盈率(倍) 主承銷商 繳款日
+     10/14    滬　　杭州銀行  730926      26,175     14.39     10.23    中金公司 10/18
+     10/17    滬    電魂網絡  732258       6,000    *15.62    *18.16    國金證券 10/19
+     10/18    滬    新華網    732888    5,190.2936    --         --     中金公司 10/20 
+     11/2     滬    上海銀行  780229      60,045     17.77      8.26    國泰君安 11/4
+    　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　申萬宏源
+ 　　-----------------------------------------------------------------------------------
+    中止發行　滬　　國泰集團　732977　　  5,528　　　 --         --      中德證券　--
+    暫緩發行  滬　　海 爾 施  780206   不超過6,900　　--         --      瑞信方正　--
+    暫緩發行  深    奧 賽 康  300361     5,546.6     72.99       67      中金公司  --
+    暫緩發行  深    宏良股份  002720     3,710       16.18      15.25    華龍證券  --
+    -----------------------------------------------------------------------------------
+
+   新股上市:
+   -----------------------------------------------------------------------------------
+   上市日  證交所 公司名稱  股票代碼  上市量 發行價(元/股)  市盈率(倍) 主承銷商 
+   10/14    滬    顧家家居 &lt;603816.SS&gt;  8,250      24.66      22.99    中信建投 
+  *10/17    滬    匯頂科技 &lt;603160.SS&gt;  4,500      19.42      22.99    中金公司  
+     --     深    古鰲科技 &lt;300551.SZ&gt;  1,836      12.48      22.88    國海證券 
+     --     深    路通視信 &lt;300555.SZ&gt;  2,000      15.40      22.99    申萬宏源 
+     --     深    和仁科技 &lt;300550.SZ&gt;  2,000      12.53      22.99    中信證券
+     --     深    集智股份 &lt;300553.SZ&gt;  1,200      14.08      22.99    中泰證券 
+     --     滬    能科股份 &lt;603859.SS&gt;  2,839       7.54      22.97    東方花旗 
+     --     深    萬集科技 &lt;300552.SZ&gt;  2,670      12.25      20.91    東北證券
+     --     滬    五洲新春 &lt;603667.SS&gt;  5,060       8.80      22.96    國海證券
+     --     深    和科達   &lt;002816.SZ&gt;  2,500       8.29      22.98    國金證券
+     --     深    黃山膠囊 &lt;002817.SZ&gt;  2,167      13.88      22.98    國元證券 
+       
+　　註: 1.本表包括新股發行及上市。 
+　　    2.*代表有更新。(完)
+
+ (發稿 林琦；審校 曾祥進)
+ ((路透中文新聞部:+86-21-61041787;傳真 86-21-61041728 ;qi.lin@thomsonreuters.com; Reuters Messaging:
+qi.lin.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

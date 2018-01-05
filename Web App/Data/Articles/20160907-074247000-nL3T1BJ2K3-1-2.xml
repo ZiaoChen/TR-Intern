@@ -1,0 +1,94 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160907-074247000-nL3T1BJ2K3-1-2</Id>
+      <TimeStamp>2016-09-07T07:42:47.139Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160907-074247000-nL3T1BJ2K3-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-07T07:42:47.000Z</versionCreated>
+            <firstCreated>2016-09-07T07:42:47.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160907-074247000-nL3T1BJ2K3-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BJ2K3</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:TRAN"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:AUTO"/>
+            <subject qcode="N2:CARM"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:DE"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:EZC"/>
+            <subject qcode="N2:CEEU"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:ENV"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:DAIGn.DE"/>
+            <headline>歐洲個股：戴姆勒計劃在中國銷售奔馳品牌全電動汽車</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透北京9月7日 - 德國戴姆勒&lt;DAIGn.DE&gt;中國區董事長唐仕凱(Hubertus Troska)表示，該公司計劃在中國銷售奔馳(Mercedes-Benz/平治/賓士)品牌全電動汽車，把握中國政府發展新能源汽車的契機。
+    
+    他表示，中國政府針對新能源汽車推出的稅收優惠和其它政策支持，助力中國2015年新能源汽車銷量超過30萬輛，使得其成為電動、油電混合等新能源類汽車全球最大的市場。
+    
+    唐仕凱在北京的一個分析師和投資者會議上表示，上述汽車中大部分售價在25萬元人民幣(37,515美元)以下，主要是中國廠商生產的。
+    
+    他表示，鑒於中國政府推動等因素，戴姆勒“堅信新能源汽車將成為中國市場上的一個重要因子。”
+    
+    “奔馳將在中國的新能源汽車市場扮演重要的角色，”他說。
+    
+    唐仕凱還表示，隨著時間的推移，預期需求向“更高端”的全電動和插拔式混合動力汽車轉移。這類汽車的售價也更加昂貴。
+    
+    他沒有提及計劃銷售的電動汽車細節，諸如成本、定價、車型或上市日期。不過公司公關部門主管Björn Scheib表示，戴姆勒計劃在10月1日開幕的巴黎車展上展示一款概念電動汽車。
+    
+    戴姆勒目前在中國市場上銷售一款smart品牌全電動汽車，另外還銷售一款騰勢品牌電動汽車，後者是其與中國本土廠商比亞迪&lt;002594.SZ&gt; &lt;1211.HK&gt;合作開發的品牌。
+    
+    在中國銷售的新能源汽車還包括奔馳C級和S級轎車以及GLE跨界SUV的插電式油電混合動力版。(完)
+
+    ****如欲參考原文報導，請點選[nL3N1BJ23F]即可擷取瀏覽****
+
+ (編譯 王洋; 審校 張明鈞)
+ ((Yang.Wang1@thomsonreuters.com; 86-10-66271013; Reuters
+Messaging: yang.wang1.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

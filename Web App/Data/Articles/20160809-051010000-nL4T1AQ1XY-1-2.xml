@@ -1,0 +1,95 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160809-051010000-nL4T1AQ1XY-1-2</Id>
+      <TimeStamp>2016-08-09T05:10:10.817Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160809-051010000-nL4T1AQ1XY-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-09T05:10:10.000Z</versionCreated>
+            <firstCreated>2016-08-09T05:10:10.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160809-051010000-nL4T1AQ1XY-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1AQ1XY</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:DRIL"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:CHEM"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:OILG"/>
+            <subject qcode="N2:EXPL"/>
+            <subject qcode="N2:REFI"/>
+            <subject qcode="N2:ENEQ"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:ALLCE"/>
+            <subject qcode="N2:DVST"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:GB"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EXCLSV"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:PETC"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0386.HK"/>
+            <subject qcode="R:600028.SS"/>
+            <subject qcode="R:BP.L"/>
+            <headline>《獨家新聞》BP擬出售上海賽科石化股權，價值可達30億美元--消息</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透法蘭克福/香港8月9日 - 數名知情人士告訴路透，英國石油巨頭--BP&lt;BP.L&gt;正在尋覓買家，收購BP在中國一家石化合資企業的50%股份，出售可能帶來20-30億美元收入。這家合資公司是BP在中國單一最大投資。
+    
+    消息人士並稱，BP已經聘請投資銀行安排出售在上海賽科石油化工有限責任公司(SECCO)的股權。這是BP套現退出缺乏控制權業務的計劃之一。如果成功脫手，這將是BP在中國業務的首次重大退出。
+    
+    根據BP網站，上海賽科石油化工位於上海漕涇，是中國最大的石化煉廠，2001年成立，總投資27億美元。
+    
+    根據該網站，中國國有企業--中國石化(Sinopec)&lt;600028.SS&gt;&lt;0386.HK&gt;及其關聯公司持有另外50%股份。
+    
+    BP在倫敦的發言人拒絕置評，中石化未立即提供置評。(完)
+    
+    ****如欲參考原文報導，請點選[nL4N1AQ1IG]即可擷取瀏覽****
+
+ (編譯 李春喜 審校 蔡美珍)
+ ((chunxi.li@thomsonreuters.com; 86-10-66271006; Reuters
+Messaging: Reuters Messaging:
+chunxi.li.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

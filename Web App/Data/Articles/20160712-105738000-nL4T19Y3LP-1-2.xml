@@ -1,0 +1,83 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160712-105738000-nL4T19Y3LP-1-2</Id>
+      <TimeStamp>2016-07-12T10:57:38.992Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160712-105738000-nL4T19Y3LP-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-12T10:57:38.000Z</versionCreated>
+            <firstCreated>2016-07-12T10:57:38.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160712-105738000-nL4T19Y3LP-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19Y3LP</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:RESF"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:MINE"/>
+            <subject qcode="N2:MIN"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:COMA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2009.HK"/>
+            <subject qcode="R:601992.SS"/>
+            <headline>中港個股：北京金隅料上半年淨利同比增60-80%，受房地產結算收入增加帶動</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港7月12日 - 中國水泥及房地產商--北京金隅股份有限公司&lt;2009.HK&gt;&lt;601992.SS&gt;周二稱，預計公司上半年度淨利同比將增加60-80%，主要因房地產板塊結算收入增加令盈利上升。
+    
+    這與此前一些在港上市的水泥生產商預期上半年淨利將倒退甚至虧損的情況迥異。[nL4T19U2VD]
+    
+    北京金隅的聲明稱，期內水泥熟料綜合銷量約2,060萬噸，同比增加20.5%；混凝土銷量約590萬立方米，同比升13.7%；房地產結轉面積約72.7萬平方米，同比增加82.7%。
+    
+    該公司，去年上半年的淨利為10.48億元人民幣。（完）
+    
+    欲瀏覽上市公司發布于香港聯交所的公告，請點選:(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0712/LTN20160712647_C.pdf)
+
+ (記者 梁慧儀; 審校 林高麗)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters
+Messaging: joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

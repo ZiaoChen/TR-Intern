@@ -1,0 +1,79 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160923-001921000-nL3T1BZ023-1-2</Id>
+      <TimeStamp>2016-09-23T00:19:21.723Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160923-001921000-nL3T1BZ023-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-23T00:19:21.000Z</versionCreated>
+            <firstCreated>2016-09-23T00:19:21.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160923-001921000-nL3T1BZ023-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BZ023</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:INSR"/>
+            <subject qcode="N2:COEN"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:ISER"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:600350.SS"/>
+            <headline>中國個股：山東高速擬定增募資約40億，安邦資產將認購九成</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透上海9月23日 - 中國山東高速股份有限公司&lt;600350.SS&gt;周五公告，擬向安邦資產管理公司和華融國際信託定向增發不超過7.08億股股份，募資約40億元人民幣，其中安邦資產認購九成。
+    
+    山東高速本次定增募資將投向濟南至青島高速公路改擴建工程項目，發行價格為5.65元/股。
+    
+    安邦資產是安邦保險集團旗下專業資產管理公司，註冊資本6億元。以受托管理保險資金為主業，投資範圍涵蓋固定收益類資產、權益類資產、不動產類資產等。同時提供受托保險資金投資管理，定向或集合保險資產管理產品，以及基礎設施債權投資計劃、不動產投資計劃、項目資產支持計劃等創新金融產品等。
+    
+    因籌劃非公開發行股票事項，山東高速股票自9月7日起停牌，停牌前收報6.68元。今日公告後開市起復牌。(完)    
+    
+    參看詳情，可點選上海證券交易所網站 http://www.sse.com.cn/disclosure/listedinfo/announcement/c/2016-09-23/600350_20160923_4.pdf
+    http://www.sse.com.cn/disclosure/listedinfo/announcement/c/2016-09-23/600350_20160923_1.pdf
+
+ (發稿 李宏薇 審校 喬艷紅)
+ ((hongwei.li@thomsonreuters.com; 路透中文新聞部: +86-21-61041782； 傳真 86-21-61041728;
+Reuters Messaging: hongwei.li.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

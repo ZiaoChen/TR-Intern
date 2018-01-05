@@ -1,0 +1,94 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160909-041829000-nL3T1BL1YB-1-2</Id>
+      <TimeStamp>2016-09-09T04:18:29.993Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160909-041829000-nL3T1BL1YB-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-09T04:18:29.000Z</versionCreated>
+            <firstCreated>2016-09-09T04:18:29.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160909-041829000-nL3T1BL1YB-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BL1YB</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:CHEM"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:OILG"/>
+            <subject qcode="N2:REFI"/>
+            <subject qcode="N2:ALLCE"/>
+            <subject qcode="N2:DVST"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:KR"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MOG"/>
+            <subject qcode="N2:PROD"/>
+            <subject qcode="N2:CRU"/>
+            <subject qcode="N2:PETC"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0386.HK"/>
+            <subject qcode="R:034730.KS"/>
+            <subject qcode="R:600028.SS"/>
+            <subject qcode="R:096770.KS"/>
+            <headline>韓國個股：SK創新尋求擴大與中石化的業務合作</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透首爾9月9日 - 韓國企業SK創新(SK Innovation)&lt;096770.KS&gt;周五稱，正尋求與中國石油化工股份有限公司&lt;600028.SS&gt;合作，進軍煉油和潤滑油領域。韓國最大的煉油企業SK能源(SK Energy)隸屬SK Innovation。
+    
+    SK創新在聲明中稱，母公司SK集團主席崔泰源(Chey Tae-won)，與中國石化董事長王玉普周四在北京會面，討論了加強雙方戰略合作夥伴關係的方式。
+    
+    通過2013年與中國石化共同成立的合資企業，SK創新下屬公司SK綜合化學(SK Global Chemical)向中國石化武漢乙烯合資項目投資共3.3萬億韓元(30億美元)，中國石化與SK綜合化學的股比為65:35。
+    
+    聲明稱，SK創新還計劃通過建立合資企業或併購中國的化工企業擴大其在中國的業務。(完)
+    
+    ****如欲參考原文報導，請點選[nL3N1BL0G6]即可擷取瀏覽****
+
+ (編譯 王琛；審校 李春喜)
+ ((chen.wang@thomsonreuters.com; 8610-66271255; Reuters
+Messaging: chen.wang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

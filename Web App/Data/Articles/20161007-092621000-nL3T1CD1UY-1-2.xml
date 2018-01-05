@@ -1,0 +1,89 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161007-092621000-nL3T1CD1UY-1-2</Id>
+      <TimeStamp>2016-10-07T09:26:21.879Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161007-092621000-nL3T1CD1UY-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-07T09:26:21.000Z</versionCreated>
+            <firstCreated>2016-10-07T09:26:21.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161007-092621000-nL3T1CD1UY-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1CD1UY</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:RCH"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:EXCA"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:.HSI"/>
+            <subject qcode="R:.SSEC"/>
+            <subject qcode="R:0700.HK"/>
+            <headline>投行觀點：匯豐設定明年恆指和國指目標，較現水平約有5%及11%潛在升幅</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月7日 - 投行匯豐最新研究報告顯示，該行設定2017年恆生指數&lt;.HSI&gt;為25,000點，國企指數&lt;.HSCE&gt;目標11,000點，較現水平分別約有5%及11%潛在升幅。
+    
+    匯豐中國股票策略主管孫瑜在其報告中指出，仍然偏好H股多於A股，因預期深港通帶動國內資金流入香港，而且流入的規模可能會增加，受北京冷卻房地產市場措施影響。
+    
+    他認為，H股的盈利能力將會改善，受助于需求補給以及PPI和國企改革的負面因素減退，並預料在深港通開通後，市場投資風格將從大市值股份輪動至中小型股份。
+    
+    “H股估值依然吸引，而外國投資者對H股持倉仍然大幅偏低。”他說。
+    
+    他對A股仍持中性看法，並設定2017年滬綜指&lt;.SSEC&gt;目標3,200點，滬深300&lt;.CSI300&gt;目標3,500點，較現水平分別約有6%及8%上升空間。
+    
+    投資策略方面，該行仍然認為新經濟股份將跑贏大市，又繼續看好資訊科技和醫療護理，看淡電訊。
+    
+    不過，該行調整其12只權重均等的中港模擬組合（即理想股票組合），將騰訊控股&lt;0700.HK&gt;、IMAX中國&lt;1970.HK&gt;、58.com&lt;WUBA.N&gt;、合景泰富&lt;1813.HK&gt;以及中國銀河證券&lt;6881.HK&gt;剔除，並換入百度&lt;BIDU.O&gt;、華能新能源&lt;0958.HK&gt;、龍湖地產&lt;0960.HK&gt;、網宿科技&lt;300017.SZ&gt;以及杭州海康威視&lt;002415.SZ&gt;。
+    
+    七隻留在模擬組合的股票分別是阿里巴巴&lt;BABA.N&gt;、中航科工&lt;2357.HK&gt;、國航&lt;0753.HK&gt;、中國銀行&lt;3988.HK&gt;、上海醫藥&lt;2607.HK&gt;、中南傳媒&lt;601098.SS&gt;以及長江電力&lt;600900.SS&gt;。
+    
+    匯豐的中港模擬組合自今年7月6日以來累計升10%，然跑輸MSCI中國&lt;.MSCICN&gt;5個百分點，主要受累于中航科工、國航和中南傳媒的疲弱表現。（完）
+
+ (記者 雷美珍；審校 畢曉雯)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

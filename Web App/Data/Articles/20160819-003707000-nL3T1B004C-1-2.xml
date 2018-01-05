@@ -1,0 +1,95 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160819-003707000-nL3T1B004C-1-2</Id>
+      <TimeStamp>2016-08-19T00:37:07.070Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160819-003707000-nL3T1B004C-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-19T00:37:07.000Z</versionCreated>
+            <firstCreated>2016-08-19T00:37:07.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160819-003707000-nL3T1B004C-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1B004C</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:AUTO"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:TOOL"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:HSGD"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:6030.HK"/>
+            <subject qcode="R:000651.SZ"/>
+            <subject qcode="R:600030.SS"/>
+            <headline>中國個股：格力電器擬以130億元收購珠海銀隆，並募集配套資金100億元</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透上海8月19日 - 中國家電生產大廠--珠海格力電器股份有限公司&lt;000651.SZ&gt;周五公告稱，擬以130億元人民幣向鋰電池企業--珠海銀隆全體股東發行股份，購買其持有的珠海銀隆合計100%股權；同時擬向格力集團、格力電器員工持股計劃等非公開發行股份募集配套資金不超過100億元，用於鋰電池等建設項目。
+    
+    公告指出，本次交易完成後，公司將通過珠海銀隆掌握的鈦酸鋰電池核心技術，快速切入新能源電動汽車和儲能業務領域。本次發行股份購買資產與募集配套資金的每股發行價格均為15.57元/股，配套資金擬全部用於珠海銀隆的建設投資項目。      
+    
+    具體項目包括河北銀隆年產14.62億安時鋰電池生產線項目、石家莊中博汽車有限公司搬遷改造擴能項目（二期）、河北銀隆年產200MWh儲能模組生產基地建設項目、河北廣通年產32,000輛純電動專用車改裝生產基地建設項目等。
+    
+    根據《發行股份購買資產協議》及《補償協議》，珠海銀隆股東銀通投資集團、珠海厚銘等業績承諾方承諾，珠海銀隆2016年、2017年和2018年的實際淨利潤分別不低於7.2億元、10億元和14億元。    
+    
+    格力電器3月曾公告稱，其正在籌劃的發行股份購買資產計劃，標的資產為珠海銀隆新能源有限公司。這意味著格力有望借此次併購，進軍中國高速發展的新能源汽車產業。
+    
+    據珠海銀隆官網，該公司已在廣東珠海、河北武安及石家莊建成三大生產基地，公司在去年6月和今年2月進行了兩輪融資，中信證券&lt;600030.SS&gt;&lt;6030.HK&gt;、華融資產、東方資產、陽光保險等成為珠海銀隆的主要股東。
+    
+    格力電器今日並公布了半年報，2016年上半年公司實現淨利潤64.02億元，同比增11.92%。
+    
+    格力電器自2月中旬開始停牌，籌劃重大事項，停牌前收報19.22元，因7月實施了分紅派息方案，收盤價調整為17.72元。（完）
+    
+    參看相關細節，請點選深圳證交所網站 http://disclosure.szse.cn/finalpage/2016-08-19/1202582961.PDF
+
+ (發稿 邊競；審校 楊淑禎)
+ ((steven.bian@thomsonreuters.com; +86-21-61041781; Reuters Messaging:
+steven.bian@thomsonreuters.com))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

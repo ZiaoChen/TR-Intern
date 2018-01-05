@@ -1,0 +1,112 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161025-034818000-nL4T1CV1JH-1-2</Id>
+      <TimeStamp>2016-10-25T03:48:18.797Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161025-034818000-nL4T1CV1JH-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-25T03:48:18.000Z</versionCreated>
+            <firstCreated>2016-10-25T03:48:18.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161025-034818000-nL4T1CV1JH-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CV1JH</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:COMP"/>
+            <subject qcode="N2:OFCE"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:SOFW"/>
+            <subject qcode="N2:BSUP"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:ISER"/>
+            <subject qcode="N2:CMSS"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:DE"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:FR"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:GB"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:EZC"/>
+            <subject qcode="N2:CEEU"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:MTPIX"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:TOUR"/>
+            <subject qcode="N2:PXP"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:SOCI"/>
+            <subject qcode="N2:LUX"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0700.HK"/>
+            <subject qcode="R:BABA.N"/>
+            <subject qcode="R:FDC.N"/>
+            <subject qcode="R:INGC.PA"/>
+            <subject qcode="R:PAY.N"/>
+            <subject qcode="R:WDIG.DE"/>
+            <headline>中國企業：支付寶在美國拓展移動支付業務，針對中國出境遊客</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透法蘭克福10月24日 - 通過與支付處理商First Data &lt;FDC.N&gt;和Verifone &lt;PAY.N&gt;合作，支付寶正在向美國拓展其移動支付應用服務。這是支付寶為實施面向國外旅遊的中國消費者的一項全球策略而達成的最新交易。
+    
+    過去一年中通在亞洲和歐洲建立的合作關係，支付寶開始積極向中國以外的市場擴展。比如，在英國，高檔百貨店Harrods和Selfridges，零售商Holland &amp; Barrett和Body Shop現在都接受支付寶付款。
+    
+    支付寶並不尋求與中國市場以外的主要支付服務商直接競爭，其針對的是快速增長的中國人出境旅遊市場。據聯合國世界旅遊組織，2014年中國出境旅遊總人數達到1.17億人次，預計到2020年將翻番。
+    
+    支付寶與Verifone的協議在周一宣布。通過該協議，支付寶將目光對準零售、奢侈品、保健品和百貨商場等領域的一線商家。Verifone在全球提供超過2,900萬台支付設備和終端；First Data服務于超過六百萬個商業場所。
+    
+    螞蟻金服集團董事長彭蕾在近期的採訪中稱，公司有志在未來十年成為全球支付供應商，中國以外的交易量能夠占到60%。“我們未來十年的目標是擁有20億用戶，”她說道。
+    
+    法國支付終端提供商Ingenico &lt;INGC.PA&gt; 8月時宣布與支付寶達成一項擴展協議，允許歐洲的商家通過Ingenico的支付網關接受到訪該地區的支付寶用戶的付款。
+    
+    德國的Wirecard &lt;WDIG.DE&gt;正在開發二維碼支付系統，以便歐洲商家接受支付寶用戶的付款。二維碼支付在中國廣為流行。
+    
+    支付寶與英國的移動支付初創企業Zapper也簽訂了類似協議，中國遊客可在英國的逾1000家餐廳使用二維碼支付。(完)
+    
+    ****如欲參考原文報導，請點選[nL8N1CU6HZ]即可擷取瀏覽****
+
+ (編譯 王琛；審校 張濤)
+ ((chen.wang@thomsonreuters.com; 8610-66271255; Reuters
+Messaging: chen.wang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

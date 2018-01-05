@@ -1,0 +1,101 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160726-233309000-nL4T1AC5K6-1-2</Id>
+      <TimeStamp>2016-07-26T23:33:09.194Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160726-233309000-nL4T1AC5K6-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-26T23:33:09.000Z</versionCreated>
+            <firstCreated>2016-07-26T23:33:09.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160726-233309000-nL4T1AC5K6-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1AC5K6</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:COMP"/>
+            <subject qcode="N2:HARW"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:SOFW"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:HSGD"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:CELE"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DVST"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:SOCI"/>
+            <subject qcode="N2:WWW"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:VZIO.O"/>
+            <headline>企業併購：中國樂視將以20億美元收購美國電視生產商Vizio</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透7月26日 - 中國樂視控股&lt;300104.SZ&gt;周二稱，將以20億美元收購美國消費電子公司Vizio Inc &lt;VZIO.O&gt;。
+    
+    Vizio生產經濟型平板電視、條形音箱和液晶顯示器。該公司成立於2002年，目前是美國最大的電視生產商之一。
+    
+    Vizio去年進行首次公開招股(IPO)。根據招股說明書，該公司2015年前六個月實現銷售13億美元。
+    
+    樂視稱，Vizio的硬件和軟件業務將作為樂視的全資子公司運營，該公司的Inscape TV收視數據業務將被分拆為獨立公司。
+    
+    在本次交易中，美銀美林是Vizio的顧問，Latham &amp; Watkins LLP是法律顧問。預計這項交易將在第四季完成。(完)
+
+    ****如欲參考原文報導，請點選[nL4N1AC4TB]即可擷取瀏覽****  
+
+ (編譯 侯雪蘋；審校)
+ ((hou.xueping@thomsonreuters.com; 8610-66271246; Reuters
+Messaging: hou.xueping.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

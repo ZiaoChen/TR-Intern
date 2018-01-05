@@ -1,0 +1,78 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160831-025631000-nL3T1BC1GO-1-2</Id>
+      <TimeStamp>2016-08-31T02:56:31.926Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160831-025631000-nL3T1BC1GO-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-31T02:56:31.000Z</versionCreated>
+            <firstCreated>2016-08-31T02:37:24.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160831-025631000-nL3T1BC1GO-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BC1GO</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="R:2886.TW"/>
+            <headline>台灣個股：兆豐紐約分行受高額裁罰後，兆豐金董事長徐光曦請辭</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北8月31日 - 在紐約分行遭高額裁罰後，台灣大型公股金控--兆豐金&lt;2886.TW&gt;周三發布重大訊息公告稱，兆豐金董事長及兆豐商銀董事長徐光曦請辭。
+    
+    徐光曦在兆豐金和兆豐商銀的任期本要至2018年中才到期。
+    
+    針對外界對於兆豐金控因未能符合美國紐約州的金融監督管理要求，被裁罰1.8億美元的高額罰款一事，外界對徐光曦是否適任已有質疑。
+    
+    但上日行政院長林全在記者會中公開表示，兆豐金董事長徐光曦的人事一案，並未因徐光曦和台灣央行總裁彭淮南的關係有所影響。[nL3T1BB33J]
+    
+    台灣行政院周二表示，針對兆豐銀紐約分行受美國裁罰案件，已由行政院副院長林錫耀成立督導小組，對法務部及金管會釐清事實和責任調查盡速進行。
+    
+    本地時間10:47，兆豐金跌0.91%報21.75台幣；台股大盤&lt;.TWII&gt;則下跌0.13%。(完)   
+
+ (記者 高潔如; 審校 張喜良)
+ ((jeanny.kao@thomsonreuters.com; 8862-25008441; Reuters Messaging:
+jeanny.kao.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

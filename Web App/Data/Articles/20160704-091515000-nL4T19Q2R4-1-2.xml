@@ -1,0 +1,87 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160704-091515000-nL4T19Q2R4-1-2</Id>
+      <TimeStamp>2016-07-04T09:15:15.742Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160704-091515000-nL4T19Q2R4-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-04T09:15:15.000Z</versionCreated>
+            <firstCreated>2016-07-04T09:15:15.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160704-091515000-nL4T19Q2R4-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19Q2R4</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:OILG"/>
+            <subject qcode="N2:OILI"/>
+            <subject qcode="N2:REFI"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MOG"/>
+            <subject qcode="N2:PROD"/>
+            <subject qcode="N2:CRU"/>
+            <subject qcode="N2:JET"/>
+            <subject qcode="N2:HOIL"/>
+            <subject qcode="N2:DISTLL"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0386.HK"/>
+            <subject qcode="R:0857.HK"/>
+            <subject qcode="R:601857.SS"/>
+            <subject qcode="R:600028.SS"/>
+            <headline>中國能源：2016年第三輪成品油出口配額較上年同期高出79%</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透北京/新加坡7月4日 - 中國政府最新發放的2016年第三輪成品油出口配額較上年同期高出79%。
+    
+    今年的出口配額總規模已較去年前三輪配額總和高出一倍多。
+    
+    消息人士周一稱，中國已向煉廠發放608.5萬噸的第三輪成品油出口配額。至此今年前三輪配額總計已超過4,000萬噸，高於上年同期的1,900萬噸，因為中國今年已批準獨立煉廠，即所謂的“茶壺”(teapot)煉油廠出口成品油。
+    
+    今年第三輪配額低於此前第二輪的1,450萬噸以及第一輪的2,090萬噸。
+    
+    汽油在第三輪出口配額中占據較大比重，為244萬噸，儘管2月以來亞洲汽油供應過剩，但這仍低於第二輪的320萬噸以及第一輪的440萬噸。(完)
+
+    ****如欲參考原文報導，請點選[nL4N19Q1Y5]即可擷取瀏覽****
+
+ (編譯 劉秀紅；審校 于春紅)
+ ((Xiuhong.Liu@thomsonreuters.com; 86-10-66271050; Reuters
+Messaging: xiuhong.liu.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

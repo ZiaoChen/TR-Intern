@@ -1,0 +1,81 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160804-093841000-nH9T17T000-1-2</Id>
+      <TimeStamp>2016-08-04T09:38:41.579Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160804-093841000-nH9T17T000-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-04T09:38:41.000Z</versionCreated>
+            <firstCreated>2016-08-04T09:25:36.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160804-093841000-nH9T17T000-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nH9T17T000</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:TRAD"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:ISER"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="R:3333.HK"/>
+            <subject qcode="R:2202.HK"/>
+            <subject qcode="R:000002.SZ"/>
+            <headline>香港個股：恆大斥資逾91億元人民幣買入萬科A股，占已發行股本約4.68%</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月4日 - 中國房地產商--恆大集團&lt;3333.HK&gt;周四稱，截至今天為止已在市場上收購約5.17億股萬科&lt;000002.SZ&gt;&lt;2202.HK&gt;A股，占萬科已發行股本總額約4.68%，涉及總代價約91.1億元人民幣。
+    
+    公司的聲明稱，就董事在作出一切合理查詢後所深知、盡悉及確信，出售萬科A股的賣方及其最終實益擁有人乃獨立于恆大及其關連人士的第三方。
+    
+    恆大表示，萬科為中國的最大房地產開發商之一，其財務表現強勁，收購項目為公司的投資。至於收購價則按萬科A股的市價厘定，代價由恆大內部資源支付。（完）
+    
+    欲瀏覽上市公司發布于香港聯交所的公告，請點選:(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0804/LTN20160804639_C.pdf)
+
+ (記者 梁慧儀; 審校 喬艷紅)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters
+Messaging: joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

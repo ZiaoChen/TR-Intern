@@ -1,0 +1,86 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160817-074121000-nL3T1AY27Z-1-2</Id>
+      <TimeStamp>2016-08-17T07:41:21.829Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160817-074121000-nL3T1AY27Z-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-17T07:41:21.000Z</versionCreated>
+            <firstCreated>2016-08-17T07:41:21.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160817-074121000-nL3T1AY27Z-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1AY27Z</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:RCH"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:CO"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LATAM"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2388.HK"/>
+            <headline>銀行觀點：中銀香港認為未來有機會放寬互聯互通投資門檻和額度限制</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月17日 - 中銀香港&lt;2388.HK&gt;周三稱，深港通仍對投資門檻和每日額度設限，反映監管部門以防範風險為首要位置，但相信有關限制未來將會進一步放寬。
+    
+    中銀香港發展規劃部高級經濟研究員蘇杰在記者會上稱，市場此前寄望深港通及滬港通升級版在設計上將放寬內地投資者投資港股的門檻以及放寬每日額度限制，然周二公布的方案仍維持有關限制，相信是基於去年國內股市大跌以及環球金融市場的不確定性兩個因素。
+    
+    他說：“去年中以前（放寬限制）都沒有太大問題，但是在經歷了國內股市大幅震盪以及環球經濟和金融形勢發展不確定性增多後，監管部門把對投資人保護和防範金融泡沫風險放在比較重要的位置，如果在這兩方面得到進一步保證，相信監管部門會有所動作。”
+    
+    他並指出，深港通的開通對國內和香港股市，以至對人民幣國際化和香港的離岸人民幣中心的建設，均有正面作用，亦為香港的金融業業務和產品發展注入新動力。相信深港通是下半年支持港股向好的重要因素之一。
+    
+    中港兩地證監會及港交所&lt;0388.HK&gt;周二晚間宣布，原則上批準深港通的架構，讓香港與深圳股票市場交易能夠透過深股通和港股通進行互聯互通，深港通將不會設立總額度限制，滬港通亦即時取消總額度限制，深港通每日額度與滬港通現行標準一致，即深股通每日額度130億元人民幣，深港通下的港股通每日額度105億元人民幣。預計深港通大約於四個月後正式啟動。[nL3T1AX51J]
+    
+    截至8月16日收市為止，滬股通的餘額大約48%，港股通的餘額約18%，可用額度所剩無幾。
+    
+    中銀香港個人金融及產品管理股票業務主管陳碧蓮稱，該行去年4-8月向330名資產值100萬港元以上的客戶進行問卷調查發現，20%已通過滬港通投資滬股，一半以上對深港通有興趣因希望投資組合更多元化，並以深圳的白酒、藥業、軍工、互聯網、新能源等板塊感興趣。
+    
+    她並稱，相信深港通正式開通後對中銀香港股票業務有正面影響，該行七成以上客戶趁未開通前先了解深圳市場運作和結構。（完）
+
+ (記者 雷美珍；審校 曾祥進)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

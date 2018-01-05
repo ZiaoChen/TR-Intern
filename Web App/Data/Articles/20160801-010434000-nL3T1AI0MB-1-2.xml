@@ -1,0 +1,113 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160801-010434000-nL3T1AI0MB-1-2</Id>
+      <TimeStamp>2016-08-01T01:04:34.583Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160801-010434000-nL3T1AI0MB-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-01T01:04:34.000Z</versionCreated>
+            <firstCreated>2016-08-01T01:04:34.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160801-010434000-nL3T1AI0MB-1-2"/>
+            <instanceOf qcode="NI:ISU/CN"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1AI0MB</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:DIARY"/>
+            <subject qcode="N2:CFACT"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:PREV"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:603663.SS"/>
+            <subject qcode="R:600919.SS"/>
+            <headline>《中國已公布新股發行上市日程表》--8月1日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>
+  新股發行
+  -------------------------------------------------------------------------------------
+  網上申購日 證交所 公司名稱 申購代碼 發行量(萬股) 發行價(元) 市盈率(倍) 主承銷商 繳款日
+      8/1     深　　達威股份　300535　　　1,494      18.50      22.98    國都證券　8/3
+      8/2     深　　蘇州恆久　002808　　　3,000      *7.71     *22.99    銀河證券　8/4
+      8/2     滬　　上海亞虹　732159　　　2,500      *6.88     *18.31    東方花旗　8/4
+      8/3     滬　　正平股份　732843　　　9,970        --        --      申萬宏源  8/5
+      8/3     深　　江陰銀行　002807　　20,944.55      --        --　　　光大證券　8/5
+      8/3     滬　　廣西廣電　730936　不超過30,000     --        --      華泰聯合　8/5
+      8/4     滬　　貴陽銀行　780997　　 50,000　      --        --      中信建投　8/8
+      8/5     滬　　上海電影　780595　　　9,350　　　　--        --      中金公司  8/9
+      8/5　   深　　今天國際　300532　　　2,100        --        --      華林證券　8/9
+      8/8     滬　　兆易創新　732986　　　2,500　　　　--        --      申萬宏源　8/10
+      8/9     滬　　歐普照明　732515　　　5,800        --        --      中信證券　8/11
+      8/9     深　　冰川網絡　300533　　　2,500　　　　--        --      華林證券　8/11
+      8/12    滬　　花王股份　732007　　　3,335      11.66      22.97    中泰證券　8/16  
+ 　　-----------------------------------------------------------------------------------    
+    暫緩發行  深    奧賽康    300361     5,546.6     72.99       67      中金公司  --
+    暫緩發行  深    宏良股份  002720     3,710       16.18      15.25    華龍證券  --
+    -----------------------------------------------------------------------------------
+
+   新股上市:
+   -----------------------------------------------------------------------------------
+   上市日  證交所 公司名稱  股票代碼  上市量 發行價(元/股)  市盈率(倍) 主承銷商
+    *8/1    滬　　三祥新材 &lt;603663.SS&gt;  3,355       5.28      22.98    浙商證券
+    *8/2    滬　　江蘇銀行 &lt;600919.SS&gt; 115,445　　　6.27       7.64    中銀證券
+                                                                       華泰聯合
+     --     深　　中潛股份 &lt;300526.SZ&gt;　2,125　　  10.50　    22.99    申萬宏源
+     --     深　　健帆生物 &lt;300529.SZ&gt;  4,200　　  10.80      22.98    中航證券
+     --     深　　華舟應急 &lt;300527.SZ&gt; 11,570       6.64      22.99    中金公司
+     --     深　　幸福藍海 &lt;300528.SZ&gt;　7,763　　　 6.62      22.98    中金公司
+     --     滬　　新華文軒 &lt;601811.SS&gt;　9,871　　　 7.12　    14.67    中銀國際
+     --     深　　優 博 訊 &lt;300531.SZ&gt;  2,000      13.36      22.98    中信證券
+     --     滬　　中國電影 &lt;600977.SS&gt; 46,700       8.92      22.98    中信建投
+     --     滬　　長久物流 &lt;603569.SS&gt;  4,001　　  15.43      22.98    安信證券
+     --     深　　達志科技 &lt;300530.SZ&gt;  1,750      11.95      22.98    廣發證券
+           
+　　註: 1.本表包括新股發行及上市。 
+　　    2.*代表有更新。(完)
+
+ (發稿 林琦; 審校 楊淑禎)
+ ((xiaochong.zhang@thomsonreuters.com; 0086-10-66271042; Reuters Messaging:
+xiaochong.zhang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

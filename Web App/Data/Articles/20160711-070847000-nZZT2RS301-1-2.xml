@@ -1,0 +1,88 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160711-070847000-nZZT2RS301-1-2</Id>
+      <TimeStamp>2016-07-11T07:08:47.789Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160711-070847000-nZZT2RS301-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-11T07:08:47.000Z</versionCreated>
+            <firstCreated>2016-07-11T07:01:20.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160711-070847000-nZZT2RS301-1-2"/>
+            <instanceOf qcode="NI:.SSCN"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nZZT2RS301</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:AGA"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="N2:PREC"/>
+            <subject qcode="N2:MEMI"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:MINE"/>
+            <subject qcode="N2:MTAL"/>
+            <subject qcode="N2:PRECAL"/>
+            <subject qcode="N2:MIN"/>
+            <subject qcode="R:.SSEC"/>
+            <subject qcode="R:.CSI300"/>
+            <subject qcode="R:601899.SS"/>
+            <subject qcode="R:600497.SS"/>
+            <headline>中國股市：滬綜指衝高回落小幅收升，3,000點整數關口壓力有待持續消化</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透北京7月11日 - 中國股市滬綜指周一小幅收升。分析師指出，今日大盤衝高回落，近期經濟數據舒緩了市場對通脹的憂慮，對市場投資積極性提供一定支撐。但目前量能未能持續放大，存量資金主導下的大盤運行節奏較遲緩，成長股出現回落，顯示本輪板塊輪動或將告一段落，3,000點整數關口壓力有待持續消化。    
+    
+    滬綜指&lt;.SSEC&gt;收報2,994.917點，漲6.823點或0.23%。上證A股今日成交2,679億元人民幣，上日為2,094億元。    
+    
+   “技術面上，3,000點整數關口的壓力相對比較大。”首創證券策略分析師書邵帥稱。
+    
+    他並認為，周末公布經濟數據對市場流動性和預期的穩定提供了條件，同時CPI數據給貨幣政策提供了空間。當前經濟數據穩中偏好，上市公司業績逐漸恢復，價值股投資安全性偏高，市場資金向估值相對合理的績優股湧入。
+    
+    國家統計局周日公布，6月居民消費價格指數(CPI)&lt;CNCPI=ECI&gt;同比上漲1.9%，重回“1”時代的CPI舒緩了市場對通脹的憂慮。6月工業生產者出廠價格指數(PPI)&lt;CNPPI=ECI&gt;同比下降2.6%；但依然是2014年10月以來最小降幅。[nL4T19W02W]      
+    
+    今日有色金屬、煤炭、食品板塊領漲大盤，紫金礦業&lt;601899.SS&gt;、馳宏鋅鍺&lt;600497.SS&gt;漲停報收。      
+    
+    滬深300指數&lt;.CSI300&gt;收報3,203.33點，漲0.35%,；滬深300指數期貨主力7月合約&lt;CIFN6&gt;收盤報3,176.6點，跌0.02%，成交15,212手。130億元額度的滬股通&lt;.NQUOTA.SH&gt;凈買入15.93億元。（完） 
+
+ (發稿 張曉翀；審校 曾祥進)
+ ((xiaochong.zhang@thomsonreuters.com; 0086-10-66271042; Reuters Messaging:
+xiaochong.zhang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

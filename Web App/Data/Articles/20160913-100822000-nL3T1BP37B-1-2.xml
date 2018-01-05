@@ -1,0 +1,92 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160913-100822000-nL3T1BP37B-1-2</Id>
+      <TimeStamp>2016-09-13T10:08:22.785Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:LPCC</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160913-100822000-nL3T1BP37B-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-13T10:08:22.000Z</versionCreated>
+            <firstCreated>2016-09-13T10:08:22.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160913-100822000-nL3T1BP37B-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BP37B</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:LOA"/>
+            <subject qcode="N2:CORPD"/>
+            <subject qcode="N2:CDM"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REIT"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:ENTS"/>
+            <subject qcode="N2:STAY"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:1881.HK"/>
+            <headline>路透基點：富豪產業信託與九家銀行簽署55億港元貸款案--TRLPC</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港9月13日 - 湯森路透旗下基點報導，根據新聞發布稿，富豪產業信託已經在周一同九家銀行簽署了55億港元(7.09億美元)五年期俱樂部貸款案。
+    
+    九家以牽頭行身份參與的銀行包括：恆生銀行、東亞銀行、中國建設銀行(亞洲)、工銀亞洲、華僑銀行、大華銀行、三井住友銀行、澳新銀行和東方匯理銀行。恆生銀行還擔任額度代理行和擔保品管控行。
+    
+    定期貸款和循環信貸的利率都較香港銀行同業拆息(Hibor)加碼115個基點。消息人士此前曾表示，貸款綜合收益介於130-140個基點。
+    
+    新聞稿稱，所籌資金將用於為一筆2018年到期的貸款提供再融資，並且也用於富豪產業信託進行新併購和持續升級現有地產組合的運營資金。
+    
+    富豪產業信託在2013年7月曾與11家貸款機構敲定一筆48億港元五年期再融資貸款。綜合收益為187個基點，利率較Hibor加碼162個基點，此外還有125個基點的費用。(完)
+    
+    ****如欲參考原文報導，請點選[nRLP49182a]即可擷取瀏覽****
+    
+
+ (編譯 高琦 審校 孫茉莉)
+ ((kelly.gao@thomsonreuters.com; 86-10-6627-1011; Reuters
+Messaging: kelly.gao.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+
