@@ -62,8 +62,25 @@
 
         function sortArtcles(){
             var articles = {{ cards | safe}}
+
+            articles.sort(function(a,b){
+                a = a.Time.replace("PM","").replace("AM","")
+                b = b.Time.replace("PM","").replace("AM","")
+                return new Date(a) - new Date(b)
+            });
+            panel = document.getElementById('articles');
+            articles_node = $(".panel.panel-default")
+
+            while (panel.firstChild){
+                panel.removeChild(panel.firstChild);
+            }
             for (i in articles){
-                console.log(articles[i])
+                console.log(articles[i].Time)
+                articles_node.each(function(){
+                    if (this.id == articles[i].Article_ID){
+                        panel.appendChild(this)
+                    }
+                })
             }
         }
 
@@ -401,7 +418,6 @@
 
                     </div>
                      {% endif %}
-
                      <div class="panel-heading collapse" style="background-color: #D0D0D0;color:#000000;" id="reminder-{{card.Article_ID + card.PermID}}">
                          <div class="row">
                              <div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}">
@@ -449,7 +465,6 @@
                 </div>
                 {% endfor %}
             </div>
-
         </div>
             <div class="col-sm-1"></div>
         </div>
