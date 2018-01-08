@@ -91,7 +91,7 @@
 
 
         function switchContent(id,button){
-            var id = id.id
+            // var id = id.id
             var button_content = button.childNodes[0].nodeValue
             // var cn_node = document.getElementById('cn-'+id)
             // var en_node = document.getElementById('content-'+id)
@@ -108,6 +108,7 @@
                 // cn.style.overflowY = 'hidden'
                 // en_node.style.overflowY = 'scroll'
             }
+
         }
 
         function updateCards(){
@@ -204,6 +205,18 @@
 
     </script>
     <style>
+        mark {
+            padding:0 0em;
+        }
+        hr.style13 {
+            height: 3px;
+            border: 0;
+            box-shadow: 0 3px 3px -3px #8c8b8b inset;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 0px;
+        }
+
         body{
             font-family: knowledge2017regular, Arial, sans-serif;
         }
@@ -278,6 +291,7 @@
         }
     </style>
 </head>
+
 <div class="loader"></div>
 <body style=" background:#f9fafa !important;">
     <nav class="navbar" style="background-color:#FF8000;border-color:#FF8000">
@@ -334,140 +348,236 @@
             </div>
 
             <form id="portfolio" method="post">
-            <table class="table" id="portfolio-list">
+                <table class="table" id="portfolio-list">
                 <tbody>
                 </tbody>
             </table>
-                </form>
+            </form>
         </nav>
         <div class="col-sm-7">
              <br>
              <div class="panel-group" id="articles">
                  {% for card in cards %}
                  <div class="panel panel-default" id="{{card.Article_ID}}" name = {{card.PermID}} style="border-color: #dedede;">
-                     {% if card.Relevance < 30 %}
-                    <div class="panel-heading" style="background-color: #AFAFAF;color:#FFFFFF;">
-                        <div class="row">
-                            <div class="col-sm-2" style="padding-right:5px;">
-                                <font size="2">{{card.Relevance}}% Relevant</font>
-                            </div>
-                            <div class="col-sm-5" style="padding-left:0px;">
-                                <a href="https://permid.org/1-{{card.PermID}}" target="_blank">
-                                    <font size="2">{{card.Name_EN}} | {{card.Name}}</font>
-                                </a>
-                            </div>
+                     <div class="panel-body" style="position: relative!important;">
+                         <div class="media">
+                             <div class="media-left" style="text-align: center">
+                                 <p style="line-height: 100%">
+                                     {% if card.Relevance < 30 %}
+                                     <font size="3" style="color:#666666;"><b>{{card.Relevance}}%</b></font>
+                                     {% elif card.Relevance < 60 %}
+                                     <font size="3" style="color:#FF8000;"><b>{{card.Relevance}}%</b></font>
+                                     {% else %}
+                                     <font size="3" style="color:#a00000;"><b>{{card.Relevance}}%</b></font>
+                                     {% endif %}
 
-                            <div class="col-sm-5">
-                                <div class="col-sm-5" align="left">
-                                    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-                                    <a href="{{card.Link}}" target="_blank">
-                                        <font size="2"> {{ card.Source }}</font>
-                                    </a>
-                                </div>
-                                <div class="col-sm-7" align="right">
-                                    <font size="2">{{ card.Time }}</font>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     {% elif card.Relevance < 60 %}
-                     <div class="panel-heading" style="background-color: #FF8000;color:#FFFFFF;">
-                        <div class="row">
-                            <div class="col-sm-2" style="padding-right:5px;">
-                                <font size="2">{{card.Relevance}}% Relevant</font>
-                            </div>
-                            <div class="col-sm-5" style="padding-left:0px;">
-                                <a href="https://permid.org/1-{{card.PermID}}" target="_blank">
-                                    <font size="2">{{card.Name_EN}} | {{card.Name}}</font>
-                                </a>
-                            </div>
-
-                            <div class="col-sm-5">
-                                <div class="col-sm-5" align="left">
-                                    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-                                    <a href="{{card.Link}}" target="_blank">
-                                        <font size="2"> {{ card.Source }}</font>
-                                    </a>
-                                </div>
-                                <div class="col-sm-7" align="right">
-                                    <font size="2">{{ card.Time }}</font>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                     {% else %}
-                     <div class="panel-heading" style="background-color: #A00000;color:#FFFFFF;">
-                        <div class="row">
-                            <div class="col-sm-2" style="padding-right:5px;">
-                                <font size="2">{{card.Relevance}}% Relevant</font>
-                            </div>
-                            <div class="col-sm-5" style="padding-left:0px;">
-                                <a href="https://permid.org/1-{{card.PermID}}" target="_blank">
-                                    <font size="2">{{card.Name_EN}} | {{card.Name}}</font>
-                                </a>
-                            </div>
-
-                            <div class="col-sm-5">
-                                <div class="col-sm-5" align="left">
-                                    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-                                    <a href="{{card.Link}}" target="_blank">
-                                        <font size="2"> {{ card.Source }}</font>
-                                    </a>
-                                </div>
-                                <div class="col-sm-7" align="right">
-                                    <font size="2">{{ card.Time }}</font>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                     {% endif %}
-                     <div class="panel-heading collapse" style="background-color: #D0D0D0;color:#000000;" id="reminder-{{card.Article_ID + card.PermID}}">
-                         <div class="row">
-                             <div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}">
-                                 This page is translated from Chinese.
+                                     <font size="1" style="color:#afafaf">Relevant</font>
+                                 </p>
                              </div>
-                             <div class="col-sm-3" align="right">
-                                 <a href="" onclick="switchContent({{card.Article_ID + card.PermID}}, this); return false;" style="color: #005DA2 !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>
-                             </div>
-                         </div>
-                     </div>
-                    <div class="panel-body content-hover" style="position: relative!important;">
-                        <div class="row">
-                            <div class="col-sm-12"  style="overflow-y: hidden;" id="content-{{card.Article_ID + card.PermID}}">
+                             <div class="media-body">
+                                 <div class="media-heading">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <a href="https://permid.org/1-{{card.PermID}}" target="_blank">
+                                                {% if card.Name_EN | length > 44 %}
+                                                <font size="2">{{card.Name_EN[0:43]}}... | {{card.Name}}</font>
+                                                {% else %}
+                                                <font size="2">{{card.Name_EN}} | {{card.Name}}</font>
+                                                {% endif %}
+                                            </a>
+                                        </div>
 
-                                <div id="cn-{{card.Article_ID + card.PermID}}" class="collapse">
-                                    <p class="collapse", id="first-half-cn-{{card.Article_ID + card.PermID}}">
-                                        {{card.First_Half_cn|safe}}
-                                    </p>
-                                    <p id="snippet-cn-{{card.Article_ID + card.PermID}}" class="fadeout">
-                                        {{card.Middle_cn|safe}}
-                                    </p>
-                                    <p class="collapse" style="margin:0" id="second-half-cn-{{card.Article_ID + card.PermID}}">
-                                        {{card.Second_Half_cn|safe}}
-                                    </p>
+                                        <div class="col-sm-6">
+                                            <div class="col-sm-5" align="left">
+                                                <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                                                <a href="{{card.Link}}" target="_blank">
+                                                    {% if card.Source | length > 12 %}
+                                                    <font size="2"> {{ card.Source[0:11] }}...</font>
+                                                    {% else %}
+                                                    <font size="2"> {{ card.Source}}</font>
+                                                    {% endif %}
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="col-sm-12" align="left">
+                                                    <font size="2">{{ card.Time }}</font>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                 <hr class="style13" align="left">
+                                  <div class="row collapse" id="reminder-{{card.Article_ID + card.PermID}}">
+                                     <div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}" style="color:darkred">
+                                         This page is translated from Chinese.
+                                     </div>
+                                     <div class="col-sm-3" align="right">
+                                         <a href="" onclick="switchContent('{{card.Article_ID + card.PermID}}', this); return false;" style="color: #005DA2 !important; padding-right: 22px; !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>
+                                     </div>
+                                 </div>
+                                 <div class="content content-hover" style="overflow-y: hidden; overflow-x:hidden" id="content-{{card.Article_ID + card.PermID}}">
+                                     <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="cn-{{card.Article_ID + card.PermID}}" class="collapse">
+                                                <p class="collapse", id="first-half-cn-{{card.Article_ID + card.PermID}}">
+                                                    {{card.First_Half_cn|safe}}
+                                                </p>
+                                                <p id="snippet-cn-{{card.Article_ID + card.PermID}}" class="fadeout">
+                                                    {{card.Middle_cn|safe}}
+                                                </p>
+                                                <p class="collapse" style="margin:0" id="second-half-cn-{{card.Article_ID + card.PermID}}">
+                                                    {{card.Second_Half_cn|safe}}
+                                                </p>
+                                            </div>
 
-                                <div id="en-{{card.Article_ID + card.PermID}}" class="collapse in">
-                                    <p class="collapse", id="first-half-{{card.Article_ID + card.PermID}}">
-                                        {{card.First_Half|safe}}
-                                    </p>
-                                    <p id="snippet-{{card.Article_ID + card.PermID}}" class="fadeout">
-                                        {{card.Middle|safe}}
-                                    </p>
-                                    <p class="collapse" style="margin:0" id="second-half-{{card.Article_ID + card.PermID}}">
-                                        {{card.Second_Half|safe}}
-                                    </p>
-                                </div>
+                                            <div id="en-{{card.Article_ID + card.PermID}}" class="collapse in">
+                                                <p class="collapse", id="first-half-{{card.Article_ID + card.PermID}}">
+                                                    {{card.First_Half|safe}}
+                                                </p>
+                                                <p id="snippet-{{card.Article_ID + card.PermID}}" class="fadeout">
+                                                    {{card.Middle|safe}}
+                                                </p>
+                                                <p class="collapse" style="margin:0" id="second-half-{{card.Article_ID + card.PermID}}">
+                                                    {{card.Second_Half|safe}}
+                                                </p>
+                                            </div>
 
-                            </div>
-                        </div>
-                        <p align="center" style="margin:0;position:absolute!important; bottom: 10%;left:45%;">
+                                        </div>
+                                    </div>
+
+                                 <p align="center" style="margin:0;position:absolute!important; bottom: 8%;left:49%;">
                                     <a style="color:#FFFFFF !important; border-radius: 10px !important; font-weight: normal !important;" id="{{card.Article_ID + card.PermID}}" class='label label-default button-hover' data-toggle="collapse" data-target="#first-half-cn-{{card.Article_ID + card.PermID}},#second-half-cn-{{card.Article_ID + card.PermID}},#first-half-{{card.Article_ID + card.PermID}},#second-half-{{card.Article_ID + card.PermID}},#reminder-{{card.Article_ID + card.PermID}}" href="" onclick="changeButton(this);return false;">click to expand</a>
-                        </p>
-                    </div>
-                </div>
+                                 </p>
+                                 </div>
+                            </div>
+                         </div>
+
+                     </div>
+                 </div>
+                 <!--<div class="panel panel-default" id="{{card.Article_ID}}" name = {{card.PermID}} style="border-color: #dedede;">-->
+                     <!--{% if card.Relevance < 30 %}-->
+                    <!--<div class="panel-heading" style="background-color: #AFAFAF;color:#FFFFFF;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-2" style="padding-right:5px;">-->
+                                <!--<font size="2">{{card.Relevance}}% Relevant</font>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-5" style="padding-left:0px;">-->
+                                <!--<a href="https://permid.org/1-{{card.PermID}}" target="_blank">-->
+                                    <!--<font size="2">{{card.Name_EN}} | {{card.Name}}</font>-->
+                                <!--</a>-->
+                            <!--</div>-->
+
+                            <!--<div class="col-sm-5">-->
+                                <!--<div class="col-sm-5" align="left">-->
+                                    <!--<span class="glyphicon glyphicon-link" aria-hidden="true"></span>-->
+                                    <!--<a href="{{card.Link}}" target="_blank">-->
+                                        <!--<font size="2"> {{ card.Source }}</font>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-7" align="right">-->
+                                    <!--<font size="2">{{ card.Time }}</font>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                     <!--{% elif card.Relevance < 60 %}-->
+                     <!--<div class="panel-heading" style="background-color: #FF8000;color:#FFFFFF;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-2" style="padding-right:5px;">-->
+                                <!--<font size="2">{{card.Relevance}}% Relevant</font>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-5" style="padding-left:0px;">-->
+                                <!--<a href="https://permid.org/1-{{card.PermID}}" target="_blank">-->
+                                    <!--<font size="2">{{card.Name_EN}} | {{card.Name}}</font>-->
+                                <!--</a>-->
+                            <!--</div>-->
+
+                            <!--<div class="col-sm-5">-->
+                                <!--<div class="col-sm-5" align="left">-->
+                                    <!--<span class="glyphicon glyphicon-link" aria-hidden="true"></span>-->
+                                    <!--<a href="{{card.Link}}" target="_blank">-->
+                                        <!--<font size="2"> {{ card.Source }}</font>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-7" align="right">-->
+                                    <!--<font size="2">{{ card.Time }}</font>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                     <!--{% else %}-->
+                     <!--<div class="panel-heading" style="background-color: #A00000;color:#FFFFFF;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-2" style="padding-right:5px;">-->
+                                <!--<font size="2">{{card.Relevance}}% Relevant</font>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-5" style="padding-left:0px;">-->
+                                <!--<a href="https://permid.org/1-{{card.PermID}}" target="_blank">-->
+                                    <!--<font size="2">{{card.Name_EN}} | {{card.Name}}</font>-->
+                                <!--</a>-->
+                            <!--</div>-->
+
+                            <!--<div class="col-sm-5">-->
+                                <!--<div class="col-sm-5" align="left">-->
+                                    <!--<span class="glyphicon glyphicon-link" aria-hidden="true"></span>-->
+                                    <!--<a href="{{card.Link}}" target="_blank">-->
+                                        <!--<font size="2"> {{ card.Source }}</font>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-7" align="right">-->
+                                    <!--<font size="2">{{ card.Time }}</font>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                     <!--{% endif %}-->
+                     <!--<div class="panel-heading collapse" style="background-color: #D0D0D0;color:#000000;" id="reminder-{{card.Article_ID + card.PermID}}">-->
+                         <!--<div class="row">-->
+                             <!--<div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}">-->
+                                 <!--This page is translated from Chinese.-->
+                             <!--</div>-->
+                             <!--<div class="col-sm-3" align="right">-->
+                                 <!--<a href="" onclick="switchContent({{card.Article_ID + card.PermID}}, this); return false;" style="color: #005DA2 !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>-->
+                             <!--</div>-->
+                         <!--</div>-->
+                     <!--</div>-->
+                    <!--<div class="panel-body content-hover" style="position: relative!important;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-12"  style="overflow-y: hidden;" id="content-{{card.Article_ID + card.PermID}}">-->
+
+                                <!--<div id="cn-{{card.Article_ID + card.PermID}}" class="collapse">-->
+                                    <!--<p class="collapse", id="first-half-cn-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.First_Half_cn|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p id="snippet-cn-{{card.Article_ID + card.PermID}}" class="fadeout">-->
+                                        <!--{{card.Middle_cn|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p class="collapse" style="margin:0" id="second-half-cn-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.Second_Half_cn|safe}}-->
+                                    <!--</p>-->
+                                <!--</div>-->
+
+                                <!--<div id="en-{{card.Article_ID + card.PermID}}" class="collapse in">-->
+                                    <!--<p class="collapse", id="first-half-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.First_Half|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p id="snippet-{{card.Article_ID + card.PermID}}" class="fadeout">-->
+                                        <!--{{card.Middle|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p class="collapse" style="margin:0" id="second-half-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.Second_Half|safe}}-->
+                                    <!--</p>-->
+                                <!--</div>-->
+
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<p align="center" style="margin:0;position:absolute!important; bottom: 10%;left:45%;">-->
+                                    <!--<a style="color:#FFFFFF !important; border-radius: 10px !important; font-weight: normal !important;" id="{{card.Article_ID + card.PermID}}" class='label label-default button-hover' data-toggle="collapse" data-target="#first-half-cn-{{card.Article_ID + card.PermID}},#second-half-cn-{{card.Article_ID + card.PermID}},#first-half-{{card.Article_ID + card.PermID}},#second-half-{{card.Article_ID + card.PermID}},#reminder-{{card.Article_ID + card.PermID}}" href="" onclick="changeButton(this);return false;">click to expand</a>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
                 {% endfor %}
             </div>
         </div>

@@ -114,6 +114,6 @@ with open('Data/Articles_Tags.csv', 'w', encoding='utf-8-sig') as tag_file:
                     writer2.writerow([filename, article, article_en, title, source,
                                       randomDate("1 Jan 2016 1:30PM", "1 Jan 2018 1:30PM", random.random()),
                                       'file:///' + os.path.join(os.getcwd(), directory,
-                                                                filename) + '.html'])
+                                                                filename)])
                 else:
                     print("Jump")

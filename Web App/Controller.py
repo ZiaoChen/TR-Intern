@@ -103,7 +103,7 @@ def format_content_cn(content, keyword):
 
 
 def normalize(data):
-    return abs(data - data.mean()) / (data.max() - data.min())
+    return abs(data - data.min()) / (data.max())
 
 
 articles_file = pd.read_csv('Data/Articles.csv')
@@ -115,8 +115,8 @@ company_file = get_company_file('Data/2000_Chinese_Companies.xlsx')
 company_file["PermID"] = company_file["PermID"].apply(str)
 company_file["EN_Official"] = company_file["EN_Official"].apply(str)
 tags_file["PermID"] = tags_file["PermID"].apply(str)
-tags_file["Relevance"] = tags_file['Relevance'].rank(ascending=False, pct=True)
-tags_file["Relevance"] = normalize(tags_file["Relevance"]) * 100
+tags_file["Relevance"] = tags_file['Relevance'].rank(ascending=True)
+tags_file["Relevance"] = normalize(tags_file["Relevance"]) * 100 + 1
 # tags_file = tags_file.join(company_file.set_index('PermID'), on='PermID')
 tags_file["Article_ID"] = tags_file["Article_ID"].apply(str)
 combined_data = tags_file.join(articles_file.set_index('Article_ID'), on='Article_ID')
