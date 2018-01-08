@@ -60,14 +60,20 @@
     </script>
     <script>
 
-        function sortArtcles(){
-            var articles = {{ cards | safe}}
-
-            articles.sort(function(a,b){
-                a = a.Time.replace("PM","").replace("AM","")
-                b = b.Time.replace("PM","").replace("AM","")
-                return new Date(a) - new Date(b)
-            });
+        function sortArtcles(criteria){
+            var articles = {{cards | safe}}
+            if (criteria == 'Time') {
+                articles.sort(function (a, b) {
+                    a = a.Time.replace("PM", "").replace("AM", "")
+                    b = b.Time.replace("PM", "").replace("AM", "")
+                    return new Date(a) - new Date(b)
+                });
+            }
+            else{
+                articles.sort(function(a,b){
+                   return b.Relevance - a.Relevance
+                });
+            }
             panel = document.getElementById('articles');
             articles_node = $(".panel.panel-default")
 
@@ -75,7 +81,6 @@
                 panel.removeChild(panel.firstChild);
             }
             for (i in articles){
-                console.log(articles[i].Time)
                 articles_node.each(function(){
                     if (this.id == articles[i].Article_ID){
                         panel.appendChild(this)
@@ -305,10 +310,10 @@
             <div class="col-sm-7" align="right" style="padding-top: 12px;">
                 <label class="radio-inline"><b>Sort by</b></label>
                 <label class="radio-inline">
-                  <input type="radio" name="sort" onclick="sortArtcles();">Relevance
+                  <input type="radio" name="sort" onclick="sortArtcles('Relevance');">Relevance
                 </label>
                 <label class="radio-inline">
-                  <input type="radio" name="sort" onclick="sortArtcles();">Time
+                  <input type="radio" name="sort" onclick="sortArtcles('Time');">Time
                 </label>
 
 
