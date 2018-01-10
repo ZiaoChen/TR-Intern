@@ -1,5 +1,4 @@
 import os
-import html2text
 import csv
 import chinese_tagging_api
 from bs4 import BeautifulSoup

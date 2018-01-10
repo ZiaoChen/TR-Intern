@@ -66,7 +66,7 @@
                 articles.sort(function (a, b) {
                     a = a.Time.replace("PM", "").replace("AM", "")
                     b = b.Time.replace("PM", "").replace("AM", "")
-                    return new Date(a) - new Date(b)
+                    return new Date(b) - new Date(a)
                 });
             }
             else{
@@ -151,7 +151,11 @@
                         else{
                             checkbox.innerHTML = "<input id=tr.id name='company' type='checkbox' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
                         }
-                        name.innerHTML = company_info_list[i].Name_EN
+                        if (company_info_list[i].Name_EN.length > 50) {
+                            name.innerHTML = company_info_list[i].Name_EN.slice(0, 50) + '...'
+                        }else{
+                            name.innerHTML = company_info_list[i].Name_EN
+                        }
                         ric.innerHTML = company_info_list[i].RIC
                     }
                     break;
@@ -249,16 +253,16 @@
             color: #005DA2 !important;
             background-color: transparent !important;
         }
-          .affix {
+        .affix {
               top: 20px;
               z-index: 9999 !important;
           }
-          .fadeout {
-              background: -webkit-linear-gradient(#D0D0D0, #000000, #D0D0D0);
+        .fadeout {
+              background: -webkit-linear-gradient(#ffffff, #000000, #ffffff);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
               margin:0;
-          }
+        }
 
         .content-hover:hover .button-hover{
             opacity:1 !important;
@@ -408,10 +412,10 @@
                                 </div>
                                  <hr class="style13" align="left">
                                   <div class="row collapse" id="reminder-{{card.Article_ID + card.PermID}}">
-                                     <div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}" style="color:darkred">
+                                     <div class="col-sm-8" id="switch-language-message-{{card.Article_ID + card.PermID}}" style="color:darkred">
                                          This page is translated from Chinese.
                                      </div>
-                                     <div class="col-sm-3" align="right">
+                                     <div class="col-sm-4" align="right">
                                          <a href="" onclick="switchContent('{{card.Article_ID + card.PermID}}', this); return false;" style="color: #005DA2 !important; padding-right: 22px; !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>
                                      </div>
                                  </div>
