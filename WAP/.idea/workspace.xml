@@ -14,29 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calais_api_connection.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="calais_api_connection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calais_api_connection.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8.JPG" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/8.JPG">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/6.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -223,16 +209,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calais_api_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -241,6 +217,16 @@
     <entry file="file://$PROJECT_DIR$/Data/8.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calais_api_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
