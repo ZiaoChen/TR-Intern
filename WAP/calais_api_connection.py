@@ -30,12 +30,12 @@ def getPDFContent(path):
     # Collapse whitespace
     content = " ".join(content.replace("\xa0", " ").strip().split())
     return content
-pytesseract.pytesseract.tesseract_cmd = 'C:/Users/uc238618/Desktop/Tesseract-OCR/tesseract'
-image = Image.open('Data/8.jpg')
-print (pytesseract.image_to_string(image))
-# calais_url = 'https://api.thomsonreuters.com/permid/calais'
-# access_token = "Mck6PohAvY2jMrqDYXdK7ngcuDCPFwrP"
-# input_file = "Data/report.pdf"
-# headers = {'X-AG-Access-Token': access_token, 'Content-Type': 'text/raw', 'outputformat': 'application/json'}
-# file = getPDFContent(input_file)
-# sendFile(file, headers, 'Output/', 'test')
+# pytesseract.pytesseract.tesseract_cmd = 'C:/Users/uc238618/Desktop/Tesseract-OCR/tesseract'
+# image = Image.open('Data/8.jpg')
+# print (pytesseract.image_to_string(image))
+calais_url = 'https://api.thomsonreuters.com/permid/calais'
+access_token = "Mck6PohAvY2jMrqDYXdK7ngcuDCPFwrP"
+input_file = "Data/report.pdf"
+headers = {'X-AG-Access-Token': access_token, 'Content-Type': 'text/raw', 'outputformat': 'application/json'}
+file = getPDFContent(input_file)
+sendFile(file, headers, 'Output/', 'test')
