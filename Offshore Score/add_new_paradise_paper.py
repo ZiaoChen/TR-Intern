@@ -1,18 +1,25 @@
 from neo4j.v1 import GraphDatabase
 
 # Connect to Neo4j server
-driver = GraphDatabase.driver('bolt://localhost:7687', auth=('neo4j', 'chenziao'))
+driver = GraphDatabase.driver('bolt://ec2-13-228-37-181.ap-southeast-1.compute.amazonaws.com:7687')
+# driver = GraphDatabase.driver('bolt://localhost:7687', auth=('neo4j', 'chenziao'))
 session = driver.session()
 
 # Remove all existing nodes first
-session.run("match (n) delete n")
+for i in range(100):
+    session.run("match (n:New)-[r]-() with r limit %d delete r" %10000)
+for i in range(100):
+    session.run("match (n:New) with n limit %d delete n" %10000)
+print("Nodes and Relationship cleaned")
 
 # Insert Officer Nodes
-r = session.run("""LOAD CSV WITH HEADERS FROM 'file:///paradise_papers.nodes.officer.csv' AS csvLine
+r = session.run("""
+USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://drive.google.com/uc?export=download&id=1zM1hoqFs6QTWOcwDn1pB9irBVGgwPkL7' AS csvLine
 with csvLine
 where csvLine.sourceID <> 'Paradise Papers - Appleby'
-Merge (p:Officer { node_id: csvLine.node_id, name: csvLine.name})
-on create SET 
+create (p:Officer:New { node_id: csvLine.node_id, name: csvLine.name})
+SET
 p.sourceID = toString(csvLine.sourceID),
 p.country_codes = toString(csvLine.country_codes),
 p.countries = toString(csvLine.countries),
@@ -20,13 +27,16 @@ p.status = toString(csvLine.status),
 p.valid_until = toString(csvLine.valid_until),
 p.note = toString(csvLine.note)""")
 print(list(r))
+print("All officer nodes were inserted")
 
 # Insert Entity Nodes
-a = session.run("""LOAD CSV WITH HEADERS FROM 'file:///paradise_papers.nodes.entity.csv' AS csvLine
+a = session.run("""
+USING PERIODIC COMMIT 500
+LOAD CSV WITH HEADERS FROM 'https://drive.google.com/uc?export=download&id=1H7K2e4OaevLB1R2fn3on3utOPyBV1mIA' AS csvLine
 with csvLine
 where csvLine.sourceID <> 'Paradise Papers - Appleby'
-Merge (p:Entity { node_id: csvLine.node_id, name: csvLine.name})
-on create set
+create (p:Entity:New { node_id: csvLine.node_id, name: csvLine.name})
+set
 p.jurisdiction = toString(csvLine.jurisdiction),
 p.jurisdiction_description = toString(csvLine.jurisdiction_description),
 p.sourceID = toString(csvLine.sourceID),
@@ -43,16 +53,52 @@ p.status = toString(csvLine.status),
 p.valid_until = toString(csvLine.valid_until),
 p.note = toString(csvLine.note)""")
 print(list(a))
+print("All entity nodes were inserted")
+
+# Create index
+a = session.run("""
+create index on :New(node_id)
+""")
+
+# a = session.run("""
+# create constraint on (g:Entity)
+# assert g.node_id is UNIQUE
+# """)
+# print("Index on entity node id is created")
+#
+# a = session.run("""
+# create index on :Officer(node_id)
+# """)
+
+# a = session.run("""
+# create constraint on (g:Officer)
+# assert g.node_id is UNIQUE """)
+
+print("Index on node id is created")
 
 # Insert Edges
-a = session.run("""LOAD CSV WITH HEADERS FROM 'file:///paradise_papers.nodes.entity.csv' AS csvLine
+a = session.run("""
+USING PERIODIC COMMIT 10
+LOAD CSV WITH HEADERS FROM 'https://drive.google.com/uc?export=download&id=1Xk_90gpgjsbIUtFzjtxybVPJKxGmiYCG' AS csvLine
 with csvLine
-where csvLine.sourceID <> 'Paradise Papers - Appleby'
-match (from{id: toString(csvLine.START_ID)})
-match (to{id: toString(csvLine.END_ID)})
-merge (from)-[r:csvLine.TYPE]->(to)
-on create set
+match (from:New{node_id: toString(csvLine.START_ID)})
+using index from:New(node_id)
+match (to:New{node_id: toString(csvLine.END_ID)})
+using index to:New(node_id)
+with from, to, csvLine
+where from.sourceID <> 'Paradise Papers - Appleby' and to.sourceID <> 'Paradise Papers - Appleby' 
+create (from)-[r:connect_to_offshore_entity]->(to)
+set
 r.start_date = toString(csvLine.start_date),
 r.end_date = toString(csvLine.end_date),
 r.sourceID = toString(csvLine.sourceID),
-r.valid_until = toString(csvLine.valid_until)""")
+r.valid_until = toString(csvLine.valid_until)
+""")
+
+print(list(a))
+print("All edges were inserted")
+
+# and csvLine.sourceID <> 'Paradise Papers - Malta corporate registry'
+# and csvLine.sourceID <> 'Paradise Papers - Barbados corporate registry'
+# and csvLine.sourceID <> 'Paradise Papers - Bahamas corporate registry'
+# and csvLine.sourceID <> 'Paradise Papers - Lebanon corporate registry'
