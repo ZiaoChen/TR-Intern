@@ -1,0 +1,89 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160707-015828000-nL4T19T192-1-2</Id>
+      <TimeStamp>2016-07-07T01:58:28.033Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160707-015828000-nL4T19T192-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-07T01:58:28.000Z</versionCreated>
+            <firstCreated>2016-07-07T01:58:28.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160707-015828000-nL4T19T192-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19T192</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:3958.HK"/>
+            <subject qcode="R:600958.SS"/>
+            <headline>香港新股：東方證券稱公開發售認購不足額，國際配售則適度超額</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港7月7日 - 近日股市波動，中國大型券商東方證券&lt;3958.HK&gt;&lt;600958.SS&gt;周四稱，其價值78億港元香港IPO在面向散戶的公開發售部分未獲得足額認購，國際配售部分則錄得適度超額。
+    
+    東方證券於6月20日即英國公投當周開始招股，在9.57億股發售股份之中，公開發售占7.5%，國際配售占92.5%。
+        
+    據公告，公開發售部分錄得0.96倍認購，相當於整個IPO比重7.18%，國際配售部分則獲得適度超額認購。經由國際配售補足後，東方證券如期明天（8日）在聯交所掛牌上市。
+    
+    一般情況之下，如果IPO面對嚴重認購不足，很大機會會擱置或推遲其上市計劃。
+    
+    東方證券IPO最終以原區間中低端的每股8.15港元定價，按9.57億股發售H股計集資78億港元；若扣除8,700萬股原有股東出售舊股，上市公司實際籌70.9億港元。
+    
+    該公司獲得10名基礎投資者認購共4.5億股股份，占IPO比重47%，相當於上市後股本7.32%。這些基礎投資者包括環能國際&lt;1102.HK&gt;執行董事祝立家私人持有的紅佳金融、交行&lt;3328.HK&gt;&lt;601328.SS&gt;旗下交銀國際投資、東航國際、上海電氣集團、上實集團、惠理&lt;0806.HK&gt;等等。
+    
+    香港時間09:54，東方證券A股升0.7%，報17.23元人民幣。（完）
+    
+    欲瀏覽于香港聯交所的聲明，請點選：(http://www.iporesults.hkex.com.hk/listedco/listconews/sehk/2016/0707/03958_2670268/C102.PDF)
+    
+
+ (記者 雷美珍；審校 喬艷紅)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

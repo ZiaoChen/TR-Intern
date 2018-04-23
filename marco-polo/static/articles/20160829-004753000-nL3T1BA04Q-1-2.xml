@@ -1,0 +1,93 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160829-004753000-nL3T1BA04Q-1-2</Id>
+      <TimeStamp>2016-08-29T00:47:53.661Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160829-004753000-nL3T1BA04Q-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-29T00:47:53.000Z</versionCreated>
+            <firstCreated>2016-08-29T00:47:53.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160829-004753000-nL3T1BA04Q-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BA04Q</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRESS"/>
+            <subject qcode="N2:COMS"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:3333.HK"/>
+            <subject qcode="R:0298.HK"/>
+            <subject qcode="R:0035.HK"/>
+            <subject qcode="R:0016.HK"/>
+            <subject qcode="R:2000.HK"/>
+            <subject qcode="R:2007.HK"/>
+            <headline>《香港報摘》--信報8月29日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>
+    **頭版頭條**
+    --樓市氣氛持續暢旺，新地&lt;0016.HK&gt;于新界元朗新盤Grand YOHO第一期在剛過去的周六推售308伙單位僅6小時全數沽清，發展商乘勝追擊加價加推113伙單位。
+    
+    **其他**
+    --遠東發展&lt;0035.HK&gt;首席財務總監張偉雄稱，期望今年底或明年初推出2至3個樓盤，而公司買地主要在香港及澳洲，亦希望增加在英國的投資，因英鎊�價下跌，前往當地的旅客大增，目前是良好投資時機。
+    --消息指出，金管局擬推出名為Faster Payment的快速支付系統，令跨行支付亦可即時過數交收，冀最快於2018年落實首階段的運作。
+    --莊士中國&lt;0298.HK&gt;公布向碧桂園&lt;2007.HK&gt;出售東莞沙田鎮莊士路8號的莊士新都項目及同地段一幅15.2萬方米地盤，合共作價13.3億元人民幣。
+    --盛京銀行&lt;2066.HK&gt;董事會秘書周峙稱，中國銀監會仍就恆大&lt;3333.HK&gt;購入盛京的內資股交易進行審核，若交易獲批，未來雙方在綜合化經營及社區金融等領域或有合作空間。（完）
+    
+    注：以上的評論僅為摘要，並且不代表路透立場。
+
+    **如欲提取相關新聞，請點擊下列代碼**
+      香港報摘/社評/財經評論[PRESS-HK-CMN]
+      中國報摘[PRESS-CN-CMN]
+      台灣報摘[PRESS-TW-CMN]
+
+ (整理 雷美珍；審校 曾祥進)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

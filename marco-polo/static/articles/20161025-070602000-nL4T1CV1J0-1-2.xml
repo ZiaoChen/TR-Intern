@@ -1,0 +1,119 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161025-070602000-nL4T1CV1J0-1-2</Id>
+      <TimeStamp>2016-10-25T07:06:02.421Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161025-070602000-nL4T1CV1J0-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-25T07:06:02.000Z</versionCreated>
+            <firstCreated>2016-10-25T07:06:02.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161025-070602000-nL4T1CV1J0-1-2"/>
+            <instanceOf qcode="NI:.TWCN"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CV1J0</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:RETE"/>
+            <subject qcode="N2:CHIP"/>
+            <subject qcode="N2:HARW"/>
+            <subject qcode="N2:SOFW"/>
+            <subject qcode="N2:MDIA"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:RSPC"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:SEMI"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:COMP"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:.MIAPJ0000PUS"/>
+            <subject qcode="R:.TWII"/>
+            <subject qcode="R:2330.TW"/>
+            <subject qcode="R:AAPL.O"/>
+            <headline>台灣股市：受電子及原物料股帶動創16個月收盤新高，短線續呈高檔震盪</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北10月25日 - 台灣股市周二上漲，並創16個月收盤新高。分析師指出，台股盤中在原物料及電子股帶動下進一步攻高，一度逼近9,400點；惟〞近關情怯〞，尾盤因大立光&lt;3008.TW&gt;拉回致漲幅略縮減。短線料續呈高檔震盪走勢。
+    
+     台灣加權股價指數&lt;.TWII&gt;收漲0.68%至9,385.65點，創2015年6月26日以來收盤新高，當日指數收在9,462.57點；盤中最高曾觸及至9,399.97點，為指數自去年7月2日以來最高水準。今日大盤成交初值&lt;.TTOV.TW&gt;為642.98億台幣，上交易日修正後為578.57億。
+   
+    〞今天太強了，而且有點帶量，這個盤就是看支撐、不看壓力。〞國泰證期顧問分析師簡伯儀說。
+    
+    他表示，台股在外資持續做多帶動之下，指數持續往上攻，且突破近期盤中兩個高點，今天已正式扭轉短線過高壓回的走勢，未來大盤若能維持9月7日的9,278及10月11日的9,327點的趨勢線之上，大盤將續呈高檔震盪。
+    
+    日盛投顧分析師鐘國忠指出，今天亞股大都走低，惟台股展開落後補漲行情，在蘋果概念股台積電&lt;2330.TW&gt;及鴻海&lt;2317.TW&gt;兩大權值股創高帶動下，指數進一步收高。
+    
+    他表示，因蘋果&lt;AAPL.O&gt;公司將公布財報，今天尾盤大立光等部分個股擔心蘋果財報不佳，尾盤出現獲利了結賣壓致股價拉回。
+    
+    大立光終場收跌1.46%，報3,715台幣；盤中最高曾觸及3,815台幣。
+           
+    今日電子類指數&lt;.TELI&gt;漲0.78%，金融保險類指數&lt;.TFNI&gt;則漲0.44%。
+   
+    分析師預估，明日台股指數區間料在9,250-9,450點間。
+    
+    本地時間14:35，亞洲主要股市漲跌互見，日經指數&lt;.N225&gt;漲0.76%，韓國股市則跌0.52%，MSCI亞太明晟指數&lt;.MIAPJ0000PUS&gt;漲0.21%。(完)    
+    
+    ****查閱相關新聞或頁面，請點選下列代碼連結****       
+    美國股市                [.NCN]   標準普爾主要分類指數  &lt;0#.GSPMAJOR&gt;
+    美股盤前/盤後       [XHR/USCN]   美股一周展望               [.N/OCN]
+    Nasdaq最活躍個股       &lt;.AV.O&gt;   紐約證交所最活躍個股        &lt;.AV.N&gt;
+    Nasdaq漲幅居前個股     &lt;.PG.O&gt;   紐約證交所漲幅居前個股      &lt;.PG.N&gt;
+    Nasdaq跌幅居前個股     &lt;.PL.O&gt;   紐約證交所跌幅居前個股      &lt;.PL.N&gt;
+    美股業績公布日程   [US/RESFCN]   中港台企業ADR報價一覽表   [CTMT/CN]
+    股市新聞             [STX-CMN]   美股盤中英文報導       [STXNEWS/US]
+    歐洲股市報導           [.EUCN]   日本股市報導                 [.TCN]
+    香港股市報導           [.HKCN]   中國股市報導                [.SSCN]
+    澳洲股市報導           [.AXCN]   台灣股市報導                [.TWCN]
+    韓國股市報導           [.KSCN]   東南亞股市報導              [.SOCN]
+    英股富時指數           &lt;.FTSE&gt;   德股DAX指數                &lt;.GDAXI&gt;
+    法股CAC-40指數         &lt;.FCHI&gt;   中港台企業ADR報價一覽表   &lt;CTMT/CN&gt; 
+
+ (記者 羅兩莎 ；審校 喬艷紅)
+ ((Liang-Sa.Loh@thomsonreuters.com;  886-2-25004895; Reuters Messaging:
+Liang-Sa.Loh.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

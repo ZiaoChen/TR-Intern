@@ -1,0 +1,96 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160707-071136000-nZZT2RRZ01-1-2</Id>
+      <TimeStamp>2016-07-07T07:11:36.586Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160707-071136000-nZZT2RRZ01-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-07T07:11:36.000Z</versionCreated>
+            <firstCreated>2016-07-07T07:01:20.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160707-071136000-nZZT2RRZ01-1-2"/>
+            <instanceOf qcode="NI:.SSCN"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nZZT2RRZ01</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:AGA"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="N2:PART"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:AERO"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:TRAD"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:ISER"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:AUTO"/>
+            <subject qcode="R:.SSEC"/>
+            <subject qcode="R:.CSI300"/>
+            <subject qcode="R:600372.SS"/>
+            <subject qcode="R:002013.SZ"/>
+            <subject qcode="R:000002.SZ"/>
+            <headline>中國股市：滬綜指震盪近收平，短線連續上漲後獲利回吐壓力加大</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透北京7月7日 - 中國股市滬綜指周四震盪近收平。分析師指出，今日大盤出現較大幅震盪，股指連漲數日後在3,000點上方出現獲利盤回吐，目前雖較前期出現溫和放量，但量能水平仍不足以支持權重板塊連續上漲，短線料仍震盪蓄勢。
+    
+    滬綜指&lt;.SSEC&gt;收報3,016.85點，跌0.44點或0.01%，上證A股今日成交2,698億元人民幣，上日為2,462億元。    
+    
+   “今天我覺得就是休整一下，因為已經連著漲了幾天了，存在一個休整回調的需求。”山西證券策略分析師麻文宇稱。
+    
+    她並認為，短期市場情緒仍是主導行情的關鍵因素，但大盤進一步上攻缺乏政策或經濟數據改善等實質性利好支撐。近日有關軍工板塊的政策和事件較多，刺激該板塊前期表現較強，短期獲利回吐壓力較大，導致今日價格出現明顯回調。    
+    
+    繼昨日成交爆出天量後，今日萬科A&lt;000002.SZ&gt;低開低走，最終收跌4.95%，昨日入市搶籌資金悉數被套。 
+    
+    萬科&lt;2202.HK&gt;大股東深圳鉅盛華周三繼續在二級市場上增持股票。據萬科周三晚間公告，鉅盛華及其一致行動人前海人壽保險（合稱寶能系）共持有萬科A股27.6億股，占公司總股本的25%。[nL4T19T01C]
+    
+    中航電子&lt;600372.SS&gt;收跌2.53%，中航機電&lt;002013.SZ&gt;收跌4.72%。
+    
+    滬深300指數&lt;.CSI300&gt;收報3,209.95點，跌0.21%,；滬深300指數期貨主力7月合約&lt;CIFN6&gt;收盤報3,185.6點，漲0.25%，成交12,262手。130億元額度的滬股通&lt;.NQUOTA.SH&gt;凈賣出1.76億元。（完） 
+
+ (發稿 張曉翀；審校 曾祥進)
+ ((xiaochong.zhang@thomsonreuters.com; 0086-10-66271042; Reuters Messaging:
+xiaochong.zhang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

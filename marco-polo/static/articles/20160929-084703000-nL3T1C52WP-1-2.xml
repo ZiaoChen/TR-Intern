@@ -1,0 +1,113 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160929-084703000-nL3T1C52WP-1-2</Id>
+      <TimeStamp>2016-09-29T08:47:03.255Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160929-084703000-nL3T1C52WP-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-29T08:47:03.000Z</versionCreated>
+            <firstCreated>2016-09-29T08:47:03.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160929-084703000-nL3T1C52WP-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1C52WP</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:RCH"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:DEPT"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:TRAD"/>
+            <subject qcode="N2:DE"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:JP"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:RGEN"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:ISER"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:EZC"/>
+            <subject qcode="N2:CEEU"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:BABA.N"/>
+            <subject qcode="R:2016.HK"/>
+            <subject qcode="R:9984.T"/>
+            <subject qcode="R:6030.HK"/>
+            <subject qcode="R:DBKGn.DE"/>
+            <subject qcode="R:1658.HK"/>
+            <subject qcode="R:600030.SS"/>
+            <headline>中國企業：今年來在全球股權融資達1,099億美元，同比減4.6%--湯森路透</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透上海9月29日 - 據湯森路透最新統計數據，今年來中國企業在全球股權資本市場的募資總額達1,099億美元，較上年同期（1,153億美元）下降4.6%，其中三季度募資總額環比增長164.2%達463億美元。
+    
+    股權資本市場一般包括首次公開發行（IPO）、再融資和可轉換產品。截止周二（27日），中國企業今年來在境內外的IPO募資總額為288億美元，同比下降31.6%，金融業和工業的企業IPO的市場份額占據前兩位，分別占據逾五成和一成的市場份額。
+    
+    中國郵儲銀行&lt;1658.HK&gt;74億美元的IPO成為今年來最大一筆股權發行交易。該交易也是自阿里巴巴集團&lt;BABA.N&gt;於2014年在紐約證券交易所創造250億美元IPO記錄以來，全球最大的IPO交易。
+    
+    2016年前三季度A股市場IPO募集資金規模達132億美元，比2015年前三季度（234億美元）減少43.5%，這亦是2014年以來的最低紀錄。2014年的低迷是因為中國本土IPO市場暫停了四個月，使得中國企業將目光投向海外市場，今年則是因為缺乏大型IPO項目。
+    
+    今年以來，中國企業全球股權增發的募資額達676億美元，同比增長4.5%；其中A股增發募資607億美元，同比增加46.3%.
+
+    日本軟銀集團&lt;9984.T&gt;發行的66億美元強制性可交換信託（包括綠鞋期權），作為減持阿里巴巴集團股份計劃的一部分，是今年以來規模最大的亞太換股發行和全球最大的可轉換發行交易。這筆交易亦屬該地區首筆此類結構交易，推動中國股權相關發行或者可轉換債發行達到135億美元，募集額增長59.4%。
+    
+　　今年迄今，中國股權資本市場發行承銷商排名中，摩根士丹利&lt;MS.N&gt;保持首位，以93億美元的承銷總額占據8.5%的市場份額。中信證券&lt;600030.SS&gt;&lt;6030.HK&gt;位居第二，市場占比為8.4%；德意志銀行&lt;DBKGn.DE&gt;在5.0%的市場份額排名第三。摩根士丹利和德銀是軟銀66億美元強制可轉換信託的聯席賬簿管理人。 （完）  
+
+ (發稿 林琦; 審校 曾祥進)
+ ((路透中文新聞部:+86-21-61041787;傳真 86-21-61041728 ;qi.lin@thomsonreuters.com; Reuters
+Messaging: qi.lin.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

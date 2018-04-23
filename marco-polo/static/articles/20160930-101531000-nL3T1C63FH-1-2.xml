@@ -1,0 +1,92 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160930-101531000-nL3T1C63FH-1-2</Id>
+      <TimeStamp>2016-09-30T10:15:31.541Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160930-101531000-nL3T1C63FH-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-30T10:15:31.000Z</versionCreated>
+            <firstCreated>2016-09-30T10:15:31.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160930-101531000-nL3T1C63FH-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1C63FH</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:DEPT"/>
+            <subject qcode="N2:RETA"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:COEN"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:RGEN"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:RSPC"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:ISER"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0659.HK"/>
+            <subject qcode="R:1929.HK"/>
+            <subject qcode="R:0017.HK"/>
+            <subject qcode="R:0825.HK"/>
+            <headline>更新版 1-香港個股：新世界發展創辦人鄭裕彤昨晚因病辭世，終年91歲</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body> (新增集團回應及背景)
+    路透香港9月30日 - 香港主要地產商--新世界發展&lt;0017.HK&gt;周五發布聲明稱，公司創辦人鄭裕彤昨晚因病辭世，終年91歲，其長子兼新世界發展主席鄭家純表示，父親的離世對集團運作不會有影響。
+    
+    鄭氏家族發出的新聞稿稱，鄭裕彤昨晚因病安詳辭世，臨終前家人一直陪伴身邊。有關葬禮安排將於稍後公布。
+    
+    鄭家純在新世界總部樓下對等候的記者表示，父親去世不會對集團有影響。
+    
+    �他已四年在病床，給不了新世界什麼。�他說。
+    
+    鄭裕彤是周大福集團及新世界發展的創辦人，在2012年辭任新世界發展主席職務，他當時接受媒體採訪時表示，工作了六、七十年，希望�享一下清福�，因此決定退休。然而，同年9月卻傳出他中風入院的消息，其後亦沒有再在公開場合露面。
+    
+    由鄭裕彤創立的周大福集團，持有多家上市公司，包括房地產旗艦--新世界發展、新創建&lt;0659.HK&gt;、新世界百貨&lt;0825.HK&gt;、周大福珠寶&lt;1929.HK&gt;等。（完）
+
+ (記者 梁慧儀; 審校 曾祥進)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters Messaging:
+joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,109 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161031-232849000-nL4T1D15HQ-2-5</Id>
+      <TimeStamp>2016-10-31T23:28:49.095Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161031-232849000-nL4T1D15HQ-2-5" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-31T23:28:49.000Z</versionCreated>
+            <firstCreated>2016-10-31T23:28:49.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161031-232849000-nL4T1D15HQ-2-5"/>
+            <TakeSequence>2</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1D15HQ</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:CDTY"/>
+            <subject qcode="N2:OILQ"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:DFIN"/>
+            <subject qcode="N2:HECA"/>
+            <subject qcode="N2:HLTH"/>
+            <subject qcode="N2:HPRD"/>
+            <subject qcode="N2:AMED"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:AERO"/>
+            <subject qcode="N2:MACH"/>
+            <subject qcode="N2:HELE"/>
+            <subject qcode="N2:OILG"/>
+            <subject qcode="N2:CONG"/>
+            <subject qcode="N2:TRAN"/>
+            <subject qcode="N2:ENEQ"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:SHRACT"/>
+            <subject qcode="N2:DVST"/>
+            <subject qcode="N2:MNGISS"/>
+            <subject qcode="N2:DIV"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:PXP"/>
+            <subject qcode="N2:MTGFX"/>
+            <subject qcode="N2:MTVID"/>
+            <subject qcode="N2:BLR"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:CDEPTH"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:000591.SZ"/>
+            <subject qcode="R:BHI.N"/>
+            <subject qcode="R:GE.N"/>
+            <subject qcode="R:HAL.N"/>
+            <subject qcode="R:SLB.N"/>
+            <headline>更正-《焦點》通用電氣旗下油氣業務與貝克休斯合併，創建油田服務業巨擘</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body> (更正：因譯文有誤，內文第二段應為“壓裂新油井”，非“裂解新油井”)
+    * 合併後的新公司將成為第二大的油田服務提供商
+    * 通用電氣將持有新公司62.5%股份
+    * 貝克休斯股東將獲得每股17.50美元派息
+    * 貝克休斯股價重挫
+
+    路透10月31日 - 美國通用電氣(奇異,GE)&lt;GE.N&gt;周一宣布，將把旗下石油及天然氣業務與貝克休斯(Baker Hughes) &lt;BHI.N&gt;合併，創建全球第二大的油田服務提供商。在經過數年的低油價時期之後，油服業為能源行業提供更具效益的產品和服務的競爭越來越激烈。
+    
+    本項併購交易將把通用電氣製造設備的強項和貝克休斯鑽探及壓裂新油井的專長結合起來，成為一家年營收320億美元的公司。
+    
+    貝克休斯股價重挫將近7%，公司高層認為可能是因本項交易結構複雜所致。股價周一收盤下跌6.29%。
+    
+    “這對所有投資者而言是個好交易，”通用電氣的油氣業務主管Lorenzo Simonelli說，他將領導合併後的新公司。
+    
+    通用電氣已是全球最大的油田設備製造商。該公司還大舉投資於大數據處理服務，石油業看好大數據提振油市復甦的潛力。</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,108 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160711-001201000-nL4T19W0P1-1-2</Id>
+      <TimeStamp>2016-07-11T00:12:01.723Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160711-001201000-nL4T19W0P1-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-11T00:12:01.000Z</versionCreated>
+            <firstCreated>2016-07-11T00:12:01.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160711-001201000-nL4T19W0P1-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19W0P1</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:SFIN"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:AERO"/>
+            <subject qcode="N2:TRAN"/>
+            <subject qcode="N2:AIRF"/>
+            <subject qcode="N2:AIRS"/>
+            <subject qcode="N2:AIRL"/>
+            <subject qcode="N2:AIRP"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:ALLCE"/>
+            <subject qcode="N2:LIST1"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:ASEAN"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:JP"/>
+            <subject qcode="N2:IN"/>
+            <subject qcode="N2:FR"/>
+            <subject qcode="N2:GB"/>
+            <subject qcode="N2:MY"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:KR"/>
+            <subject qcode="N2:EZC"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EXCLSV"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2588.HK"/>
+            <subject qcode="R:601818.SS"/>
+            <subject qcode="R:AIR.PA"/>
+            <subject qcode="R:AIRA.KL"/>
+            <headline>《獨家新聞》亞航考慮在香港二次上市，並擴大北亞業務</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    * 亞航考慮在香港二次上市--消息
+    * 考慮在中國成立合資公司，面向快速發展的城市
+    * 儘管擔憂經濟，但認為北亞等地區增長空間廣闊
+    * 英國航空展之前，與空客談判增訂飛機
+
+    路透英國范堡羅7月10日 - 消息人士周日表示，亞洲航空(AirAsia)&lt;AIRA.KL&gt;正考慮在香港二次上市，這是該公司發展成為泛亞洲低價航空公司計劃的一部分，該公司也將在中國成立合資公司。
+    
+    消息人士在英格蘭范堡羅航空展前夕表示，亞航還在考慮購進更多飛機，以滿足北亞等地區的強勁需求。
+    
+    亞航計劃成立一家得到中國國企支持的企業，以開發迅速增長的中國二三線城市的出行需求。該公司是亞洲最大低價航空集團，關聯公司已經遍布東南亞。
+    
+    亞航聯合創始人暨首席執行官Tony Fernandes周日在推特(Twitter)上暗示亞航可能進行二次上市，但未提及上市地點，並暗示將購買新的飛機。
+    
+    “在考慮擴大輔助性收入、增大運載能力以及二次上市，”他說。
+    
+    一名消息人士稱，亞航在與中資銀行及潛在股東進行磋商，其中包括中國光大銀行。</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

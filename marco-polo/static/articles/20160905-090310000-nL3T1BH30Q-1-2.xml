@@ -1,0 +1,87 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160905-090310000-nL3T1BH30Q-1-2</Id>
+      <TimeStamp>2016-09-05T09:03:10.920Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160905-090310000-nL3T1BH30Q-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-05T09:03:10.000Z</versionCreated>
+            <firstCreated>2016-09-05T09:03:10.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160905-090310000-nL3T1BH30Q-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BH30Q</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:ABS"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:SFIN"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:3360.HK"/>
+            <subject qcode="R:600030.SS"/>
+            <subject qcode="R:6030.HK"/>
+            <headline>香港個股：遠東宏信向中信證券出售兩項基礎資產，涉資近31億元人民幣</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港9月5日 - 中國中化集團旗下融資租賃業務分支--遠東宏信&lt;3360.HK&gt;周一稱，向中信證券&lt;6030.HK&gt;&lt;600030.SS&gt;出售兩項基礎資產，涉資共約30.81億元人民幣，後者將透過資產抵押證券（ABS）計劃將基礎資產證券化。
+    
+    據公告，遠東宏信將出售遠東國際租賃及遠東宏信天津的基礎資產，分別涉資約22.07億元及8.74億元；預期是次交易將為遠東宏信實現收益淨額約1,000萬元。
+    
+    遠東宏信稱，出售事項收取的所得款項淨額將用於未來融資租賃交易。
+    
+    遠東宏信周一收升0.14%，報7.27港元。（完）
+    
+    欲瀏覽香港聯交所聲明，請點選：(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0905/LTN20160905724_C.pdf) 
+    
+
+ (記者 雷美珍；審校 楊淑禎)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,88 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161014-034016000-nL4T1CK1P6-1-2</Id>
+      <TimeStamp>2016-10-14T03:40:16.834Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:LPCC</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161014-034016000-nL4T1CK1P6-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-14T03:40:16.000Z</versionCreated>
+            <firstCreated>2016-10-14T03:40:16.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161014-034016000-nL4T1CK1P6-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CK1P6</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:LOA"/>
+            <subject qcode="N2:CORPD"/>
+            <subject qcode="N2:CDM"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:HECA"/>
+            <subject qcode="N2:PHMR"/>
+            <subject qcode="N2:PHAG"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:1177.HK"/>
+            <headline>路透基點：中國生物製藥與五家銀行簽下3億美元高級定期貸款--TRLPC</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月14日 - 湯森路透旗下基點報導，據新聞發布顯示，在香港上市的中國生物製藥有限公司已經與五家銀行簽署了3億美元高級俱樂部定期貸款。
+    
+    這五家牽頭行是：中銀香港、恆生銀行、台北富邦商業銀行、交銀香港和中國信託商業銀行。中銀香港亦是額度代理行，台北富邦銀行是宣傳代理。
+    
+    所籌資金將用於再融資，以及與其主營業務相關的併購，還有一般運營支出。
+    
+    中國生物製藥曾在2013年12月獲得1.65億美元高級無擔保定期貸款。那筆交易的最高綜合收益為233.3個基點，利率較Libor加碼200個基點，費率是100個基點。工銀亞洲、兆豐國際商業銀行和法國興業銀行是當時的牽頭行兼簿記行。（完）
+    
+    ****如欲參考原文報導，請點選[nRLP50781a]即可擷取瀏覽****
+    
+
+ (編譯 高琦 審校 孫茉莉)
+ ((kelly.gao@thomsonreuters.com; 86-10-6627-1011; Reuters
+Messaging: kelly.gao.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

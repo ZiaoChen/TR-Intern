@@ -1,0 +1,92 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160815-043136000-nL3T1AW1WE-1-2</Id>
+      <TimeStamp>2016-08-15T04:31:36.568Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160815-043136000-nL3T1AW1WE-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-15T04:31:36.000Z</versionCreated>
+            <firstCreated>2016-08-15T04:31:36.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160815-043136000-nL3T1AW1WE-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1AW1WE</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:GASU"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:ELEU"/>
+            <subject qcode="N2:UTIL"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0384.HK"/>
+            <subject qcode="R:000037.SZ"/>
+            <subject qcode="R:200037.SZ"/>
+            <headline>香港個股：中國燃氣將參與ST南電的資產重組，並收購主要股東持股</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月15日 - 中國主要城市燃氣供應商--中國燃氣控股有限公司&lt;0384.HK&gt;稱，將參與*ST南電（深圳南山熱電股份有限公司）&lt;000037.SZ&gt;&lt;200037.SZ&gt;的資產重組，並可能收購主要股東持股。
+    
+    據公告，中國燃氣獲*ST南電確定為擬議重大資產重組的意向重組方，雙方並簽訂了無法律約束力的框架協議，包括由中國燃氣向*ST南電注入從事液化石油氣浙江中燃華電能源及深圳市中燃中燃氣技術的全部股權，以換取後者新股。
+    
+    同時，中國燃氣有意以現金對價方式從*ST南電的主要股東深圳市能源集團或者香港南海洋行或者深圳廣聚實業受讓*ST南電的部分股權。
+    
+    中國燃氣表示，“重大資產重組的具體事項尚待進一步商議，故重大資產重組方案尚未最終確定。”
+    
+    *ST南電表示，本次交易完成後，公司控股股東發生變更，可能構成重組上市。截至今年5月30日為止，南海洋行、廣聚實業及深圳市能源集團分別持有*ST南電15.28%、12.22%及10.8%的股份。
+    
+    *ST南電A股及B股自5月31日起停牌，前收市價分別報12.49元及5.32元人民幣。
+    
+    中國燃氣周一早盤收升0.78%，報13港元。（完）
+    
+    欲瀏覽于交易所的聲明，請點選：(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0812/LTN20160812967_C.pdf)(http://disclosure.szse.cn/finalpage/2016-08-13/1202563455.PDF)
+    
+
+ (記者 雷美珍；審校 喬艷紅)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

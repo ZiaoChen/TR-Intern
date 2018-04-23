@@ -1,0 +1,97 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161007-045553000-nL3T1CD0Z9-1-2</Id>
+      <TimeStamp>2016-10-07T04:55:53.006Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:LPCC</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161007-045553000-nL3T1CD0Z9-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-07T04:55:53.000Z</versionCreated>
+            <firstCreated>2016-10-07T04:55:53.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161007-045553000-nL3T1CD0Z9-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1CD0Z9</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:LOA"/>
+            <subject qcode="N2:CORPD"/>
+            <subject qcode="N2:CDM"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:COMP"/>
+            <subject qcode="N2:HARW"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:MO"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:3336.HK"/>
+            <headline>路透基點：巨騰國際簽訂3億美元五年期定期貸款--TRLPC</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月7日 - 湯森路透旗下基點援引消息人士報導，巨騰國際控股有限公司已於周三簽署五年期定期貸款，規模擴增至3億美元，吸引到12家銀行承貸。
+    
+    中國銀行(香港)、星展銀行、凱基銀行、兆豐國際商業銀行，和台北富邦商業銀行擔任牽頭行兼簿記行(MLAB)。台北富邦銀行擔任額度代理行。
+    
+    這筆貸款初始發起規模為2.5億美元，資金將作為再融資及營運資本之用，利率為較倫敦銀行間拆放款利率(Libor)加碼150個基點。若台北銀行間美元拆放款利率(TAIFX)和Libor的利差超過35個基點，借款方將支付所有超過的利率部分。一般聯貸的最高前端費用為25個基點。
+    
+    在18個月寬限期過後，貸款將分八期每半年等額償還。
+
+    借款人為巨騰子公司Dynamic Apex Macao
+ Commercial Offshore Ltd，擔保人為巨騰國際。
+    
+    巨騰國際在香港上市，生產筆記本電腦外殼。(完)
+
+    ****如欲參考原文報導，請點選[nRLP50449a]即可擷取瀏覽****
+
+ (編譯 龔芳; 審校 孫茉莉)
+ ((marisa.kung@thomsonreuters.com; 886-2-2502-2095; Reuters
+Messaging: marisa.kung.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

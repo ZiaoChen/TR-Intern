@@ -1,0 +1,83 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160708-112718000-nL4T19U3CK-1-2</Id>
+      <TimeStamp>2016-07-08T11:27:18.665Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160708-112718000-nL4T19U3CK-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-08T11:27:18.000Z</versionCreated>
+            <firstCreated>2016-07-08T11:27:18.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160708-112718000-nL4T19U3CK-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19U3CK</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:REGS"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:601377.SS"/>
+            <subject qcode="R:300372.SS"/>
+            <headline>更新版 1-中國個股：證監會對欣泰電氣啟動強制退市程序，不可重新上市</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body> (新增深交所評論)
+    路透北京7月8日 - 中國證監會周五表示，已完成對丹東欣泰電氣股份有限公司&lt;300372.SS&gt;涉嫌欺詐發行及信息披露違法違規案的調查工作，深交所將對欣泰電氣啟動退市程序，且不可重新上市，並稱將密切關注有關公司的市場傳聞，加強股票交易的實時監控。承銷券商興業證券&lt;601377.SS&gt;已出資5.5億元人民幣設立先行賠付專項基金。  
+    
+    證監會微博新聞稿稱，證監會已對欣泰電氣及相關當事人作出了行政處罰及市場禁入決定，並已對相關中介機構採取調查，對興業證券和興華會計師事務所發送了行政處罰事先告知書，對東易律師事務所還在調查中。
+    
+    證監會將對欺詐發行相關責任人所持首次公開發行股票前股份採取凍結或限制減持措施，並關注相關股東在欣泰電氣立案後減持股份行為的合規性，督促欣泰電氣管理層履行勤勉忠實義務，確保欣泰電氣正常生產經營，對首發剩餘募集資金進行專戶監控，並將對欣泰電氣採取出具警示函、記入誠信檔案等措施。
+    
+    欣泰電氣公告稱，證監會認定欣泰電氣首次公開發行股票並在創業板上市申請文件中相關財務數據存在虛假記載；上市後披露的定期報告中存在虛假記載和重大遺漏。決定對欣泰電氣責令改正，給予警告，並處以832萬元罰款；對董事長溫德乙和劉明勝給予警告，並分別處以892萬元和60萬元罰款。對兩人採取終身證券市場禁入措施，終身不得從事證券業務或擔任上市公司董事、監事、高級管理人員職務。
+    
+    公司股票將於7月12日開市起復牌，交易三十個交易日後，預計於8月23日開市起停牌，深交所在公司股票停牌後十五個交易日內作出是否暫停股票上市的決定。自7月12日起欣泰電氣股票復牌交易的三十個交易日期間，證券簡稱將調整為“*欣泰”，證券代碼不變，股價的日漲跌幅限制比例不變。
+    
+    對此，溫德乙表示，由於身背6.26億元的巨額債務，公司退市後，將不得不走破產程序。
+    
+    興業證券亦公告稱，證監會對公司給予警告，沒收保薦業務收入1,200萬元，並處以2,400萬元罰款；沒收承銷股票違法所得2,078萬元，並處以60萬元罰款。對蘭翔、伍文祥給予警告，並分別處以30萬元罰款，撤銷證券從業資格。此外，擬對兩人分別採取10年證券市場禁入措施。（完）
+
+ (發稿 張曉翀；審校 曾祥進)
+ ((xiaochong.zhang@thomsonreuters.com; 0086-10-66271042; Reuters Messaging:
+xiaochong.zhang.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+
