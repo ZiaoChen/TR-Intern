@@ -1,0 +1,85 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160704-045301000-nL4T19Q1SV-1-2</Id>
+      <TimeStamp>2016-07-04T04:53:01.595Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160704-045301000-nL4T19Q1SV-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-04T04:53:01.000Z</versionCreated>
+            <firstCreated>2016-07-04T04:53:01.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160704-045301000-nL4T19Q1SV-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19Q1SV</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HARW"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:COMP"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:3396.HK"/>
+            <headline>香港個股：聯想控股將發行總額不超過35億元人民幣首期公司債券</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港7月4日 - 中國主要的投資集團--聯想控股&lt;3396.HK&gt;周一稱，將發行總額不超過35億元人民幣第一期公司債券，募資以償還有息債務。
+    
+    據公告，聯想控股將於7月6-8日向合格投資者發行公司債券，其中，基礎發行規模為20億元及擬超額配售規模不超過15億元。
+    
+    本期債券包括期限五年和十年，初始預設基礎發行規模各為10億元及預設超額配售規模7.5億元，兩個債券品種間可進行相互回撥。
+    
+    債券按固定利率發行，五年期品種票面利率預設區間為2.9-3.9%，十年期品種票息區間為3.8-4.8%。債券主承銷商為銀河證券和中金公司，信用評級機構聯合信用對聯想控股及本期債券均授予AAA評級。
+    
+    聯想控股此前向中國證監會申請發行總額不超過100億元公司債券，期限不超過15年，可分期發行。[nL4T18V3HO]
+    
+    該股周一早盤收跌0.11%，報18.3港元。（完）
+    
+    欲瀏覽于香港聯交所的聲明，請點選：(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0704/LTN20160704726_C.pdf)
+    
+
+ (記者 雷美珍；審校 曾祥進)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

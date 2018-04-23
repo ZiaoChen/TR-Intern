@@ -1,0 +1,92 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161024-143143000-nL4T1CU429-1-2</Id>
+      <TimeStamp>2016-10-24T14:31:43.579Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161024-143143000-nL4T1CU429-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-24T14:31:43.000Z</versionCreated>
+            <firstCreated>2016-10-24T14:31:43.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161024-143143000-nL4T1CU429-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CU429</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:CDTY"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:MINE"/>
+            <subject qcode="N2:MTAL"/>
+            <subject qcode="N2:STEE"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:MIN"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:STE"/>
+            <subject qcode="N2:METL"/>
+            <subject qcode="N2:FERR"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:600019.SS"/>
+            <headline>中股業績：寶鋼股份前九個月淨利潤同比增逾一倍，供應過剩現改善跡象</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透新加坡10月24日 - 中國最大上市鋼企寶鋼股份&lt;600019.SS&gt;周一發布，今年前九個月淨利潤同比增長逾一倍，因去產能，鋼鐵行業供應過剩狀況出現改善跡象。
+
+　　中國鋼鐵行業領頭羊寶鋼股份的季報顯示，1-9月的淨利潤比去年同期增長148.3%，至56億元人民幣(8.2706億美元)。
+    
+    寶鋼股份在上海證交所發布公告稱，“三季度，鋼鐵市場整體表現活躍，鋼鐵價格較二季度有所回升，但鋼鐵行業供大於求的態勢並沒有改變。”
+    
+    預計其它鋼鐵企業利潤也有所提高。
+    
+    周六新華社援引國有資產監督委員會官員報導稱，寶鋼與武鋼已經提前完成今年去產能任務。
+    
+    中國政府計劃在未來五年減少約1-1.5億噸的鋼鐵產量。
+    
+    去年，中國鋼鐵產量自1981年以來首次下降，因中國經濟以25年來最慢速度增長，鋼鐵企業對國內需求下滑作出反應。(完)    
+    
+    ****如欲參考原文報導，請點選[nL8N1CU3ZX]即可擷取瀏覽****  
+    
+
+ (編譯 劉靜；審校 母紅)
+ ((REBECCA.LIU@thomsonreuters.com; 4169418108; Reuters
+Messaging: rebecca.liu.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

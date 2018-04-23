@@ -1,0 +1,91 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160912-071857000-nL3T1BO2AJ-1-2</Id>
+      <TimeStamp>2016-09-12T07:18:57.870Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160912-071857000-nL3T1BO2AJ-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-12T07:18:57.000Z</versionCreated>
+            <firstCreated>2016-09-12T07:18:57.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160912-071857000-nL3T1BO2AJ-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BO2AJ</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:OILG"/>
+            <subject qcode="N2:OILI"/>
+            <subject qcode="N2:REFI"/>
+            <subject qcode="N2:REF"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:JP"/>
+            <subject qcode="N2:KR"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIAE"/>
+            <subject qcode="N2:NASIAE"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CDEPTH"/>
+            <subject qcode="N2:REP"/>
+            <subject qcode="N2:MTGFX"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MOG"/>
+            <subject qcode="N2:PROD"/>
+            <subject qcode="N2:CRU"/>
+            <subject qcode="N2:HOIL"/>
+            <subject qcode="N2:DISTLL"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0386.HK"/>
+            <subject qcode="R:0857.HK"/>
+            <subject qcode="R:601857.SS"/>
+            <subject qcode="R:600028.SS"/>
+            <subject qcode="R:0883.HK"/>
+            <headline>《焦點》中國成品油出口給第四季度的全球市場蒙上陰影</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    * 第四季度中國汽油和柴油使用量將出現2009年以來首降
+    * 國有煉油廠只能出口過剩的成品油，除此之外沒什麼選擇
+
+    路透北京9月12日 - 中國國有煉油廠未來幾個月準備出口更多汽油和柴油。第四季度一般來說是中國的成品油消費旺季，而這次的黯淡前景卻使本來就飽和的全球市場不寒而栗。
+    
+    儘管馬上就會有冬季取暖需求，10月國慶節黃金周也將有更多汽車上路，但有十多個中國煉油業者、交易員和分析師表示，第四季度將以供應過剩為主，本地需求遲滯。中國是全球第二大石油消費國。
+    
+    今年需求放緩，再加上中國小型獨立煉油廠產量激增，導致本地庫存急升，並刺激國有油企向海外銷售成品油。今年7月，中國成品油出口創歷史新高，成為成品油凈出口國，這是至少三年來的首次。
+    
+    “煉油廠銷售人員現在真的是頭疼，擔心無法達到每月銷售目標，”淄博隆眾石化網分析師李彥談到國有企業在國內市場面臨困境時表示。
+    
+    淄博隆眾和卓創咨詢目前表示，第四季度汽油和柴油需求總量同比將有所下降，這將是2009年全球經濟危機以來的首次。</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

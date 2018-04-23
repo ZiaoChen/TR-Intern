@@ -1,0 +1,93 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160906-003312000-nL3T1BI044-1-2</Id>
+      <TimeStamp>2016-09-06T00:33:12.496Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160906-003312000-nL3T1BI044-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-06T00:33:12.000Z</versionCreated>
+            <firstCreated>2016-09-06T00:33:12.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160906-003312000-nL3T1BI044-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BI044</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRESS"/>
+            <subject qcode="N2:PHON"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:WLES"/>
+            <subject qcode="N2:CAFE"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:ENTS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:6823.HK"/>
+            <subject qcode="R:0700.HK"/>
+            <subject qcode="R:0941.HK"/>
+            <subject qcode="R:1443.HK"/>
+            <headline>《香港報摘》--信報9月6日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>
+    **頭版頭條**
+    --經過接近17小時點票，第六屆立法會選舉結果全部揭盅，包括傳統泛民政團及本土派在內的非建制派守住“關鍵少數”，保留議會三分一的政改否決權。
+    
+    **其他**
+    --騰訊控股&lt;0700.HK&gt;股價升勢凌厲，市值大漲直撲兩萬億港元，首度超越中國移動&lt;0941.HK&gt;成為“亞洲股王”。
+    --上市不足兩年的餐飲股富臨集團&lt;1443.HK&gt;公布，控股股東已與內地潛在投資者矽谷天堂訂立諒解備忘錄，期望於三個月內就股權易手一事達成協。
+    --香港電訊&lt;6823.HK&gt;董事總經理艾維朗稱，不擔心本港的流動支付市場會出現“補貼戰”，因為用戶同樣關注便利度、安全性等。（完）
+    
+    注：以上的評論僅為摘要，並且不代表路透立場。
+
+    **如欲提取相關新聞，請點擊下列代碼**
+      香港報摘/社評/財經評論[PRESS-HK-CMN]
+      中國報摘[PRESS-CN-CMN]
+      台灣報摘[PRESS-TW-CMN]
+
+ (整理 雷美珍；審校 林高麗)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

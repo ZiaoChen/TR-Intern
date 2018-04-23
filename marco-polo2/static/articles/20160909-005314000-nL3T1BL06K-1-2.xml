@@ -1,0 +1,121 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160909-005314000-nL3T1BL06K-1-2</Id>
+      <TimeStamp>2016-09-09T00:53:14.691Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160909-005314000-nL3T1BL06K-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-09T00:53:14.000Z</versionCreated>
+            <firstCreated>2016-09-09T00:53:14.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160909-005314000-nL3T1BL06K-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BL06K</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRESS"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:RENQ"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:SEAS"/>
+            <subject qcode="N2:SHOW"/>
+            <subject qcode="N2:GB"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:RENE"/>
+            <subject qcode="N2:ENER"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:TRAN"/>
+            <subject qcode="N2:SHIP"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:MDIA"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:HSBA.L"/>
+            <subject qcode="R:8078.HK"/>
+            <subject qcode="R:2468.HK"/>
+            <subject qcode="R:LLOY.L"/>
+            <subject qcode="R:2633.HK"/>
+            <subject qcode="R:0016.HK"/>
+            <subject qcode="R:601919.SS"/>
+            <subject qcode="R:SANS_p.L"/>
+            <headline>《香港報摘》--其他報紙重要消息9月9日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    
+    **明報**
+    --中保監向內地保險公司開綠燈，可透過滬港通渠道買港股，中金估計初期會有1,700億元人民幣保險資金流入港股。
+    --評級機構標準普爾發表報告指出，中國房地產業過去12至18個月的復甦勢頭，或將失去後續動力，預料未來一年中國房地產業的增長將會放緩，而開發商的評級亦會呈負面趨勢。
+    
+    **星島日報**
+    --英國《天空新聞》報導，�控&lt;0005.HK&gt;&lt;HSBA.L&gt;計劃在下周限期前向信用卡公司MBNA提出收購，將成為萊斯銀行&lt;LLOY.L&gt;及桑坦德銀行&lt;SANS_p.L&gt;另一競爭對手；MBNA的信用卡組合約值70億英鎊。
+    --新地&lt;0016.HK&gt;主席兼董事總經理郭炳聯表示，由於盈利上升，所以可以增派息。今年派息比率為46%，未來派息比率維持在40至50%。
+    
+    **蘋果日報**
+    --零售持續下跌，業績大倒退的個人護理店歐舒丹&lt;0973.HK&gt;亦決定放棄銅鑼灣駱克道地舖分店，全線撤出旅遊區地舖。
+    --創益太陽能&lt;2468.HK&gt;自2012年6月停牌，公司主席兼行政總裁李毅突然以須投放更多時間于處理個人事務為理由，辭任所有職務。
+    
+    **東方日報**
+    --中國遠洋&lt;1919.HK&gt;&lt;601919.SS&gt;公布，已拆解5艘集裝箱船舶共計22.4萬載重噸，作為廢鋼船出售予獨立第三方，總售價約9,000萬元人民幣，產生凈損失合計約3.41億元。
+    --雅各臣科研製藥&lt;2633.HK&gt;展開公開招股，惟孖展認購反應慘淡，僅獲250萬港元認購額，遠不足額。
+    
+    **文匯報**
+    --中國3D數碼&lt;8078.HK&gt;為擴充集團的OTT數碼點播資源，擬以總代價4,650萬港元，收購隨意播控股（Anyplex）的100%已發行股本。
+    --深交所副總經理王紅表示，深港通正在積極籌備和推進當中，但是並沒有具體的推出時間表。（完）
+    
+    注：以上的評論僅為摘要，並且不代表路透立場。
+    
+    **如欲提取相關新聞，請點擊下列代碼**
+      香港報摘/社評/財經評論[PRESS-HK-CMN]
+      中國報摘[PRESS-CN-CMN]
+      台灣報摘[PRESS-TW-CMN]
+    
+
+ (整理 雷美珍；審校 曾祥進)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

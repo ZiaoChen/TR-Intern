@@ -1,0 +1,82 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161012-110831000-nL4T1CI3DA-1-2</Id>
+      <TimeStamp>2016-10-12T11:08:31.195Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161012-110831000-nL4T1CI3DA-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-12T11:08:31.000Z</versionCreated>
+            <firstCreated>2016-10-12T10:50:41.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161012-110831000-nL4T1CI3DA-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CI3DA</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:RESF"/>
+            <subject qcode="N2:AIRL"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:TRAN"/>
+            <subject qcode="N2:AIRS"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:INDU"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0293.HK"/>
+            <headline>香港個股：國泰航空撤回下半年業績樂觀言論，並對業務進行深入檢討</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月12日 - 香港主要航空公司--國泰航空&lt;0293.HK&gt;周三撤回此前對下半年業績表示樂觀的言論，並對業務進行深入檢討，以提高收益及減低成本。
+    
+    據公告，國泰航空于中期報告發表時預計今年下半年業績會較上半年為佳，但其後旗下航空公司的業務前景轉弱，可載貨量過剩及競爭激烈尤其對客運業務構成壓力，收益持續遜於預期，收益率承受重大壓力，在此情況下，該公司不再預計下半年業績好於上半年。
+    
+    公司表示，在如此嚴峻的收益情況下，對業務進行深入的檢討，希望藉此提高收益及減低成本，務求能保持穩健的財務狀況並帶來可接受的財務回報。
+    
+    國泰航空並稱，“是項檢討將就一切有助提高效率及生產力的方案作出考慮。”
+    
+    由於燃油對沖虧損部分抵銷了油價下跌的利好，國泰航空今年上半年淨利按年大跌82%，至3.53億港元。[nH9T17T019]
+    
+    該股周三盤中一度低探10.66港元，為自2009年7月以來低位；終場收升0.19%，報10.76港元。（完）
+    
+    欲瀏覽于香港聯交所的聲明，請點選：(http://www.hkexnews.hk/listedco/listconews/sehk/2016/1012/LTN20161012495_C.pdf)
+
+ (記者 雷美珍；審校 喬艷紅)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

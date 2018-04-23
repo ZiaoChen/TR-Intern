@@ -1,0 +1,113 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160805-105443000-nL4T1AC2XK-1-2</Id>
+      <TimeStamp>2016-08-05T10:54:43.773Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160805-105443000-nL4T1AC2XK-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-05T10:54:43.000Z</versionCreated>
+            <firstCreated>2016-08-05T10:54:43.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160805-105443000-nL4T1AC2XK-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1AC2XK</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:MCE"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:TV"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CINTER"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:TOOL"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:HSGD"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:PAC"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:000333.SZ"/>
+            <subject qcode="R:KU2Gn.DE"/>
+            <headline>更正-路透專訪：中國美的今年B2B業務可達300億元，人民幣下行助益收入--董事長（7月28日）</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body> (更正：內文首段“摩托車”有誤，應為“電機”。)
+     記者 石秉昆
+    路透深圳7月28日 - 把創新做為企業發展新動力的民營家電企業--美的集團&lt;000333.SZ&gt;，正在向B2B、通用機器人等業務新方向拓展。集團董事長方洪波近日透露，除了美的家電業務外，其B2B的規模今年有望達至300億人民幣左右，主要包括電機、中央大型空調等領域。
+    
+    他在接受路透專訪時還表示，由於該集團一半以上的收入已來自海外市場，因此人民幣貶值對公司整體盈利的結構、收入的增長都是有利的；但由於公司收入的幣種已多達27個，人民幣匯率的波動也對企業控制匯率風險提出了較高的要求。
+    
+   “現在我們講的創新驅動有兩個領域，一個是我們現有的家電領域，另外就是新的業務，主要通過新發展、併購來實現。”他稱，通過近幾年的摸索，機器人業務也已成為該集團的另一個業務核心。不僅僅用於功能方面，未來還包括應用在商用、服務等領域。
+        
+    對於美的原有業務的創新，方洪波指出，一個是M-Smart系統，另外就是智能製造，就是把所有的價值鏈全部適應數字化。
+
+   “現有家電業務之外的創新，就是要進入一些新的業務，要做資本投資這樣的領域，包括新的發展、併購都是這樣的領域。”方洪波稱。
+    
+    美的成立於1968年，從做風扇、空調開始，憑借成本優勢逐漸發展起來。2010年之前，所有投資方向都是去擴大生產基地、工廠、建廠房等尋求發展。但從2010年、2011年開始，即大規模投入研發、研究。
+    
+    “2015年，美的是包括全世界家電領域裡，專利數最多的，全世界我們是最多的，就說明我們的投入有成效。”他稱。
+    
+    
+    **市場化是企業發展的核心**
+    
+    從民營企業做到上市公司，方洪波對市場化的認識甚為深刻。他介紹，美的從1981年開始到現在，基本上是靠自己在市場經濟中發展起來的。政府的支持會有，比如解決小孩上學問題和發展的環境問題。但從產業支持、金融、融資這些方面，美的是沒有什麼優惠的，都是靠自主發展起來。
+    
+   “到現在為止，我們沒有從政府得到什麼優惠的貸款，所有這些我們都沒有，我們非常市場化。”方洪波稱。
+    
+    他指出，企業還是要靠市場化發展，中國家電和空調行業能夠在全世界占有一席之地，就是因為中國家電行業一開始是開放的，是競爭的，讓這些企業在全世界的範圍內競爭。
+
+  “我們的業務和收入結構就是全球性的，整個收入有一半來自海外，目前歐盟區的一些變化，暫時還沒有對我們產生影響。”他表示。
+    
+        
+    **人民幣下行有利公司**
+
+    在美的集團的大樓裡，隨時可以看見外籍員工進進出出。當知道美的集團每天結算貨幣的種類高達27種、50%以上的年收入來自海外市場時，很容易理解這種工作狀態就是一種常態。
+    
+    方洪波指出，因為美的集團已有50%的收入來自海外，人民幣向下行對美的集團整體盈利的結構、收入的增長是有利的。
+    
+    “今年1到6月份我們海外的收入增長了13個點，這個是有利的。因為它有利於我們的產品賣到更高端的市場而且更加有競爭力。”他介紹稱，該集團每天結算的貨幣種類高達27種，所以很多管理資金結構的員工，都是全球化的人才。
+    
+    “但波動性給我們匯率的管理帶來壓力，如何控制匯率的風險是我們非常大的一個挑戰。給我們帶來的複雜度有很多。”他表示。
+    
+    對於中國企業走向海外，他指出，走向海外不是那麼簡單，不是那麼容易。他以美的為例：首先有廣泛的業務，從1985年開始，從風扇就賣到海外，然後再是空調；此外還包括與當地企業的合作，而非僅僅是代加工。
+    
+  “到了第三個階段，就要對全球化的業務有了解和戰略布局，你還得有全球化的交易能力。”他稱。
+    
+    美的集團此前要約收購德國工業機器人公司--庫卡&lt;KU2Gn.DE&gt;，共計持有庫卡集團股份比例高達到85.69%。（完）
+
+ (審校 畢曉雯)
+ ((xiaowen.bi@thomsonreuters.com; 852-28436314; Reuters Messaging:
+xiaowen.bi.reuters.com@thomsonreuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

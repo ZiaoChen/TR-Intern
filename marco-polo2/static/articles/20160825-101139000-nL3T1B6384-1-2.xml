@@ -1,0 +1,102 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160825-101139000-nL3T1B6384-1-2</Id>
+      <TimeStamp>2016-08-25T10:11:39.131Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160825-101139000-nL3T1B6384-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-25T10:11:39.000Z</versionCreated>
+            <firstCreated>2016-08-25T10:11:39.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160825-101139000-nL3T1B6384-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1B6384</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:DEPT"/>
+            <subject qcode="N2:RETE"/>
+            <subject qcode="N2:HARW"/>
+            <subject qcode="N2:ITSE"/>
+            <subject qcode="N2:SOFW"/>
+            <subject qcode="N2:PHON"/>
+            <subject qcode="N2:MDIA"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:RGEN"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:RSPC"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:COMP"/>
+            <subject qcode="N2:SWIT"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:6823.HK"/>
+            <subject qcode="R:BABA.N"/>
+            <subject qcode="R:AAPL.O"/>
+            <headline>香港金融：金管局向阿里巴巴、香港電訊等五家公司批出儲值支付工具牌照</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月25日 - 香港金融管理局周四宣布，根據《支付系統及儲值支付工具條例》向五家儲值支付工具(SVF)發行人批給SVF牌照，當中包括阿里巴巴&lt;BABA.N&gt;及香港電訊&lt;6823.HK&gt;旗下公司。
+    
+    金管局的新聞稿稱，五家獲發SVF牌照的公司包括阿里巴巴旗下Alipay Financial Services (HK) Limited、香港電訊&lt;6823.HK&gt;旗下HKT Payment Limited、TNG (Asia) Limited、財富數據有限公司及八達通卡有限公司。
+    
+    �批出首批SVF牌照，標誌著香港的零售支付發展進入新階段。“金管局總裁陳德霖稱，實施SVF發牌制度，有利新的零售支付工具的推出及採用，同時又能保障使用者的利益，繼而加強公眾對使用有關產品與服務的信心，有助推動本地零售支付業務的創新及發展。
+    
+    在落實監管金管局儲值支付工具營運商方面，當局規定營運商必須把儲值金與其本身的資金分開，並設立有效的內部管控措施及程序，以防儲值金受任何運作風險的影響。營運商須事先獲得金管局批準，才能將儲值手進行投資，而且只能投資流動性高及低風險的穩健資產。
+    
+    此外，金管局亦規定儲值支付工具營運商，不能透過提供利息或類似利息的獎勵計劃去吸引用戶存入過多的儲值金。
+    
+    至於蘋果公司&lt;AAPL.O&gt;的Apple Pay則不在金管局監管範圍之內，因Apple Pay用戶是透過手提電話把信用卡資料加密後傳送給商戶進行支付，沒有儲值功能，故毋須申領儲值支付工具牌照。
+    
+    《支付系統及儲值支付工具條例》已在於2015年11月13日生效。根據條例，金管局獲授權實施多用途SVF的強制性發牌制度，並履行相關的監管及執法職能。現有的SVF發行人或新的市場營運者可于為期一年的過渡期內向金管局申領SVF牌照。在該一年過渡期屆滿後（即由2016年11月13日起），除非獲得豁免，否則任何人士在並未持有牌照的情況下發行或營運SVF，即屬犯罪。（完）   
+    
+    瀏覽細節，請點選(http://www.hkma.gov.hk/chi/key-information/press-releases/2016/20160825-3.shtml)
+
+ (記者 梁慧儀; 審校 曾祥進)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters
+Messaging: joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,119 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160930-041941000-nL3T1C61SG-1-2</Id>
+      <TimeStamp>2016-09-30T04:19:41.543Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160930-041941000-nL3T1C61SG-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-30T04:19:41.000Z</versionCreated>
+            <firstCreated>2016-09-30T04:19:41.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160930-041941000-nL3T1C61SG-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1C61SG</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:MINE"/>
+            <subject qcode="N2:MTAL"/>
+            <subject qcode="N2:PREC"/>
+            <subject qcode="N2:ALUM"/>
+            <subject qcode="N2:MEMI"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:JOB"/>
+            <subject qcode="N2:REGS"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:ASEAN"/>
+            <subject qcode="N2:AU"/>
+            <subject qcode="N2:MX"/>
+            <subject qcode="N2:WEU"/>
+            <subject qcode="N2:RU"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:VN"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:GB"/>
+            <subject qcode="N2:CA"/>
+            <subject qcode="N2:EUROP"/>
+            <subject qcode="N2:CISC"/>
+            <subject qcode="N2:CEEU"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:LATAM"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRECAL"/>
+            <subject qcode="N2:WASH"/>
+            <subject qcode="N2:MIN"/>
+            <subject qcode="N2:DIP"/>
+            <subject qcode="N2:INTAG"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:TRF"/>
+            <subject qcode="N2:ENV"/>
+            <subject qcode="N2:EU"/>
+            <subject qcode="N2:POL"/>
+            <subject qcode="N2:TRD"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BASMTL"/>
+            <subject qcode="N2:ALU"/>
+            <subject qcode="N2:NRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:1333.HK"/>
+            <subject qcode="R:AA.N"/>
+            <subject qcode="R:OKSAI.RTS"/>
+            <subject qcode="R:RIO.AX"/>
+            <subject qcode="R:RIO.L"/>
+            <headline>中美貿易：中國鋁行業高管出席美國貿易聽證會，敦促對話與合作</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透華盛頓9月29日 - 美國國際貿易委員會周四聽證會上，出現罕見的中國產業團體官員身影。針對中國過剩鋁產能威脅到美國及全球鋁生產商及加工商的指責，中國鋁行業團體提出反駁。
+    
+    與會團體官員辯稱，中國鋁行業一直是全球經濟的一個重要貢獻力量。
+    
+    “我們相信，通過對話和合作，我們能夠有效處理全球鋁行業面臨的挑戰，”中國有色金屬工業協會官員在陳詞中表示。
+    
+    此次聽證會是美國眾議院籌款委員會所要求一項調查的一部分，美國、加拿大、歐洲和俄羅斯團體企業參與聽證，範圍涵蓋冶煉、擠制和回收再生等領域。他們指稱中國過剩的產能是由政府政策主導，已導致全球範圍內鋁材降價。
+    
+    中國鋁行業團體官員稱，中國鋁材行業發展是由預計成長的中國內需推動。他們並稱，中國政府已經淘汰了一部分落後產能，並且還在減少對該行業的投資。
+    
+    在此之前，美國一些行業企業已敦促華盛頓對部分中國鋁材生產商徵收反補貼和反傾銷稅。
+    
+    美國商務部正在調查中國忠旺&lt;1333.HK&gt;。此前美國鋁擠壓材協會(Aluminum Extruders Council)指控忠旺逃避美國針對鋁擠壓產品的進口關稅。[nL3T12Q1AG](完)
+
+    ****如欲參考原文報導，請點選[nL2N1C600X]即可擷取瀏覽****
+
+ (編譯 劉秀紅；審校 蔡美珍)
+ ((Xiuhong.Liu@thomsonreuters.com; 86-10-66271050; Reuters
+Messaging: xiuhong.liu.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

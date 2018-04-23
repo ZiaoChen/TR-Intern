@@ -1,0 +1,88 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161028-021106000-nL4T1CY1H1-1-2</Id>
+      <TimeStamp>2016-10-28T02:11:06.105Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161028-021106000-nL4T1CY1H1-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-28T02:11:06.000Z</versionCreated>
+            <firstCreated>2016-10-28T02:11:06.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161028-021106000-nL4T1CY1H1-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CY1H1</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:PVE"/>
+            <subject qcode="N2:FOOD1"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FUND"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:NCYC"/>
+            <subject qcode="N2:FOBE"/>
+            <subject qcode="N2:FOTB"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:0288.HK"/>
+            <headline>香港熱股：萬洲國際早盤初段跌近9%，再遭主要股東鼎暉投資減持股份</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港10月28日 - 全球最大豬肉食品公司--萬洲國際&lt;0288.HK&gt;周五早盤初段一度跌近9%，因再遭主要股東中國私募股權公司鼎暉投資（CDH）減持股份。
+    
+    萬洲國際早盤一度低探6.18港元的一個月低位。香港時間10:06，該股報6.26港元，跌幅7.81%；大市恆生指數&lt;.HSI&gt;則跌0.03%。
+    
+    該公司今早在聯交所的公告稱，鼎暉周四與配售代理摩根士丹利訂立協議出售萬洲國際10億股股份，配售價每股6.25港元，套現62.5億港元。配售價較周四收市價折讓8%。
+    
+    本次減持後，鼎暉于萬洲國際的持股比例由19.77%降至12.94%，繼續是主要股東。
+    
+    不過，鼎暉獲摩根士丹利同意于本次配售後三個月將最多約6.97億股萬洲國際的股份分派予鼎暉的若干有限合夥人及/或投資者及其聯屬人士，如是者鼎暉的持股比例將進一步降至8.18%，且不再為萬洲國際的主要股東。
+    
+    鼎暉為萬洲國際上市前股東，該公司於8月通過配售方式減持萬洲國際8.8億股股份，套現逾92.5億港元。[nL3T1B607E]（完）
+    
+    欲瀏覽于香港聯交所的聲明，請點選：(http://www.hkexnews.hk/listedco/listconews/sehk/2016/1028/LTN20161028006_C.pdf)
+    
+        
+
+ (記者 雷美珍；審校 喬艷紅)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

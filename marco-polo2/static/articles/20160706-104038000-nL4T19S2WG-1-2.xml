@@ -1,0 +1,85 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160706-104038000-nL4T19S2WG-1-2</Id>
+      <TimeStamp>2016-07-06T10:40:38.329Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160706-104038000-nL4T19S2WG-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-06T10:40:38.000Z</versionCreated>
+            <firstCreated>2016-07-06T10:40:38.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160706-104038000-nL4T19S2WG-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19S2WG</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:MINE"/>
+            <subject qcode="N2:MTAL"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRECAL"/>
+            <subject qcode="N2:MIN"/>
+            <subject qcode="N2:GOL"/>
+            <subject qcode="N2:PREC"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:COM"/>
+            <subject qcode="N2:PREMTL"/>
+            <subject qcode="N2:METL"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:601899.SS"/>
+            <subject qcode="R:2899.HK"/>
+            <headline>中港個股：紫金礦業擬捲土重來增發A股，A股股份明天起停牌</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港7月6日 - 中國黃金開採商--紫金礦業&lt;2899.HK&gt;&lt;601899.SS&gt;周三表示，公司正籌劃非公開發行A股，其A股將自周四（7日）起停牌。
+    
+    紫金礦業此前曾籌劃非公開發行A股，擬集資不超過90億元人民幣。但公司在今年4月底表示，監於去年下半年以來市場發生較大變化，決定終止發行A股事宜。
+    
+    公司今天的聲明未有透露此次擬集資的規模，公司表示，在A股停牌期間，將就相關事項及具體方案進行論證，盡快確定是否進行上述重大事項，並按照上交所的有關要求，于A股停牌之日起的10個上交所交易日內公告非公開發行A股進展情況。
+    
+    紫金礦業H股今天逆市收高4.07%，報2.81港元；其A股亦漲5.75%，收報3.68元人民幣。（完）
+    
+    欲瀏覽上市公司發布于香港聯交所的公告，請點選:(http://www.hkexnews.hk/listedco/listconews/SEHK/2016/0706/LTN20160706846_C.pdf)
+
+ (記者 梁慧儀; 審校 曾祥進)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters Messaging:
+joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

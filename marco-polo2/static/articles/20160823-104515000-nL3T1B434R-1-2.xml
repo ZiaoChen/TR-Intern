@@ -1,0 +1,76 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160823-104515000-nL3T1B434R-1-2</Id>
+      <TimeStamp>2016-08-23T10:45:15.746Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160823-104515000-nL3T1B434R-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-23T10:45:15.000Z</versionCreated>
+            <firstCreated>2016-08-23T10:41:52.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160823-104515000-nL3T1B434R-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1B434R</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CRIM"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:CLJ"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2886.TW"/>
+            <headline>台灣個股：兆豐金稱因應美主管機關要求，董事會決議成立危機因應小組</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北8月23日 - 兆豐金控&lt;2886.TW&gt;周二傍晚召開記者會指出，該公司今天下午召開董事會並決議，立即因應美國主管機關的要求，正式成立危機因應小組。
+ 
+    兆豐金副總經理陳松興稱，危機因應小組並將限時提出事件前、中及事件後三個階段的因應計畫，訂定時程列管，務必要求符合美國紐約金融廳的各項要求。
+    
+    兆豐金上周五晚間表示，兆豐銀美國紐約分行被紐約州罰款10天內繳交1.8億美元罰金，因其無法滿足相關反恐/反洗錢法令規定，董事會也在晚間通過此案[nL3T1B306R]。(完)
+    
+
+ (記者 羅兩莎；審校 曾祥進)
+ ((Liang-Sa.Loh@thomsonreuters.com;  886-2-25004895; Reuters
+Messaging: Liang-Sa.Loh.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

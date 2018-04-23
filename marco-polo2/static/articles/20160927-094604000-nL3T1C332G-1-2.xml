@@ -1,0 +1,96 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160927-094604000-nL3T1C332G-1-2</Id>
+      <TimeStamp>2016-09-27T09:46:04.776Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:LPCC</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160927-094604000-nL3T1C332G-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-27T09:46:04.000Z</versionCreated>
+            <firstCreated>2016-09-27T09:46:04.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160927-094604000-nL3T1C332G-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1C332G</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:LOA"/>
+            <subject qcode="N2:MUNI"/>
+            <subject qcode="N2:CORPD"/>
+            <subject qcode="N2:CDM"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:AUTO"/>
+            <subject qcode="N2:PART"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:ENTS"/>
+            <subject qcode="N2:GAME"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:MRG"/>
+            <subject qcode="N2:DEAL1"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:MO"/>
+            <subject qcode="N2:KR"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:025530.KS"/>
+            <subject qcode="R:0880.HK"/>
+            <headline>路透基點：澳博控股250億港元貸款案的額度分配出爐--TRLPC</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港9月27日 - 湯森路透旗下基點報導，消息人士稱，澳門博彩控股有限公司250億港元等值(32億美元)的項目融資額度分配情況出爐，在一般銀團階段吸引到19家銀行參與。
+    
+    中國工商銀行澳門分行是本案的牽頭行兼簿記行。該貸款包括六年定期貸以及四年期循環貸，綜合平均年限為五年，綜合利率為加碼約200個基點。
+    
+    兩筆貸款利率都基於槓桿比率。最初六個月的利率為加碼135個基點。在此之後，如果槓桿比率不超過1.5倍，那麼利率可能提高到加碼150個基點；槓桿比率在1.5-3倍，那麼利率加碼175個基點；槓桿比率為3-4倍，利率加碼200個基點；槓桿比率超過4倍，則利率加碼225個基點。
+    
+    所籌資金將用於澳門路�城的“上葡京”項目建設。該項目的預算建築成本約為300億港元，預計在2017年第四季完工。
+    
+    “上葡京”項目包括3家酒店，共計提供約2,000間酒店客房，還有購物、餐飲及娛樂休閑設施。項目將設700張賭桌和1,000部角子機，相關許可正在申請中。（完）
+    
+    ****如欲參考原文報導，請點選[nRLP49649a]即可擷取瀏覽****
+    
+
+ (編譯 高琦 審校 于春紅)
+ ((kelly.gao@thomsonreuters.com; 86-10-6627-1011; Reuters
+Messaging: kelly.gao.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

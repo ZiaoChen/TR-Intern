@@ -1,0 +1,106 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161024-010101000-nL4T1CU0CW-1-2</Id>
+      <TimeStamp>2016-10-24T01:01:01.340Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161024-010101000-nL4T1CU0CW-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-24T01:01:01.000Z</versionCreated>
+            <firstCreated>2016-10-24T01:01:01.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161024-010101000-nL4T1CU0CW-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CU0CW</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRESS"/>
+            <subject qcode="N2:SHOE"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:BOXS"/>
+            <subject qcode="N2:REDV"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REOP"/>
+            <subject qcode="N2:BMAT"/>
+            <subject qcode="N2:APRE"/>
+            <subject qcode="N2:PACK"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:APPA"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:1836.HK"/>
+            <subject qcode="R:000001.SZ"/>
+            <subject qcode="R:6288.HK"/>
+            <subject qcode="R:2314.HK"/>
+            <subject qcode="R:1113.HK"/>
+            <headline>《香港報摘》--其他報紙重要消息10月24日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    
+    **明報**
+    --香港地產龍頭髮展商長實&lt;1113.HK&gt;認為，香港法制完善，豪宅對中國內地客仍具吸引力，料內地客整體入市比例維持10%至15%，但個別豪宅可逾20%。
+    --理文造紙&lt;2314.HK&gt;首席執行官李文斌稱，早在人民幣一年前開始貶值，公司已採取應對措施，包括調整債務結構，加上用美元及歐元作海外採購，交易貨幣及資產多元化令公司對人民幣匯價的敏感度較低，故受人民幣貶值的影響也沒同行嚴重。
+    
+    **星島日報**
+    --經營快速時裝UNIQLO的迅銷&lt;6288.HK&gt;大中華區行政總裁潘寧稱，公司在大中華區發展空間最大，現時一線城市有超過150間UNIQLO店，日後將加快拓展二、三線城市，期望在2020年達到1,000家店。
+    --外資投行人士指出，以前大型新股由外資大行包攬，但隨著愈來愈多中資投行加入競爭且為求增加市占率不惜降價爭生意，加上大型新股數量又不多，導致投行減價的壓力有增無減。
+    
+    **東方日報**
+    --市場消息透露，證監會近期與多個業界組織會面，就網上銷售產品的合適性規定的初步建議，收集他們的意見，並計劃在今年稍後時間發出指引或公眾諮詢文件。
+    --九興控股&lt;1836.HK&gt;及達芙妮國際&lt;0210.HK&gt;第三季同店銷售仍未擺脫負增長，其中制鞋出身的九興宣布重組內地零售業務，冀減低成本改善盈利。
+    
+    **文匯報**
+    --長和集團&lt;0001.HK&gt;旗下百佳超級市場南區營運總監李軒宇表示，為拓展內地中高級市場，百佳將繼續把深圳、廣州和珠海的部分門店升級為TASTE，並與多家地產開發商合作積極在華南地區開設更多新店。（完）
+    
+    注：以上的評論僅為摘要，並且不代表路透立場。
+    
+    **如欲提取相關新聞，請點擊下列代碼**
+      香港報摘/社評/財經評論[PRESS-HK-CMN]
+      中國報摘[PRESS-CN-CMN]
+      台灣報摘[PRESS-TW-CMN]
+    
+
+ (整理 雷美珍；審校 喬艷紅)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters
+Messaging: alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,85 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161012-004221000-nL4T1CH5BC-1-2</Id>
+      <TimeStamp>2016-10-12T00:42:21.751Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161012-004221000-nL4T1CH5BC-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-12T00:42:21.000Z</versionCreated>
+            <firstCreated>2016-10-12T00:42:21.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161012-004221000-nL4T1CH5BC-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CH5BC</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:COMS"/>
+            <subject qcode="N2:ELCO"/>
+            <subject qcode="N2:CARM"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:MACH"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:AUTO"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <headline>中港個股：比亞迪與國開行簽訂600億元協議，進軍輕軌交通領域</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透上海10月12日 - 上海證券報周三報導，中國汽車生產商比亞迪&lt;1211.HK&gt;&lt;002594.SZ&gt;周二在深圳與國開行簽署600億元的《單軌軌道交通產業戰略合作協議》。在橫跨IT、汽車、新能源三大產業後，比亞迪正式進軍輕軌交通業，意在拓展城市公共交通，緩解交通擁堵及大氣污染問題。
+    
+    比亞迪總裁王傳福表示，輕軌交通或將成為解決二、三線城市交通擁堵的重要方案，比亞迪也將主要瞄準二、三線城市的中低運量公共交通市場。
+    
+    相較于地鐵，比亞迪的電動輕軌公交的成本僅為地鐵的1/6，建設周期只有地鐵的1/3，占地面積小，適應性強且運力小，適合人口相對少的二、三、四線城市。
+    
+    王傳福表示，比亞迪已與包括遵義、贛州、邯鄲和江陰等在內的20多個城市接洽，未來將與多個城市達成合作。
+    
+    除此之外，比亞迪方面認為，包括印尼和巴西在內的眾多國家也正面臨著棘手的城市交通擁堵問題，輕軌交通將成為未來比亞迪參與“一帶一路”的重要組成部分。
+
+    比亞迪已在現有的事業部群之外，單獨成立了一個輕軌交通研究院。據了解，普通單軌軌道車為8節車廂，能同時容納1,600名站立的乘客，相當於小型地鐵。其最高時速可達80公里，平均時速30公里到45公里。(完)
+
+ (發稿 林琦; 審校 林高麗)
+ ((路透中文新聞部:+86-21-61041787;傳真 86-21-61041728 ;qi.lin@thomsonreuters.com; Reuters
+Messaging: qi.lin.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

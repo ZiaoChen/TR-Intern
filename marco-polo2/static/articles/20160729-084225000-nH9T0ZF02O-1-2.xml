@@ -1,0 +1,76 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160729-084225000-nH9T0ZF02O-1-2</Id>
+      <TimeStamp>2016-07-29T08:42:25.483Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160729-084225000-nH9T0ZF02O-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-29T08:42:25.000Z</versionCreated>
+            <firstCreated>2016-07-29T08:33:33.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160729-084225000-nH9T0ZF02O-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nH9T0ZF02O</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:CNEWS"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:WLES"/>
+            <subject qcode="N2:RESF"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:PHON"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="R:0762.HK"/>
+            <headline>香港個股：中國聯通料上半年淨利同比跌約八成，受累費用及成本上升</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港7月29日 - 中國三大電訊商之一--中國聯通&lt;0762.HK&gt;周五發出盈利預警，預期上半年淨利將同比下降約80%，受累期內銷售費用明顯上升，以及鐵塔使用費用增加及其他成本上升。
+    
+    聯通表示，比較去年下半年公司凈虧約33.6億元人民幣（不包括鐵塔出售的收益），上半年業績已有明顯改善。公司未來將深化落實聚焦戰略，創新合作發展，全力推進業績逐步反轉。
+
+    去年上半年，聯通的淨利為69.9億元。（完）
+    
+    欲瀏覽上市公司發布于香港聯交所的公告，請點選:(http://www.hkexnews.hk/listedco/listconews/sehk/2016/0729/LTN20160729231_C.pdf)
+
+ (記者 梁慧儀; 審校 喬艷紅)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters
+Messaging: joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,138 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160805-000000000-nL3T1AL2YO-1-2</Id>
+      <TimeStamp>2016-08-05T00:00:00.344Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160805-000000000-nL3T1AL2YO-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-05T00:00:00.000Z</versionCreated>
+            <firstCreated>2016-08-05T00:00:00.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160805-000000000-nL3T1AL2YO-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1AL2YO</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:INVM"/>
+            <subject qcode="N2:SHOE"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CEN"/>
+            <subject qcode="N2:MMT"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:WLES"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:TCOM"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:APPA"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:4904.TW"/>
+            <headline>台灣貨幣市場：8月5日及本提存期資金預期變化一覽表</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北8月5日 - 台灣貨幣市場周五及本提存期資金預期變化因素摘要如下：
+   
+    **寬鬆因素：
+    --央行定存單到期38億台幣。
+    --遠傳&lt;4904.TW&gt;發放現金股利122.19億台幣。  
+       
+    **緊縮因素：
+    --央行料發行存單。 
+    --財政部發行105甲10期公債300億台幣，天期為30年期。
+    
+    -------------------------------------------------------
+    本提存期    
+
+    寬鬆因素：
+    央行存單到期&lt;TWNCDTB1&gt;4兆(萬億)7,938.8億台幣。
+         8/08                        3,634億台幣
+         8/09                        2,340億台幣
+         8/10                      1,279.5億台幣
+         8/11                      1,785.5億台幣
+         8/12                        2,690億台幣
+         8/15                      3,102.5億台幣
+         8/16                      4,235.8億台幣
+         8/17                        1,978億台幣
+         8/18                        2,316億台幣
+         8/19                        1,618億台幣
+         8/22                        2,412億台幣
+         8/23                      2,827.5億台幣
+         8/24                      3,973.5億台幣
+         8/25                        3,200億台幣
+         8/26                        1,597億台幣
+         8/29                      3,471.5億台幣
+         8/30                      1,687.5億台幣
+         8/31                      2,318.5億台幣
+        *9/01                        1,437億台幣
+         9/02                           31億台幣
+         9/03                            4億台幣
+  註：*表新增。
+   
+    --公債還本與付息共613億台幣。    
+           8/7      90甲6期本金            500億台幣
+           8/7      90甲6期15息          18.75億台幣
+          8/10      101甲7期4息              9億台幣
+          8/10     104甲11期1息           6.75億台幣
+          8/12      99甲7期6息              14億台幣
+          8/13      98甲5期7息           12.75億台幣
+          8/14      97甲5期8息           15.75億台幣
+          8/16      91甲7期14息             15億台幣
+          8/22      100甲8期5息          11.25億台幣
+          8/24      101甲8期4息           9.75億台幣
+    --上市大型公司現金股利發放時程：
+      8/10：台塑229.17億台幣、元大金43.26億台幣。                  
+      8/11：聯發科172.87億台幣、聯電69.07億台幣。        
+      8/17：南亞261.72億台幣。          
+      8/25：第一金108.88億台幣          
+      8/26：中華電425.51億台幣、和碩129.54億台幣、廣達146.78億台幣及中信金146.02億台幣          
+                        
+      8/31：華碩111.41億台幣及正崴102.47億台幣。                  
+      9/02：兆豐金203.997億台幣。        
+            
+    緊縮因素：
+    --菸酒稅及貨物稅等例行性稅款繳庫。(完)              
+
+ (記者 羅兩莎 ；審校 詹靜宜)
+ ((Liang-Sa.Loh@thomsonreuters.com;  886-2-25004895; Reuters Messaging:
+Liang-Sa.Loh.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

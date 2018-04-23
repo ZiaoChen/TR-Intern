@@ -1,0 +1,86 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160824-085050000-nL3T1B52PH-1-2</Id>
+      <TimeStamp>2016-08-24T08:50:50.201Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160824-085050000-nL3T1B52PH-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-24T08:50:50.000Z</versionCreated>
+            <firstCreated>2016-08-24T08:50:50.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160824-085050000-nL3T1B52PH-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1B52PH</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:INSR"/>
+            <subject qcode="N2:LINS"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2888.TW"/>
+            <headline>更新版 1-台灣個股：新光壽上半年國際板債券餘額增至3,187億台幣，下半年轉趨謹慎</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    * 新光壽上半年底國際板債券餘額增至3,187億台幣
+    * 下半年國際板債券轉趨謹慎擇優投資
+    * 股市青睞高現金股息股票，以台股為主
+
+ (新增公司方更多投資內容)
+    路透台北8月24日 - 台灣主要保險金控--新光金&lt;2888.TW&gt;旗下人壽周三表示，今年上半年底國際板債券投資餘額為3,187億台幣，下半年改采謹慎擇優態度，增幅將放緩，以減輕被提前贖回的壓力。
+    
+    至於股市方面，新光金控副總經理徐順鋆在投資人說明會並指出，已陸續調節海內外展望欠佳個股，累計出售金額超過500億台幣，現已開始轉進高現金股息族群，主要鎖定台股，目標在IFRS 9(國際財務報導準則第九號)上路前建立1,000-1,500億台幣部位。
+    
+    “下半年對國際板債券改采謹慎擇優。”他在場邊對路透稱，此前已將持有國際板債券贖回期間拉長，減輕國際板債券被提前贖回的壓力。
+    
+    新光人壽並認為，雖然全球利率持續低檔，仍將投入新興市場公債及海外公司債，以維持經常性收益。
+    
+    新光金控提供資料顯示，海外固定收益投資金額較去年同期增24.8%，主要配置于新興市場美元計價債券及國際板債券，上半年底國際板債券占海外固定收益總投資金額比重已提高至27%，避險前平均殖利率達4.5%，避險後殖利率也遠高於台債。
+    
+    徐順鋆也提及，去年預期美國升息，因此配置美國當地金融股，但其展望不好、股價表現欠佳，7月份已出脫60余億台幣美國金融股，讓未來損益的壓力小一點。
+    
+    此外，新光人壽上半年RBC(風險適足率)為227%，7月隨著股債雙漲已回到250%，下半年若股市維持在現有水準，其RBC可望維持250%，為求RBC表現穩定，年底前可能發行無到期日累積次順位債券。
+    
+    新光金控今日收低0.3%報6.67台幣。(完)
+
+ (記者 詹靜宜；審校 楊淑禎/曾祥進)
+ ((Emily.Chan@thomsonreuters.com; +886-2-25008440; Reuters Messaging:
+Emily.Chan.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

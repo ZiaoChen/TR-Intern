@@ -1,0 +1,159 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160921-075855000-nFit973972-1-2</Id>
+      <TimeStamp>2016-09-21T07:58:56.084Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:M</Code>
+          <Code>NP:D</Code>
+          <Code>NP:T</Code>
+          <Code>NP:E</Code>
+          <Code>NP:RNP</Code>
+          <Code>NP:DNP</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160921-075855000-nFit973972-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-21T07:58:55.000Z</versionCreated>
+            <firstCreated>2016-09-21T07:58:55.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160921-075855000-nFit973972-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nFit973972</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:AAA"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BNK"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:CDM"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:FIN"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:LEN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2812.TW"/>
+            <subject qcode="R:2845.TW"/>
+            <subject qcode="R:2849.TW"/>
+            <headline>惠譽確認六家民營銀行評等；展望穩定 &lt;2812.TW&gt;&lt;2845.TW&gt;&lt;2849.TW&gt;</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>and SCSB)
+
+Director
+
++886 2 8175 7603
+
+Fitch Australia Pty Ltd, Taiwan Branch
+
+Suite 1306, 13F, 205, Tun Hwa N. Rd., Taipei
+
+Jenifer Chou, CFA, FRM (KTB)
+
+Director
+
++886 2 8175 7605
+
+Clark Wu (TSB and Taichung)
+
+Associate Director
+
++886 2 8175 7602
+
+Shirley Hsu (Entie)
+
+Associate Director
+
++886 2 8175 7606
+
+Secondary Analysts
+
+Cherry Huang (TSB, KTB, EnTie)
+
+Director
+
++886 2 8175 7603
+
+Jenifer Chou (SCSB)
+
+Director
+
++886 2 8175 7605
+
+
+
+Sophia Chen, CFA, CPA (Taichung, FEIB)
+
+Director
+
++886 2 8175
+
+Applicable Criteria
+
+Global Bank Rating Criteria (pub. 15 Jul 2016)
+
+https://www.fitchratings.com/site/re/884135
+
+Global Non-Bank Financial Institutions Rating Criteria (pub. 15 Jul 2016)
+
+https://www.fitchratings.com/site/re/884128
+
+National Scale Ratings Criteria (pub. 30 Oct 2013)
+
+https://www.fitchratings.com/site/re/720082
+
+Additional Disclosures
+
+Solicitation Status
+
+https://www.fitchratings.com/gws/en/disclosure/solicitation?pr_id=1011968
+
+Endorsement Policy
+
+https://www.fitchratings.com/jsp/creditdesk/PolicyRegulation.faces?context=2&amp;det
+ail=31
+
+ALL FITCH CREDIT RATINGS ARE SUBJECT TO CERTAIN LIMITATIONS AND DISCLAIMERS.
+PLEASE READ THESE LIMITATIONS AND DISCLAIMERS BY FOLLOWING THIS LINK:
+HTTP://FITCHRATINGS.COM/UNDERSTANDINGCREDITRATINGS. IN ADDITION, RATING
+DEFINITIONS AND THE TERMS OF USE OF SUCH RATINGS ARE AVAILABLE ON THE AGENCY'S
+PUBLIC WEBSITE 'WWW.FITCHRATINGS.COM'. PUBLISHED RATINGS, CRITERIA AND
+METHODOLOGIES ARE AVAILABLE FROM THIS SITE AT ALL TIMES. FITCH'S CODE OF
+CONDUCT, CONFIDENTIALITY, CONFLICTS OF INTEREST, AFFILIATE FIREWALL, COMPLIANCE
+AND OTHER RELEVANT POLICIES AND PROCEDURES ARE ALSO AVAILABLE FROM THE 'CODE OF
+CONDUCT' SECTION OF THIS SITE. FITCH MAY HAVE PROVIDED ANOTHER PERMISSIBLE
+SERVICE TO THE RATED ENTITY OR ITS RELATED THIRD PARTIES. DETAILS OF THIS
+SERVICE FOR RATINGS FOR WHICH THE LEAD ANALYST IS BASED IN AN EU-REGISTERED
+ENTITY CAN BE FOUND ON THE ENTITY SUMMARY PAGE FOR THIS ISSUER ON THE FITCH
+WEBSITE.</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,76 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160914-095728000-nL3T1BQ1X6-1-2</Id>
+      <TimeStamp>2016-09-14T09:57:28.770Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160914-095728000-nL3T1BQ1X6-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-14T09:57:28.000Z</versionCreated>
+            <firstCreated>2016-09-14T09:43:26.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160914-095728000-nL3T1BQ1X6-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1BQ1X6</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:FRX"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:US"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:REG"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:NEWR"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="R:2886.TW"/>
+            <headline>台灣金融：金管會處兆豐銀1,000萬台幣罰鍰，暫停申設海外分支機構</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北9月8日 - 台灣金管會周三公布，核處兆豐銀行1,000萬台幣罰緩，並暫停兆豐銀行申設海外分支機構，直到該行內控缺失完成改善為止。
+    
+    金管會此前初步約詢兆豐銀相關人員，初步發現六大缺失：其紐約分行對於防制洗錢作業無完整內部作業手冊，對於防制洗錢法令未充分了解，致無法落實執行；兆豐銀行知悉紐約分行極有可能遭NYDFS採取監理行動後，未及時派員赴美督導及溝通，錯失協助良機等。
+    
+    兆豐金控&lt;2886.TW&gt;於8月19日表示，旗下子公司兆豐銀行美國紐約分行被紐約州罰款10天內繳交1.8億美元罰金，因其無法滿足相關反恐/反洗錢法令規定。[nL3T1B306R](完)
+
+ (記者 詹靜宜； 審校 喬艷紅)
+ ((Emily.Chan@thomsonreuters.com; +886-2-25008440; Reuters
+Messaging: Emily.Chan.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

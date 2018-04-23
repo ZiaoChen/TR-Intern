@@ -1,0 +1,82 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160809-095123000-nL4T1AQ36W-1-2</Id>
+      <TimeStamp>2016-08-09T09:51:23.507Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CMN</Code>
+          <Code>NP:CLN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160809-095123000-nL4T1AQ36W-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-08-09T09:51:23.000Z</versionCreated>
+            <firstCreated>2016-08-09T09:51:23.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160809-095123000-nL4T1AQ36W-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1AQ36W</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:REAL"/>
+            <subject qcode="N2:REIT"/>
+            <subject qcode="N2:RES"/>
+            <subject qcode="N2:REIC"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2778.HK"/>
+            <headline>港股業績：冠君產信託上半年分派同比增14.9%，看好中環項目租金增長潛力</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透香港8月9日 - 受旗下中環甲級寫字樓項目租金顯著上升帶動，房地產信託基金--冠君產信託&lt;2778.HK&gt;周二公布的上半年每基金單位分派同比增14.9%。管理層表示，以該項目最近達成的租金水平推算，未來在續租或重訂租金時，最少有三成的租金增長潛力。
+    
+    冠君產信託持有中環�花園道三號�的甲級商廈項目，以及購物旺區旺角�朗豪坊�商場和辦公大樓。截至6月底止半年，該基金的租金收益總額同比增12.2%至11.23億港元，其中�花園道三號�升幅達22.2%，�朗豪坊�商場和辦公大樓則分別升3.2%和4.5%。上半年每基金單位分派為0.1096港元，去年同期為0.0954港元。
+    
+    冠君產信託行政總裁王家琦在業績發布會上稱，�花園道三號�最新達成的租金每平尺逾100港元，而至6月底項目現收尺租平均為76.59港元，因此未來租金將有至少三成的上升潛力。
+    
+    �花園道三號�今年大部分的續租或租金檢討已大致完成，而明年將有13.3%和12.6%的樓面面積分別租約到期及進行租金檢討。
+    
+    至於�朗豪坊�辦公大樓6月底的尺租為38.24港元，去年底為37.5港元。購物商場部分，因受到香港零售銷售額下跌影響，上半年商場租戶的銷售額下跌6.4%，但仍優於整體香港零售銷貨額10.5%的跌幅。
+    
+    王家琦表示，預計下半年商戶銷售額會繼續跟隨大市趨勢，但相信表現仍會優於大市。商場基本租金今年應可保持輕微增長，但在零售市道及整體經濟不明朗下，其增長持續性於明年或將受壓。該商場的租金收益中，91%為基本租金，9%為與租戶銷售額掛鉤的分成租金。去年同期兩者比例為88%及12%。
+    
+    此外，冠君產信託表示，因其到2019年才有再融資需要，且此前再融資安排所節省的利息息差，令實際年利率下調至6月底的1.7%，這將對該基金的盈利有正面影響。（完）
+
+ (記者 梁慧儀; 審校 喬艷紅)
+ ((joy.leung@thomsonreuters.com; +852-2843 6386; Reuters
+Messaging: joy.leung.reuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Marco Polo</title>
+    
+    <link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='Knowledge2017_webfonts_basicsubsetting/stylesheet.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.default.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='squared-corners.css')}}">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.js"></script>
+
+    <script>
+        $(window).on('load',function() {
+            $('.loader').fadeOut("slow");
+        });
+        $(document).ready(function(){
+
+            $('#company-input').typeahead({
+                source: {{company_list | safe}},
+                updater:function(item){
+                    $('#company-input').val(item)
+                    addRow(1)
+                }
+            });
+            $('#company-input-group').hide()
+
+            $('#edit').click(function(){
+
+                var button = document.getElementById('edit')
+                var node_content = button.childNodes[1].nodeValue
+                if (node_content != ' edit'){
+                    // button.childNodes[0].childNodes[0].nodeValue = 'edit'
+                    // $('#company-input-group').hide()
+                    //updateCards()
+                    document.getElementById('portfolio').submit()
+                }
+                else{
+                    $(".table .toggleDisplay").toggleClass("in");
+                    // document.getElementById('error_message').style.display='block';
+                    button.childNodes[0].className = 'glyphicon glyphicon-ok'
+                    button.childNodes[1].nodeValue = ' save updates'
+                    $('#company-input-group').show()
+                }
+            });
+            var companys_checked_indicator = {{companys_checked_indicator | safe}}
+            var portfolio = {{portfolio_list | safe}}
+            for (i in portfolio){
+                $('#company-input').val(portfolio[i].Name_EN + " (" + portfolio[i].RIC + ")")
+                addRow(companys_checked_indicator[i])
+            }
+            $(".table .toggleDisplay").toggleClass("in");
+            updateCards()
+
+        });
+    </script>
+    <script>
+
+        function sortArtcles(criteria){
+            var articles = {{cards | safe}}
+            if (criteria == 'Time') {
+                articles.sort(function (a, b) {
+                    a = a.Time.replace("PM", "").replace("AM", "")
+                    b = b.Time.replace("PM", "").replace("AM", "")
+                    return new Date(b) - new Date(a)
+                });
+            }
+            else{
+                articles.sort(function(a,b){
+                   return b.Relevance - a.Relevance
+                });
+            }
+            panel = document.getElementById('articles');
+            articles_node = $(".panel.panel-default")
+
+            while (panel.firstChild){
+                panel.removeChild(panel.firstChild);
+            }
+            for (i in articles){
+                articles_node.each(function(){
+                    if (this.id == articles[i].Article_ID){
+                        panel.appendChild(this)
+                    }
+                })
+            }
+        }
+
+
+        function switchContent(id,button){
+            // var id = id.id
+            var button_content = button.childNodes[0].nodeValue
+            // var cn_node = document.getElementById('cn-'+id)
+            // var en_node = document.getElementById('content-'+id)
+            if (button_content == 'view original'){
+                button.childNodes[0].nodeValue = 'Translate into english'
+                document.getElementById('switch-language-message-' + id).innerHTML = ''
+                // cn_node.style.maxHeight = screen.height / 3 + 'px'
+                // cn_node.style.overflowY = 'scroll'
+                // en_node.style.overflowY = 'hidden'
+            }
+            else{
+                button.childNodes[0].nodeValue = 'view original'
+                document.getElementById('switch-language-message-' + id).innerHTML = 'This page is translated from Chinese.'
+                // cn.style.overflowY = 'hidden'
+                // en_node.style.overflowY = 'scroll'
+            }
+
+        }
+
+        function updateCards(){
+            $('.panel.panel-default').hide()
+            $('input[name="company"]:checked').each(function(){
+                $('.panel.panel-default[name=' + this.value + ']').show()
+            })
+
+        }
+        function addRow(checked){
+
+            var company_name = ($('#company-input').val())
+            var company_info_list = {{company_info_list|safe}}
+            find = false
+            duplicate = false
+            for (var i in company_info_list){
+                if (company_name == company_info_list[i].Name_EN + " (" + company_info_list[i].RIC + ")"){
+                    document.getElementById('company-input').value = ""
+                    find = true
+                    if ($('#'+company_info_list[i].PermID).length){
+                        duplicate = true
+                    }
+                    else{
+                        var table = document.getElementById('portfolio-list')
+                        var tr = table.insertRow()
+                        var checkbox = tr.insertCell(0)
+                        var name = tr.insertCell(1)
+                        var ric = tr.insertCell(2)
+                        ric.style.textAlign = 'right'
+                        var remove_button = tr.insertCell(3)
+                        tr.id = company_info_list[i].PermID
+                        tr.className = 'success'
+                        checkbox.className = "toggleDisplay"
+                        remove_button.className = "toggleDisplay in"
+                        remove_button.style.textAlign = 'right'
+                        remove_button.innerHTML = "<a href='#' onclick='removeRow(this);'><span class='glyphicon glyphicon-remove'></span></a>"
+                        if (checked == 1) {
+                            checkbox.innerHTML = "<input id=tr.id  name='company' type='checkbox' checked = 'checked' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
+                        }
+                        else{
+                            checkbox.innerHTML = "<input id=tr.id name='company' type='checkbox' onclick='updateCards()' value=" + tr.id + "><input name='company_all' type='hidden' value=" + tr.id + ">"
+                        }
+                        if (company_info_list[i].Name_EN.length > 50) {
+                            name.innerHTML = company_info_list[i].Name_EN.slice(0, 50) + '...'
+                        }else{
+                            name.innerHTML = company_info_list[i].Name_EN
+                        }
+                        ric.innerHTML = company_info_list[i].RIC
+                    }
+                    break;
+                }
+            }
+            if (!find){
+                document.getElementById("error_message").innerHTML = "The company does not exist!"
+            }
+            else{
+                if (!duplicate) {
+                    document.getElementById("error_message").innerHTML = "&nbsp;"
+                }
+                else{
+                    document.getElementById("error_message").innerHTML = "The company is already in your portfolio!"
+                }
+            }
+        }
+
+        function removeRow(node){
+            var i = node.parentNode.parentNode.rowIndex
+            document.getElementById('portfolio-list').deleteRow(i)
+        }
+
+        function changeButton(button){
+            var button_content = button.childNodes[0].nodeValue
+            var id = button.id
+
+            var toggle_element = document.getElementById('content-'+id)
+            var snippet = document.getElementById('snippet-'+id)
+            var snippet_cn = document.getElementById('snippet-cn-'+id)
+            if (button_content != 'collapse'){
+                toggle_element.style.maxHeight = screen.height / 3 + 'px'
+                button.childNodes[0].nodeValue = 'collapse'
+                toggle_element.style.overflowY = 'scroll'
+                snippet.classList.remove('fadeout')
+                snippet_cn.classList.remove('fadeout')
+                $('.label.label-default.button-hover').each(function(){
+                    if (this.id != id && this.innerHTML == 'collapse')
+                    this.click()
+                })
+            }
+            else{
+                button.childNodes[0].nodeValue = 'click to expand'
+                toggle_element.style.overflowY = 'hidden'
+                snippet.className = 'fadeout'
+                snippet_cn.className = 'fadeout'
+
+            }
+
+        }
+
+    </script>
+    <style>
+        mark {
+            padding:0 0em;
+        }
+        hr.style13 {
+            height: 3px;
+            /*border: 0;*/
+            /*box-shadow: 0 3px 3px -3px #8c8b8b inset;*/
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 0px;
+        }
+
+        body{
+            font-family: knowledge2017regular, Arial, sans-serif;
+        }
+
+        input[type=checkbox]{
+            -webkit-transform: scale(1.5);
+        }
+        td {
+            border-bottom: 10px solid white!important;
+        }
+        .table > tbody > tr.success > td{
+            background-color: #999 !important;
+            color: #FFFFFF !important;
+        }
+        a{
+            color: inherit !important;
+            text-decoration: none;
+        }
+        a:hover, a:active, a:visited, a:focus{
+            text-decoration: none !important;
+        }
+
+        .nav-pills > .active > a,
+        .nav-pills > .active > a:hover,.nav-pills > li > a:hover{
+            text-decoration: none;
+            border-radius:0px;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+            border-bottom-color: #005DA2;
+            color: #005DA2 !important;
+            background-color: transparent !important;
+        }
+        .affix {
+              top: 20px;
+              z-index: 9999 !important;
+          }
+        .fadeout {
+              background: -webkit-linear-gradient(#ffffff, #000000, #ffffff);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              margin:0;
+        }
+
+        .content-hover:hover .button-hover{
+            opacity:1 !important;
+        }
+
+        .button-hover{
+            opacity: 0 !important;
+            transition: opacity .35s ease !important;
+        }
+
+        .toggleDisplay{
+            display:none;
+        }
+
+        .toggleDisplay.in{
+            display:table-cell;
+        }
+
+        .right-inner-addon {
+            position: relative;
+        }
+        .right-inner-addon input {
+            padding-right: 30px;
+        }
+        .right-inner-addon a {
+            position: absolute;
+            right: 0px;
+            padding: 10px 12px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<div class="loader"></div>
+<body style=" background:#f9fafa !important;">
+    <nav class="navbar" style="background-color:#FF8000;border-color:#FF8000">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-5">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" style="color:#FFFFFF !important;">Marco Polo</a>
+                    </div>
+              </div>
+              <div class="col-sm-5">
+                  <a class="navbar-brand navbar-right">
+                      <img src="{{url_for('static', filename='logo.svg')}}" height="23px" width="138px"/>
+                  </a>
+              </div>
+              <div class="col-sm-1"></div>
+          </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <b><font size="6">Portfolio</font></b>
+                <a id ="edit" href="#" style="position: absolute;right:16px !important; bottom:8px;!important;color: #005DA2 !important;"><span class="glyphicon glyphicon-edit"></span> edit</a>
+            </div>
+            <div class="col-sm-7" align="right" style="padding-top: 12px;">
+                <label class="radio-inline"><b>Sort by</b></label>
+                <label class="radio-inline">
+                  <input type="radio" name="sort" checked="checked" onclick="sortArtcles('Relevance');">Relevance
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="sort" onclick="sortArtcles('Time');">Time
+                </label>
+
+
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1"></div>
+        <nav class="col-sm-3">
+            <br>
+            <div id="company-input-group">
+                <!--<div class="input-group">-->
+                    <p id="" style="color:#666666;">Enter company name or RIC to add</p>
+                    <input id='company-input' class="form-control" type="text" data-provide="typeahead" data-source='{{ company_list|safe }}' onkeydown="if (event.keyCode == 13) addRow(1);" >
+                    <!--<span class="input-group-addon"><a href="#" onclick="addRow(1);"><span class="glyphicon glyphicon-ok"></span></a></span>-->
+                <!--</div>-->
+                <p id="error_message" style="color:red">&nbsp;</p>
+            </div>
+
+            <form id="portfolio" method="post">
+                <table class="table" id="portfolio-list">
+                <tbody>
+                </tbody>
+            </table>
+            </form>
+        </nav>
+        <div class="col-sm-7">
+             <br>
+             <div class="panel-group" id="articles">
+                 {% for card in cards %}
+                 <div class="panel panel-default" id="{{card.Article_ID}}" name = {{card.PermID}} style="border-color: #dedede;">
+                     <div class="panel-body" style="position: relative!important;">
+                         <div class="media">
+                             <div class="media-left" style="text-align: center">
+                                 <p style="line-height: 100%">
+                                     {% if card.Relevance < 30 %}
+                                     <font size="3" style="color:#666666;"><b>{{card.Relevance}}%</b></font>
+                                     {% elif card.Relevance < 60 %}
+                                     <font size="3" style="color:#FF8000;"><b>{{card.Relevance}}%</b></font>
+                                     {% else %}
+                                     <font size="3" style="color:#a00000;"><b>{{card.Relevance}}%</b></font>
+                                     {% endif %}
+
+                                     <font size="1" style="color:#afafaf">Relevant</font>
+                                 </p>
+                             </div>
+                             <div class="media-body">
+                                 <div class="media-heading">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <a href="https://permid.org/1-{{card.PermID}}" target="_blank">
+                                                {% if card.Name_EN | length > 44 %}
+                                                <font size="2">{{card.Name_EN[0:43]}}... | {{card.Name}}</font>
+                                                {% else %}
+                                                <font size="2">{{card.Name_EN}} | {{card.Name}}</font>
+                                                {% endif %}
+                                            </a>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <div class="col-sm-5" align="left">
+                                                <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                                                <a href="{{url_for('static', filename=card.Link)}}" target="_blank">
+                                                    {% if card.Source | length > 12 %}
+                                                    <font size="2"> {{ card.Source[0:11] }}...</font>
+                                                    {% else %}
+                                                    <font size="2"> {{ card.Source}}</font>
+                                                    {% endif %}
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="col-sm-12" align="left">
+                                                    <font size="2">{{ card.Time }}</font>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <hr class="style13" align="left">
+                                  <div class="row collapse" id="reminder-{{card.Article_ID + card.PermID}}">
+                                     <div class="col-sm-8" id="switch-language-message-{{card.Article_ID + card.PermID}}" style="color:darkred">
+                                         This page is translated from Chinese.
+                                     </div>
+                                     <div class="col-sm-4" align="right">
+                                         <a href="" onclick="switchContent('{{card.Article_ID + card.PermID}}', this); return false;" style="color: #005DA2 !important; padding-right: 22px; !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>
+                                     </div>
+                                 </div>
+                                 <div class="content content-hover" style="overflow-y: hidden; overflow-x:hidden" id="content-{{card.Article_ID + card.PermID}}">
+                                     <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="cn-{{card.Article_ID + card.PermID}}" class="collapse">
+                                                <p class="collapse", id="first-half-cn-{{card.Article_ID + card.PermID}}">
+                                                    {{card.First_Half_cn|safe}}
+                                                </p>
+                                                <p id="snippet-cn-{{card.Article_ID + card.PermID}}" class="fadeout">
+                                                    {{card.Middle_cn|safe}}
+                                                </p>
+                                                <p class="collapse" style="margin:0" id="second-half-cn-{{card.Article_ID + card.PermID}}">
+                                                    {{card.Second_Half_cn|safe}}
+                                                </p>
+                                            </div>
+
+                                            <div id="en-{{card.Article_ID + card.PermID}}" class="collapse in">
+                                                <p class="collapse", id="first-half-{{card.Article_ID + card.PermID}}">
+                                                    {{card.First_Half|safe}}
+                                                </p>
+                                                <p id="snippet-{{card.Article_ID + card.PermID}}" class="fadeout">
+                                                    {{card.Middle|safe}}
+                                                </p>
+                                                <p class="collapse" style="margin:0" id="second-half-{{card.Article_ID + card.PermID}}">
+                                                    {{card.Second_Half|safe}}
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                 <p align="center" style="margin:0;position:absolute!important; bottom: 8%;left:49%;">
+                                    <a style="color:#FFFFFF !important; border-radius: 10px !important; font-weight: normal !important;" id="{{card.Article_ID + card.PermID}}" class='label label-default button-hover' data-toggle="collapse" data-target="#first-half-cn-{{card.Article_ID + card.PermID}},#second-half-cn-{{card.Article_ID + card.PermID}},#first-half-{{card.Article_ID + card.PermID}},#second-half-{{card.Article_ID + card.PermID}},#reminder-{{card.Article_ID + card.PermID}}" href="" onclick="changeButton(this);return false;">click to expand</a>
+                                 </p>
+                                 </div>
+                            </div>
+                         </div>
+
+                     </div>
+                 </div>
+                 <!--<div class="panel panel-default" id="{{card.Article_ID}}" name = {{card.PermID}} style="border-color: #dedede;">-->
+                     <!--{% if card.Relevance < 30 %}-->
+                    <!--<div class="panel-heading" style="background-color: #AFAFAF;color:#FFFFFF;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-2" style="padding-right:5px;">-->
+                                <!--<font size="2">{{card.Relevance}}% Relevant</font>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-5" style="padding-left:0px;">-->
+                                <!--<a href="https://permid.org/1-{{card.PermID}}" target="_blank">-->
+                                    <!--<font size="2">{{card.Name_EN}} | {{card.Name}}</font>-->
+                                <!--</a>-->
+                            <!--</div>-->
+
+                            <!--<div class="col-sm-5">-->
+                                <!--<div class="col-sm-5" align="left">-->
+                                    <!--<span class="glyphicon glyphicon-link" aria-hidden="true"></span>-->
+                                    <!--<a href="{{card.Link}}" target="_blank">-->
+                                        <!--<font size="2"> {{ card.Source }}</font>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-7" align="right">-->
+                                    <!--<font size="2">{{ card.Time }}</font>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                     <!--{% elif card.Relevance < 60 %}-->
+                     <!--<div class="panel-heading" style="background-color: #FF8000;color:#FFFFFF;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-2" style="padding-right:5px;">-->
+                                <!--<font size="2">{{card.Relevance}}% Relevant</font>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-5" style="padding-left:0px;">-->
+                                <!--<a href="https://permid.org/1-{{card.PermID}}" target="_blank">-->
+                                    <!--<font size="2">{{card.Name_EN}} | {{card.Name}}</font>-->
+                                <!--</a>-->
+                            <!--</div>-->
+
+                            <!--<div class="col-sm-5">-->
+                                <!--<div class="col-sm-5" align="left">-->
+                                    <!--<span class="glyphicon glyphicon-link" aria-hidden="true"></span>-->
+                                    <!--<a href="{{card.Link}}" target="_blank">-->
+                                        <!--<font size="2"> {{ card.Source }}</font>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-7" align="right">-->
+                                    <!--<font size="2">{{ card.Time }}</font>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                     <!--{% else %}-->
+                     <!--<div class="panel-heading" style="background-color: #A00000;color:#FFFFFF;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-2" style="padding-right:5px;">-->
+                                <!--<font size="2">{{card.Relevance}}% Relevant</font>-->
+                            <!--</div>-->
+                            <!--<div class="col-sm-5" style="padding-left:0px;">-->
+                                <!--<a href="https://permid.org/1-{{card.PermID}}" target="_blank">-->
+                                    <!--<font size="2">{{card.Name_EN}} | {{card.Name}}</font>-->
+                                <!--</a>-->
+                            <!--</div>-->
+
+                            <!--<div class="col-sm-5">-->
+                                <!--<div class="col-sm-5" align="left">-->
+                                    <!--<span class="glyphicon glyphicon-link" aria-hidden="true"></span>-->
+                                    <!--<a href="{{card.Link}}" target="_blank">-->
+                                        <!--<font size="2"> {{ card.Source }}</font>-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="col-sm-7" align="right">-->
+                                    <!--<font size="2">{{ card.Time }}</font>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                     <!--{% endif %}-->
+                     <!--<div class="panel-heading collapse" style="background-color: #D0D0D0;color:#000000;" id="reminder-{{card.Article_ID + card.PermID}}">-->
+                         <!--<div class="row">-->
+                             <!--<div class="col-sm-9" id="switch-language-message-{{card.Article_ID + card.PermID}}">-->
+                                 <!--This page is translated from Chinese.-->
+                             <!--</div>-->
+                             <!--<div class="col-sm-3" align="right">-->
+                                 <!--<a href="" onclick="switchContent({{card.Article_ID + card.PermID}}, this); return false;" style="color: #005DA2 !important;" data-toggle="collapse" data-target="#cn-{{card.Article_ID + card.PermID}},#en-{{card.Article_ID + card.PermID}}">view original</a>-->
+                             <!--</div>-->
+                         <!--</div>-->
+                     <!--</div>-->
+                    <!--<div class="panel-body content-hover" style="position: relative!important;">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-sm-12"  style="overflow-y: hidden;" id="content-{{card.Article_ID + card.PermID}}">-->
+
+                                <!--<div id="cn-{{card.Article_ID + card.PermID}}" class="collapse">-->
+                                    <!--<p class="collapse", id="first-half-cn-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.First_Half_cn|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p id="snippet-cn-{{card.Article_ID + card.PermID}}" class="fadeout">-->
+                                        <!--{{card.Middle_cn|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p class="collapse" style="margin:0" id="second-half-cn-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.Second_Half_cn|safe}}-->
+                                    <!--</p>-->
+                                <!--</div>-->
+
+                                <!--<div id="en-{{card.Article_ID + card.PermID}}" class="collapse in">-->
+                                    <!--<p class="collapse", id="first-half-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.First_Half|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p id="snippet-{{card.Article_ID + card.PermID}}" class="fadeout">-->
+                                        <!--{{card.Middle|safe}}-->
+                                    <!--</p>-->
+                                    <!--<p class="collapse" style="margin:0" id="second-half-{{card.Article_ID + card.PermID}}">-->
+                                        <!--{{card.Second_Half|safe}}-->
+                                    <!--</p>-->
+                                <!--</div>-->
+
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<p align="center" style="margin:0;position:absolute!important; bottom: 10%;left:45%;">-->
+                                    <!--<a style="color:#FFFFFF !important; border-radius: 10px !important; font-weight: normal !important;" id="{{card.Article_ID + card.PermID}}" class='label label-default button-hover' data-toggle="collapse" data-target="#first-half-cn-{{card.Article_ID + card.PermID}},#second-half-cn-{{card.Article_ID + card.PermID}},#first-half-{{card.Article_ID + card.PermID}},#second-half-{{card.Article_ID + card.PermID}},#reminder-{{card.Article_ID + card.PermID}}" href="" onclick="changeButton(this);return false;">click to expand</a>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                {% endfor %}
+            </div>
+        </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container" align="center">
+            <span class="text-muted">Thomson Reuters Labs &copy; 2017</span>
+        </div>
+    </footer>
+    <br>
+</body>
+
+</html>

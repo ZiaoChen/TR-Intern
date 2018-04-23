@@ -1,0 +1,131 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160930-100512000-nL3T1C63I8-1-2</Id>
+      <TimeStamp>2016-09-30T10:05:12.095Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160930-100512000-nL3T1C63I8-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-09-30T10:05:12.000Z</versionCreated>
+            <firstCreated>2016-09-30T10:05:12.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160930-100512000-nL3T1C63I8-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL3T1C63I8</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:DBT"/>
+            <subject qcode="N2:MMT"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:LINS"/>
+            <subject qcode="N2:COMS"/>
+            <subject qcode="N2:SHOE"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:TW"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:ELCO"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:INSR"/>
+            <subject qcode="N2:TECH"/>
+            <subject qcode="N2:TEEQ"/>
+            <subject qcode="N2:TMT"/>
+            <subject qcode="N2:INDS"/>
+            <subject qcode="N2:INDG"/>
+            <subject qcode="N2:MACH"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:CYCP"/>
+            <subject qcode="N2:APPA"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:2317.TW"/>
+            <headline>台灣貨幣市場：10月提存期資金預期變化一覽表</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透台北9月30日 - 台灣貨幣市場10月提存期資金預期變化因素摘要如下：
+        
+    寬鬆因素：
+    --央行存單到期&lt;TWNCDTB1&gt;4兆(萬億)5,964.8億台幣。 
+        10/04                     1,810.5億台幣
+        10/05                     1,414.5億台幣
+        10/06                     1,590.5億台幣
+        10/07                       2,536億台幣
+        10/08                         150億台幣
+        10/10                     3,004.5億台幣
+        10/11                     3,708.8億台幣
+        10/12                       2,028億台幣
+        10/13                       882.5億台幣
+        10/14                          40億台幣
+        10/17                       6,320億台幣
+        10/18                     2,759.5億台幣
+        10/19                     3,950.5億台幣
+        10/20                       3,232億台幣
+        10/21                       1,636億台幣
+        10/24                       3,180億台幣
+        10/25                          30億台幣
+        10/26                          25億台幣
+        10/27                       5,409億台幣
+        10/28                         637億台幣
+        10/31                           6億台幣
+        11/01                          19億台幣
+        11/02                       1,570億台幣
+        11/03                          25億台幣
+   
+    --公債還本與付息共535.181725億台幣。     
+         10/15     102甲11期3息          3.75億台幣 
+         10/15     103甲15期2息      4.306725億台幣 
+         10/15     104甲13期1息         4.375億台幣 
+         10/19      90甲7期15息          17.5億台幣 
+         10/19      90甲7期本金           500億台幣 
+         10/26     104甲14期1息          5.25億台幣 
+    --國庫券還本與付息共300億台幣。  
+    10/13：財105-1期273天期國庫券到期還本付息合計300億台幣。   
+    
+    --上市大型公司現金股利發放時程：
+    10/07：鴻海 &lt;2317.TW&gt;發放625.53億台幣現金股利。                  
+      
+    --月底軍公教薪餉撥款。       
+            
+    緊縮因素：
+    --10/4: 中央銀行發行364天期定存單，金額1,600億台幣，3日標售。
+    --10/13：中央銀行發行兩年期定存單，金額300億台幣，12日標售。
+    --10/18：財政部發行105甲12期公債，天期為2年期，暫定金額為300億台幣，13日標售。
+    --10/25：財政部發行105甲13期公債，天期為5年期，暫定金額為300億台幣，20日標售。
+    --營業稅、菸酒稅及貨物稅等例行性稅款繳庫。(完)        
+
+ (記者 詹靜宜； 審校  羅兩莎)
+ ((Emily.Chan@thomsonreuters.com; +886-2-25008440; Reuters Messaging:
+Emily.Chan.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

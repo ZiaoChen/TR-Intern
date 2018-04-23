@@ -1,0 +1,88 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20160701-000828000-nL4T19N01Q-1-2</Id>
+      <TimeStamp>2016-07-01T00:08:28.609Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20160701-000828000-nL4T19N01Q-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-07-01T00:08:28.000Z</versionCreated>
+            <firstCreated>2016-07-01T00:08:28.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20160701-000828000-nL4T19N01Q-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T19N01Q</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:STX"/>
+            <subject qcode="N2:IPO"/>
+            <subject qcode="N2:ISU"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:IL"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:HEA"/>
+            <subject qcode="N2:PHAG"/>
+            <subject qcode="N2:HECA"/>
+            <subject qcode="N2:PHMR"/>
+            <subject qcode="N2:BACT"/>
+            <subject qcode="N2:FINE1"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:MEVN"/>
+            <subject qcode="N2:MEAST"/>
+            <subject qcode="N2:GEN"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:600196.SS"/>
+            <headline>中港個股：復星醫藥擬分拆以色列孫公司Sisram赴港上市</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    路透上海7月1日 - 中國上海復星醫藥（集團）股份有限公司&lt;600196.SS&gt;&lt;2196.HK&gt;周四晚公告稱，擬分拆控股孫公司以色列Sisram赴港首次公開發行（IPO）並上市。
+    
+    公告稱，本次上市主體為Sisram或本次擬為分拆Sisram而新設的一家公司，發行規模不少於Sisram擴大後股本的25%，其中包括新股以及老股東可能出售的老股。此次，承銷商將獲得發行股數15%的超額配售權。　
+
+    此次募集資金將用於技術研究及新產品開發，市場擴張及品牌推廣，償還Sisram的銀行及股東或關聯方貸款，補充Sisram運營資金，收購兼並等。
+    
+    公告稱，復星醫藥全資子公司Ample Up Limited及控股子公司Chindex Medical　Limited間接持有Sisram共計約66.2%股份。Sisram持有Alam Lasers公司約95.3%股權，後者是Sisram主要業務和資產來源，主要從事醫療美容器械的設計、開發、生產及銷售。
+    
+    截止去年底，Sisram凈資產為3,254.5萬美元，去年公司實現營收1.1億美元，淨利796萬美元。
+    
+    2013年5月，復星醫藥子公司能悅公司、Chindex Medical及復星-保德信中國機會基金三家聯手透過Sisram這家專為收購成立的主體，以2.22億美元收購以色列醫療美容器械公司Alam Lasers公司約95.2%股權。其中三家收購方出資1.48億美元，其餘部分由Sisram通過銀行貸款解決。
+    
+    復星醫藥A股周四收報19.02元，過去一個月累計上漲2.04%。（完）
+
+ (發稿 林琦; 審校 曾祥進)
+ ((路透中文新聞部:+86-21-61041787;傳真 86-21-61041728 ;qi.lin@thomsonreuters.com; Reuters
+Messaging: qi.lin.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+

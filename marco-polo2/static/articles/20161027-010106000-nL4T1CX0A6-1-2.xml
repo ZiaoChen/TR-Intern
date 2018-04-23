@@ -1,0 +1,111 @@
+<ContentEnvelope xmlns="http://data.schemas.tfn.thomson.com/Envelope/2008-05-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:news="http://news.schemas.tfn.thomson.com/2008-05-01/" majVers="1" minVers="0.7" pubStyle="Message">
+  <Header>
+    <Info>
+      <Id>20161027-010106000-nL4T1CX0A6-1-2</Id>
+      <TimeStamp>2016-10-27T01:01:06.955Z</TimeStamp>
+    </Info>
+  </Header>
+  <Body contentSet="News" majVers="1" minVers="3.0">
+    <ContentItem action="Insert">
+      <Entitlements>
+        <Product>
+          <Code>NP:CLN</Code>
+          <Code>NP:CMN</Code>
+          <Code>NP:PMF</Code>
+          <Code>NP:DNP</Code>
+          <Code>NP:CDS</Code>
+        </Product>
+        <Source>
+          <Group>NONE</Group>
+        </Source>
+      </Entitlements>
+      <Data xsi:type="news:NewsDataItem">
+        <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:rtr="http://www.reuters.com/ns/2003/08/content" xmlns:x="http://www.w3.org/1999/xhtml" standard="NewsML-G2" standardversion="2.7" conformance="power" guid="20161027-010106000-nL4T1CX0A6-1-2" version="1" xml:lang="en" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ NAR_1.8-spec-All-Power_2.xsd http://www.w3.org/1999/xhtml xhtml1-strict.xsd">
+          <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_14.xml"/>
+          <itemMeta>
+            <itemClass qcode="icls:text"/>
+            <provider qcode="NS:RTRS"/>
+            <versionCreated>2016-10-27T01:01:06.000Z</versionCreated>
+            <firstCreated>2016-10-27T01:01:06.000Z</firstCreated>
+            <pubStatus qcode="stat:usable"/>
+            <rtr:versionedId guid="20161027-010106000-nL4T1CX0A6-1-2"/>
+            <TakeSequence>1</TakeSequence>
+          </itemMeta>
+          <contentMeta>
+            <urgency>3</urgency>
+            <altId type="idType:USN" rtr:isOriginal="1">nL4T1CX0A6</altId>
+            <language tag="zh"/>
+            <subject qcode="N2:EMRG"/>
+            <subject qcode="N2:HK"/>
+            <subject qcode="N2:CN"/>
+            <subject qcode="N2:ASIA"/>
+            <subject qcode="N2:PRESS"/>
+            <subject qcode="N2:INVB"/>
+            <subject qcode="N2:CMPNY"/>
+            <subject qcode="N2:BANK"/>
+            <subject qcode="N2:CO"/>
+            <subject qcode="N2:GAME"/>
+            <subject qcode="N2:CAFE"/>
+            <subject qcode="N2:RETA"/>
+            <subject qcode="N2:RSPC"/>
+            <subject qcode="N2:CYCS"/>
+            <subject qcode="N2:SHOP"/>
+            <subject qcode="N2:SHOPAL"/>
+            <subject qcode="N2:FINS"/>
+            <subject qcode="N2:BISV"/>
+            <subject qcode="N2:BSVC"/>
+            <subject qcode="N2:INVS"/>
+            <subject qcode="N2:CCOS"/>
+            <subject qcode="N2:ENTS"/>
+            <subject qcode="N2:AMERS"/>
+            <subject qcode="N2:LATAM"/>
+            <subject qcode="N2:LZH"/>
+            <subject qcode="N2:RTRS"/>
+            <subject qcode="R:8149.HK"/>
+            <subject qcode="R:601988.SS"/>
+            <subject qcode="R:2388.HK"/>
+            <subject qcode="R:0027.HK"/>
+            <subject qcode="R:0538.HK"/>
+            <subject qcode="R:0393.HK"/>
+            <headline>《香港報摘》--其他報紙重要消息10月27日</headline>
+          </contentMeta>
+          <contentSet>
+            <inlineXML contenttype="application/xhtml+xml">
+              <xhtml xmlns="http://www.w3.org/1999/xhtml">
+                <body>    
+    **明報**
+    --澳門博彩業收入在第三季才實現連升兩個月，但是昨日率先公布第三季度業績的銀河娛樂&lt;0027.HK&gt;，業績表現則連升兩季，跑贏大市。
+    --中國銀行&lt;3988.HK&gt;&lt;601988.SS&gt;和中銀香港&lt;2388.HK&gt;聯合宣布，就有關集友銀行的擬議資產出售，董事會一直審視各自于香港地區的銀行業務的整體商業策略，並已進展到較為成熟的階段。
+    
+    **星島日報**
+    --瑞穗證券亞洲首席經濟學家沈建光指出，由於今個月以來美元走強以及中國資本外流的憂慮，人民幣會進一步貶值；預計今年底前中國央行將加強匯率維穩，故此年底在岸價可守在6.8水平，惟人民幣貶值仍是大勢所趨，預料明年底在岸價將貶至7.3。
+    --市況轉壞，投資者風險胃納減少，一些早前當炒的半新股出現沽售潮，其中浩德控股&lt;8149.HK&gt;昨天再挫63%，三天累計跌近89%。
+    
+    **蘋果日報**
+    --零售市道不景氣，被稱為“牛仔褲大王”的楊釗旗下旭日企業&lt;0393.HK&gt;近年轉型做金融投資，主攻債券市場，投資額度已達13億港元。
+    --銀行稅貸戰升溫，建銀亞洲將稅貸息率劈至1.18厘，為全港最低。
+        
+    **東方日報**
+    --國際貨幣基金會（IMF）金融及資本市場署理主管Ratna Sahay指出，儘管人民幣近日急速貶值，市場毋須太在意人民幣的波動，認為人民幣與其基本面表現一致。
+    --味千&lt;0538.HK&gt;公布截至九月底止第三季香港同店銷售按年下跌0.7%，內地同店銷售毛利率按年跌6.3%，淨利率亦跌10.8%。（完）
+    
+    注：以上的評論僅為摘要，並且不代表路透立場。
+    
+    **如欲提取相關新聞，請點擊下列代碼**
+      香港報摘/社評/財經評論[PRESS-HK-CMN]
+      中國報摘[PRESS-CN-CMN]
+      台灣報摘[PRESS-TW-CMN]
+    
+
+ (整理 雷美珍；審校 林高麗)
+ ((alison.lui@thomsonreuters.com; +852 2843 6552; Reuters Messaging:
+alison.lui.thomsonreuters.com@reuters.net))</body>
+              </xhtml>
+            </inlineXML>
+          </contentSet>
+        </newsItem>
+      </Data>
+    </ContentItem>
+  </Body>
+</ContentEnvelope>
+
