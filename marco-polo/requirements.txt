@@ -13,7 +13,7 @@ jieba==0.39
 Jinja2==2.10
 lxml==4.1.1
 MarkupSafe==1.0
-numpy==1.14.0
+numpy==1.22.0
 openpyxl==2.4.9
 pandas==0.22.0
 python-dateutil==2.6.1
